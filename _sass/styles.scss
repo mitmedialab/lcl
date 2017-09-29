@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+// Define defaults for each variable.
+
+$base-font-family: "Lato", Helvetica, Arial, sans-serif !default;
+
+$text-color:       #111 !default;
+$background-color: #fdfdfd !default;
+$brand-color:      #2a7ae2 !default;
+
+$grey-color:       #828282 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark:  darken($grey-color, 25%) !default;
+
+// Width of the content area
+$content-width:    800px !default;
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 75px;
+  font-family: "Lato", Helvetica, sans-serif;
+  //background-color: #555;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  min-height: 35px;
+  background-color: #f5f5f5;
+}
+body > .container,.container-fluid{
+  padding: 60px 15px 0;
+}
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 0.8em;
+}
+.peg-background{
+  background-color: #222;
+  background-image: url("/images/llk-pattern.png");
+  background-size: 250px;
+}
+#module-nav{
+	top:70px;
+}

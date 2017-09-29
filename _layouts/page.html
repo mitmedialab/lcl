@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="row justify-content-center my-5">
+	<div class="col-md-9 p-4 peg-background">
+	  <div class="card border-0">
+	    <div class="card-body">
+	      <h1 class="card-title">{{ page.title | escape }}</h1>
+	      {% if page.subtitle %}
+	      	<h5 class="card-subtitle mb-4 text-muted">{{ page.subtitle | escape }}</h5>
+	      {% endif %}
+	      {{ content }}
+	    </div>
+	  </div> <!-- card -->
+	</div> <!-- col -->
+</div> <!-- row -->
