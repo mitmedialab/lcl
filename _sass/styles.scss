@@ -44,7 +44,7 @@ body > .container,.container-fluid{
 }
 .peg-background{
   background-color: #222;
-  background-image: url("/images/llk-pattern.png");
+  background-image: url('#{$baseurl}/images/llk-pattern.png');
   background-size: 250px;
 }
 #module-nav{
