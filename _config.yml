@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   We're a community of educators, designers, and 
   tinkerers exploring how to support creative learning 
   through projects, passion, peers, and play.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/lcl-staging-jekyll" # the subpath of your site, e.g. /blog
 url: "http://learn.media.mit.edu" # the base hostname & protocol for your site, e.g. http://example.com
 
 collections:
