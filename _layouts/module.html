@@ -22,10 +22,19 @@ layout: default
 	<div class="col-sm-9 col-md-10 my-4" style="height:800px">
 		{% if page.section-title %}
 	      	<h3 class="font-weight-bold">{{ page.section-title | escape }}</h3>
-	    {% endif %}
-	    {{ page.url }}
-	    <br>
-	    <br>
+    {% endif %}
+    {{ page.url }}
+    <br>
+    <br>
+
+    {% if page.module-part == 'watch-and-read' %}
+    	{% include watch-and-read.html %}
+    {% elsif page.module-part == 'make-and-share' %}
+    	{% include make-and-share.html %}
+    {% elsif page.module-part == 'discuss-and-reflect' %}
+    	{% include discuss-and-reflect.html %}
+    {% endif %}
+
 		{{ content }}
 	</div>
 </div> <!-- row -->

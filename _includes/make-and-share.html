@@ -1,0 +1,31 @@
+<div id="make-container">
+  <h3>Make</h3>
+  <p>{{desc.acitivity-overview}}</p>
+  {% for video in page.videos %}
+	  <div class="text-center">
+	    <h4>{{video.title}}</h4>
+	    <p>{{video.desc}}</p>
+	    <div class="embed-responsive embed-responsive-16by9 my-3 border-0 rounded m-auto col-sm-4" id="trailer-video">
+	      <iframe id="video-iframe" src="{{video.link}}" allowfullscreen></iframe>
+	    </div>
+	  </div>
+	{% endfor %}
+	<p>{{page.activity-desc}}</p>
+
+	<h4>Examples </h4>
+	{% for ex in page.examples %}
+		<a href="{{ex.link}}">{{ex.name}}</a>
+		<p>{{ex.desc}}</p>
+	{% endfor %}
+
+	<h4>Support Materials</h4>
+	{% for mat in page.support %}
+		<a href="{{mat.link}}">{{mat.name}}</a>
+		<p>{{mat.desc}}</p>
+	{% endfor %}
+</div>
+
+<div id="share-container">
+  <h3>Share</h3>
+  Head to forums to share your creation...
+</div>
