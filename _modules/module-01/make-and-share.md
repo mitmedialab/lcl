@@ -5,6 +5,7 @@ module-part: make-and-share
 title: Introduction to Creative Learning
 subtitle: "This module explores ... stuff and more stuff and other stuff"
 section-title: Make & Share
+forum-link: http://lcl-discuss.media.mit.edu
 
 TODO: ADD LINKS TO DESC
 activity-desc: |
