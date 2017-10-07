@@ -20,7 +20,7 @@
   <meta property="og:image:width" content="962">
   <meta property="og:image:height" content="563">
 
-  <link rel="icon" href="/lcl-staging-jekyll/images/favicon.png">
+  <link rel="icon" href="/lcl-staging-jekyll/images/favicon.ico">
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <!-- Font --> 
@@ -39,69 +39,80 @@
     <!-- Fixed navbar -->
 
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="/lcl-staging-jekyll/">
-        <img src="/lcl-staging-jekyll/images/peg-blue.png" width="30" height="30" class="d-inline-block align-top" alt="LCL Logo"> LCL
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white py-3">
+      <a class="navbar-brand font-weight-bold font-blue" href="/lcl-staging-jekyll/">
+        <img src="/lcl-staging-jekyll/images/peg_green.svg" width="30" height="30" class="d-inline-block align-top" alt="LCL Logo"> Learning Creative Learning
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item ">
-            <a class="nav-link" href="/lcl-staging-jekyll/about/">About </a>
-          </li>
-          <li class="nav-item dropdown ">
+          
+        </ul>
+        <ul class="navbar-nav justify-content-end">
+          <li class="nav-item btn bg-grey font-weight-bold dropdown ">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Modules</a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="/lcl-staging-jekyll/modules/">Overview</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="/lcl-staging-jekyll/modules/module-01/watch-and-read/">Module 1<span class="badge badge-primary ml-2">Current</span></a>
-              <a class="dropdown-item" href="#">Module 2</a>
-              <a class="dropdown-item" href="#">Module 3</a>
-              <a class="dropdown-item" href="#">Module 4</a>
-              <a class="dropdown-item" href="#">Module 5</a>
-              <a class="dropdown-item" href="#">Module 6</a>
+              <a class="dropdown-item" href="/lcl-staging-jekyll/modules/module-01/watch-and-read/">1. Introduction<span class="badge badge-primary ml-2">Current</span></a>
+              <a class="dropdown-item disabled" href="#">2. Projects</a>
+              <!--
+              <a class="dropdown-item" href="#">3. Passion</a>
+              <a class="dropdown-item" href="#">4. Peers</a>
+              <a class="dropdown-item" href="#">5. Play</a>
+              <a class="dropdown-item" href="#">6. Creative Society</a>
+              -->
             </div>
           </li>
-        </ul>
-        <ul class="navbar-nav justify-content-end">
-          <li class="nav-item ">
-            <a class="nav-link" href="/lcl-staging-jekyll/map/">Map</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="http://lcl-discuss.media.mit.edu">Community</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="/lcl-staging-jekyll/live-events/">Live Events</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="/lcl-staging-jekyll/faq/">FAQ</a>
+          <li class="nav-item btn">
+            <a class="nav-link" href="http://lcl-discuss.media.mit.edu">Forum</a>
           </li>
         </ul>
       </div>
     </nav>
 
     <div class="container-fluid">
-      <div class="row justify-content-center my-5">
-	<div class="col-md-9 p-4 peg-background">
-	  <div class="card border-0">
-	    <div class="card-body">
-	      <h1 class="card-title">Live Events</h1>
-	      
-	      	<h5 class="card-subtitle mb-4 text-muted">Join our weekly Unhangout!</h5>
-	      
-	      <p>Content for live events page will go here…..</p>
+      <div class="jumbotron jumbotron-fluid bg-grey tall-jumbotron">
+  <div class="container text-center">
+    <h1 class="mb-4">Live Events</h1>
+    
+		<h5 class="lead">Join our weekly Unhangout!</h5>
+	
+  </div>
+</div>
 
-	    </div>
-	  </div> <!-- card -->
+<div class="row justify-content-center">
+	<div class="col-md-8 p-4">
+		<p>Content for live events page will go here…..</p>
+
 	</div> <!-- col -->
 </div> <!-- row -->
     </div>
 
     <footer class="footer">
-	<div class="container text-center my-2">
-		<span class="text-muted">Playfully created by the <a href="https://llk.media.mit.edu" target="_blank">Lifelong Kindergarten Group</a> and the <a href="http://learn.media.mit.edu" target="_blank">Learning Initiative</a> at <a href="https://www.media.mit.edu/" target="_blank">MIT Media Lab</a></span>
+	<div class="container mt-5 mb-3">
+		<div class="row">
+			<div class="col-md-2 col-6">
+				<h6 class="font-weight-bold">Share</h6>
+				<p class="mb-2"><a href="#">Facebook</a></p>
+				<p class="mb-2"><a href="#">Twitter</a></p>
+				<p class="mb-2"><a href="#">Google+</a></p>
+			</div>
+			<div class="col-md-5 col-6">
+				<h6 class="font-weight-bold">Helpful Links</h6>	
+				<p class="mb-2"><a href="/lcl-staging-jekyll/about/">About</a></p>
+				<p class="mb-2"><a href="/lcl-staging-jekyll/faq/">Frequently Asked Questions</a></p>
+				<p class="mb-2"><a href="http://lcl-discuss.media.mit.edu">Forum</a></p>
+				<p class="mb-2"><a href="/lcl-staging-jekyll/map/">Map</a></p>
+			</div>
+		</div>
+		<div class="text-center mt-5">
+			<small class="text-muted">Playfully created by the <a href="https://llk.media.mit.edu" target="_blank">Lifelong Kindergarten Group</a> and the <a href="http://learn.media.mit.edu" target="_blank">Learning Initiative</a> at <a href="https://www.media.mit.edu/" target="_blank">MIT Media Lab</a>.</small>
+			<br>
+			<small class="text-muted">All materials licensed under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 license</a>, unless otherwise noted.</small>
+		</div>
 	</div>
 </footer>
 

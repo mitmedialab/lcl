@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49px" height="49px" viewBox="0 0 49 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>peg_green</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mockups" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Splash" transform="translate(-1108.000000, -1067.000000)">
+            <g id="peg_green" transform="translate(1108.000000, 1068.000000)">
+                <circle id="Oval" fill="#05D950" fill-rule="nonzero" cx="24.51" cy="23.93" r="23.59"></circle>
+                <path d="M1.51,23.93 C1.51,11.2274508 11.8074508,0.93 24.51,0.93 C37.2125492,0.93 47.51,11.2274508 47.51,23.93" id="Shape" stroke="#FFFFFF" stroke-width="2" opacity="0.1"></path>
+                <path d="M24.48,37.21 C16.438734,37.21 9.92,30.691266 9.92,22.65 C9.92,22.44 9.92,22.24 9.92,22.03 C10.3589543,29.7634208 16.7758997,35.799374 24.5216908,35.764747 C32.2674818,35.73012 38.6302053,29.6370362 39,21.9 C39,22.15 39,22.4 39,22.65 C39.0055345,30.6779452 32.5079301,37.1934494 24.48,37.21 L24.48,37.21 Z" id="Shape" stroke="#FFFFFF" fill="#FFFFFF" fill-rule="nonzero" opacity="0.1"></path>
+                <path d="M10,23.71 C10.2706735,31.5316237 16.6799885,37.7379057 24.5062716,37.7567448 C32.3325546,37.7755838 38.7716742,31.6002299 39.08,23.78 C39.08,24.01 39.08,24.24 39.08,24.46 C39.08,32.46 36.36,42.69 24.52,42.69 C12.68,42.69 10,32.5 10,24.46 C10,24.2 10,24 10,23.71 Z" id="Shape" stroke="#221F1F" fill="#221F1F" fill-rule="nonzero" opacity="0.1"></path>
+                <path d="M24.54,8.84 C32.581266,8.84 39.1,15.358734 39.1,23.4 C39.1,23.61 39.1,23.81 39.1,24.02 C38.6610457,16.2865792 32.2441003,10.250626 24.4983092,10.285253 C16.7525182,10.31988 10.3897947,16.4129638 10.02,24.15 C10.02,23.9 10.02,23.65 10.02,23.4 C10.0144655,15.3720548 16.5120699,8.85655056 24.54,8.84 Z" id="Shape" stroke="#FFFFFF" fill="#FFFFFF" fill-rule="nonzero" opacity="0.2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

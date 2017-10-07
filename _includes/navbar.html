@@ -1,44 +1,35 @@
 <!-- Fixed navbar -->
 {% assign current = page.url | downcase | split: '/' %}
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="{{ site.baseurl }}{% link index.html %}">
-        <img src="{{ "/images/peg-blue.png" | relative_url }}" width="30" height="30" class="d-inline-block align-top" alt="LCL Logo"> LCL
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white py-3">
+      <a class="navbar-brand font-weight-bold font-blue" href="{{ site.baseurl }}{% link index.html %}">
+        <img src="{{ "/images/peg_green.svg" | relative_url }}" width="30" height="30" class="d-inline-block align-top" alt="LCL Logo"> Learning Creative Learning
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item {% if current[1] == 'about' %}active{% endif %}">
-            <a class="nav-link" href="{{ site.baseurl }}{% link about.md %}">About </a>
-          </li>
-          <li class="nav-item dropdown {% if current[1] == 'modules' %}active{% endif %}">
+          
+        </ul>
+        <ul class="navbar-nav justify-content-end">
+          <li class="nav-item btn bg-grey font-weight-bold dropdown {% if current[1] == 'modules' %}active{% endif %}">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Modules</a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="{{ site.baseurl }}{% link modules.html %}">Overview</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="{{ site.baseurl }}{% link _modules/module-01/watch-and-read.md %}">Module 1<span class="badge badge-primary ml-2">Current</span></a>
-              <a class="dropdown-item" href="#">Module 2</a>
-              <a class="dropdown-item" href="#">Module 3</a>
-              <a class="dropdown-item" href="#">Module 4</a>
-              <a class="dropdown-item" href="#">Module 5</a>
-              <a class="dropdown-item" href="#">Module 6</a>
+              <a class="dropdown-item" href="{{ site.baseurl }}{% link _modules/module-01/watch-and-read.md %}">1. Introduction<span class="badge badge-primary ml-2">Current</span></a>
+              <a class="dropdown-item disabled" href="#">2. Projects</a>
+              <!--
+              <a class="dropdown-item" href="#">3. Passion</a>
+              <a class="dropdown-item" href="#">4. Peers</a>
+              <a class="dropdown-item" href="#">5. Play</a>
+              <a class="dropdown-item" href="#">6. Creative Society</a>
+              -->
             </div>
           </li>
-        </ul>
-        <ul class="navbar-nav justify-content-end">
-          <li class="nav-item {% if current[1] == 'map' %}active{% endif %}">
-            <a class="nav-link" href="{{ site.baseurl }}{% link map.html %}">Map</a>
-          </li>
-          <li class="nav-item {% if current[1] == 'community' %}active{% endif %}">
-            <a class="nav-link" href="http://lcl-discuss.media.mit.edu">Community</a>
-          </li>
-          <li class="nav-item {% if current[1] == 'live-events' %}active{% endif %}">
-            <a class="nav-link" href="{{ site.baseurl }}{% link live-events.md %}">Live Events</a>
-          </li>
-          <li class="nav-item {% if current[1] == 'faq' %}active{% endif %}">
-            <a class="nav-link" href="{{ site.baseurl }}{% link faq.html %}">FAQ</a>
+          <li class="nav-item btn">
+            <a class="nav-link" href="http://lcl-discuss.media.mit.edu">Forum</a>
           </li>
         </ul>
       </div>

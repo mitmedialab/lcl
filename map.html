@@ -1,9 +1,18 @@
 ---
-layout: page
+layout: default
 title: Map
-subtitle: "Add yourself to our community map by selecting the + button."
+subtitle: "Add yourself to our community map by selecting the + button in the top right corner of the map."
 permalink: /map/
 ---
 
-
-embedded map will go hereeeee
+<div class="jumbotron jumbotron-fluid bg-grey">
+  <div class="container text-center">
+    <h1 class="mb-4">{{ page.title | escape }}</h1>
+    {% if page.subtitle %}
+		<h5 class="lead">{{ page.subtitle | escape }}</h5>
+	{% endif %}
+  </div>
+</div>
+<div class="map">
+	<iframe frameborder=0 style='width:100%;height:100%' src='//www.zeemaps.com/pub?group=2723786&search=1&list=1&shuttered=1&add=1&x=-7.085654&y=25.905357&z=15'> </iframe>
+</div>
