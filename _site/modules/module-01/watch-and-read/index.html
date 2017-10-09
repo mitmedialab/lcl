@@ -34,7 +34,8 @@
 </head>
 
 
-  <body>
+  <!-- TODO(morant): better solution to max-width? -->
+  <body class="mx-auto" style="max-width: 1454px">
 
     <!-- Fixed navbar -->
 
@@ -76,83 +77,171 @@
     <div class="container-fluid">
       
 
-<div class="jumbotron jumbotron-fluid bg-grey tall-jumbotron">
+<div class="jumbotron jumbotron-fluid bg-grey tall-jumbotron mb-0">
   <div class="container text-center">
-    <h1 class="mb-4">Introduction to Creative Learning</h1>
-    
-		<h5 class="lead jumbotron-subtitle">This week includes an intro to the course, discussion of the Lifelong Kindergarten approach, and sharing a childhood object based on Seymour Papert’s Gears of My Childhood essay.</h5>
-	
+  	<div class="row"> 
+	    <h1 class="mb-5 font-weight-bold col-sm-9 mx-auto">Introduction to Creative Learning</h1>
+	    
+				<p class="lead jumbotron-subtitle col-sm-9 mx-auto">This week includes an introduction to the course, discussion of the Kindergarten approach, and sharing a childhood object based on Seymour Papert&#39;s Gears of my childhood essay</p>
+			
+		</div>
   </div>
 </div>
 
 <div class="row sticky-top">
-	<div class="col-sm-3 col-md-2 module-nav-column">
+	<!-- <div class="col-sm-3 col-md-2 module-nav-column">
 		<nav class="nav flex-column list-group text-right sticky-top" id="module-nav">
 		  <a class="nav-link list-group-item list-group-item-action active" href="/lcl-staging-jekyll/modules/module-01/watch-and-read/">Watch & Read</a>
 		  <a class="nav-link list-group-item list-group-item-action " href="/lcl-staging-jekyll/modules/module-01/make-and-share/">Make & Share</a>
 		  <a class="nav-link list-group-item list-group-item-action " href="/lcl-staging-jekyll/modules/module-01/discuss-and-reflect/">Discuss & Reflect</a>
 		  <a class="nav-link list-group-item list-group-item-action disabled" href="#">Disabled</a>
 		</nav>
-	</div>
-	<div class="col-sm-9 col-md-10 mb-5" style="min-height:800px">
-		
-	      	<h3 class="font-weight-bold">Watch &amp; Read</h3>
-    
-    /modules/module-01/watch-and-read/
-    <br>
-    <br>
-
-    
-    	<div id="watch-container">
+	</div> -->
+	<div class="col-sm-10 mb-5 text-center center-block mx-auto d-flex flex-column" style="min-height:800px">
+    <div class="mb-5">
+			<h2 class="font-weight-bold my-5">Watch & Read</h2>
+	    <div id="watch-container" class="row card-deck text-left">
   <!-- <h3>Watch</h3> -->
   
-	  <div>
-	    <h4 class="part-header">Introduction to Learning Creative Learning</h4>
-	    <p>In this video, Mitch welcomes you to the Media Lab and the Lifelong Kindergarten group</p>
-	    <div class="embed-responsive embed-responsive-16by9 my-3 border-0 rounded col-sm-4" id="trailer-video">
+	  <div class="card col-sm-10 mx-auto border-0 mb-3 d-flex flex-column justify-content-center">
+	    <div class="embed-responsive embed-responsive-16by9 mx-auto border-0 rounded" id="trailer-video">
 	      <iframe id="video-iframe" src="https://www.youtube.com/embed/hPFZUMQfzac?rel=0&cc_load_policy=1" allowfullscreen></iframe>
 	    </div>
-	  </div>
-	
-	  <div>
-	    <h4 class="part-header">Dive Deeper</h4>
-	    <p>In this video, you can dive deeper!</p>
-	    <div class="embed-responsive embed-responsive-16by9 my-3 border-0 rounded col-sm-4" id="trailer-video">
-	      <iframe id="video-iframe" src="https://www.youtube.com/embed/hPFZUMQfzac?rel=0&cc_load_policy=1" allowfullscreen></iframe>
-	    </div>
+	    <h4 class="card-title part-header mt-4">Watch - Introduction to Creative Learning</h4>
+	    <p class="card-text">In this video, Mitch Resnick introduces some of the core ideas of creative learning and how those ideas are inspired by the way children learn in kindergarten.</p>
+	    
+	    	<p>* You can also <a href=>download the video</a>. Subtitles are available in multiple languages, check out the FAQ to know more about translations.</p>
+	    
 	  </div>
 	
 </div>
 
-<div id="read-container">
-  <!-- <h3>Read</h3> -->
-  <div id="core-container">
-    <h4 class="mt-2 mb-2">Core Readings</h4>
-    
-      <div class="caption">
-        <a href="./readings/llk-1.pdf">Lifelong Kindergarten</a>
-        <p>Chapter 1 Portions</p>
-      </div>
-    
-      <div class="caption">
-        <a href="./readings/llk-1.pdf">Lifelong Kindergarten</a>
-        <p>Chapter 2 Portions</p>
-      </div>
-    
-  </div>
-  <div id="addition-container">
-  	<!-- TODO(morant): this is a copy of readings, can we template it out? -->
-    <h4 class="mt-3">Additional Readings</h4>
-    
-      <div class="caption">
-        <a href="./readings/llk-1.pdf">Give P's a chance</a>
-        <p>Mitchel Resnick</p>
-      </div>
-    
-  </div>
-  <a href="">Download all readings as a zip file</a>
+<div id="core-container" class="row card-deck mb-3 text-left">
+  
+  	<div class="card col-sm-10 mx-auto border-0">
+    	<h4 class="card-title mt-2 mb-2">Read - Chapter 1 from Lifelong Kindergarten</h4>
+    	<p class="card-text">Learn more about the big ideas of creative learning, such as the four P's and the creative learning spiral.</p>
+      <a href="./readings/llk-1.pdf">Read - Chapter 1 from Lifelong Kindergarten</a>
+    </div>
+  
 </div>
-    
+
+
+
+
+	<div class="row card-deck mb-3 text-left">
+		<div class="card col-sm-10 mx-auto border-0">
+  		<a href="./readings/week-1.zip">Download all readings as a zip file</a>
+  	</div>
+  </div>
+
+
+
+	<div class="row card-deck mb-3 text-left">
+  	<div class="card col-sm-10 mx-auto border-0">
+    	<h4 class="card-title mt-2 mb-2">Think</h4>
+    	<p class="card-text">Now, take a minute to think about the idea of a kindergarten-inspired approach to learning. What does it mean for you? What is exciting about it? What questions do you have?</p>
+    </div>
+	</div>
+
+
+	  </div>
+
+	  <div class="bg-grey">
+	    <h2 class="font-weight-bold my-5">Make & Share</h2>
+	    
+
+<div id="make-container" class="row card-deck text-left"">
+	<div class="card col-sm-10 mx-auto border-0 mb-5 d-flex flex-column justify-content-center" style="background-color: inherit">
+	  <h4 class="mb-2">Activity - Childhood objects</h4>
+	  <p>This week we invite you to share a childhood object with the community.
+In the following video, Lily and Shruti explain a little bit more (subtitles available in multiple languages)
+</p>
+    <div class="embed-responsive embed-responsive-16by9 my-3 mx-auto border-0 rounded" id="trailer-video">
+      <iframe id="video-iframe" src="https://www.youtube.com/embed/hPFZUMQfzac?rel=0&cc_load_policy=1" allowfullscreen></iframe>
+    </div>
+    <div class="mt-2 mb-3">
+	    
+	    	<a href=>download the video</a>
+	    
+	  </div>
+		<p>To summarize:</p>
+<ol>
+  <li>Read Seymour Papert’s essay on Gears of My Childhood (also available in italian, japanese, portuguese)</li>
+  <li>Think about an object from your childhood that interested and influenced you</li>
+  <li>Share a photo and a short description in the forum [maybe a button?]
+For inspiration, here are some additional examples from Sherry Turkle’s books Evocative Objects (2007): Cello, Knots, Stars, Blocks</li>
+</ol>
+
+	</div>
+
+	<!-- <div class="card col-sm-8	 mx-auto border-0 text-left mb-5 d-flex flex-column justify-content-center">
+		<h4>Examples</h4>
+		
+			<a href="https://docs.google.com/presentation/d/1yFW5Wk2U_fHRtt4jLTalzUdtQX4YrQmY4j-Fb2Cg0Yo/edit#slide=id.g107cdea768_0_0">Jennifer</a>
+			<p>In this slide, Jennifer reflects on… by…</p>
+		
+			<a href="https://docs.google.com/presentation/d/1yFW5Wk2U_fHRtt4jLTalzUdtQX4YrQmY4j-Fb2Cg0Yo/edit#slide=id.gff7457f06_5_195">Carmelo</a>
+			<p>In this slide, Carmelo reflects on… by…</p>
+		
+			<a href="https://docs.google.com/presentation/d/1yFW5Wk2U_fHRtt4jLTalzUdtQX4YrQmY4j-Fb2Cg0Yo/edit#slide=id.geed1fd985_0_0">Moran</a>
+			<p>And in this slide, Moran reflects on… by…</p>
+		
+	</div> -->
+</div>
+
+<!-- <div class="text-left row card-deck">
+	<div class="card col-sm-6	 mx-auto border-0 text-left mb-5 d-flex flex-column justify-content-center">
+		<h4>Support Materials</h4>
+		
+			<a href="http://llk.media.mit.edu/courses/readings/gears-v1.pdf">Gears of my Childhood</a>
+			<p></p>
+		
+			<a href="https://scratch.mit.edu">Scratch</a>
+			<p>Go to Scratch to create a project</p>
+		
+	</div>
+</div> -->
+
+<!-- <div id="share-container">
+  <h4>Share</h4>
+  Head to <a href="http://lcl-discuss.media.mit.edu">the forum</a> to share your creation...
+</div> -->
+
+	  </div>
+
+		<div>
+	    <h2 class="font-weight-bold my-5">Reflect & Discuss</h2>
+    	<div id="discuss-container" class="text-left row card-deck">
+	<div class="card col-sm-10 mx-auto border-0 mb-5 d-flex flex-column justify-content-center">
+	  <h4>Reflection prompts</h4>
+	  <p><p>Here are some ideas on how to reflect on this week’s topics:</p>
+
+<ul>
+  <li>Play with the P’s - Which one is your favorite P and why? How would you rank them, and why? (Don’t take this questions too seriously, we know all of them are important! :)</li>
+  <li>Lifelong Kindergarten approach - Imagine if all of school was more similar to a kindergarten. What would be exciting? What are your concerns?</li>
+  <li>Quotes - Post a sentence from one of this week’s readings that particularly resonated with you. Why did you choose it?
+Choose one (or more!) of the prompts and share your thoughts with others. You can click on the links to access the forum, or discuss with your friends and colleagues in person if you are hosting a meet-up.</li>
+</ul>
+</p>
+	</div>
+</div>
+
+    </div>
+
+    <div class="bg-grey">
+	    <h2 class="font-weight-bold my-5">Meet & Chat</h2>
+    	<div id="meet-container" class="row card-deck">
+	<div class="card col-sm-10 mx-auto border-0 text-left mb-5 d-flex flex-column justify-content-center" style="background-color: inherit;">
+	  <p>Would you like to meet the LCL team and the rest of the community?
+We are hosting our weekly video call on Tuesday October 25th at 4pm EST (time converter).
+We'd love to see you there, here is the link to join!
+
+	</div>
+</div>
+
+    </div>
+
 
 		
 

@@ -1,31 +1,38 @@
-<div id="make-container">
-  <!-- <h3>Make</h3> -->
-  <p>{{desc.acitivity-overview}}</p>
-  {% for video in page.videos %}
-	  <div>
-	    <h4>{{video.title}}</h4>
-	    <p>{{video.desc}}</p>
-	    <div class="embed-responsive embed-responsive-16by9 my-3 border-0 rounded col-sm-4" id="trailer-video">
-	      <iframe id="video-iframe" src="{{video.link}}" allowfullscreen></iframe>
-	    </div>
+<div id="make-container" class="row card-deck text-left"">
+	<div class="card col-sm-10 mx-auto border-0 mb-5 d-flex flex-column justify-content-center" style="background-color: inherit">
+	  <h4 class="mb-2">{{m.activity-title}}</h4>
+	  <p>{{m.activity-overview}}</p>
+    <div class="embed-responsive embed-responsive-16by9 my-3 mx-auto border-0 rounded" id="trailer-video">
+      <iframe id="video-iframe" src="{{m.video-link}}" allowfullscreen></iframe>
+    </div>
+    <div class="mt-2 mb-3">
+	    {% if m.video-download-link %}
+	    	<a href={{m.video-dowload-link}}>download the video</a>
+	    {% endif %}
 	  </div>
-	{% endfor %}
-	<p>{{page.activity-desc}}</p>
+		{{m.activity-desc | markdownify }}
+	</div>
 
-	<h4>Examples</h4>
-	{% for ex in page.examples %}
-		<a href="{{ex.link}}">{{ex.name}}</a>
-		<p>{{ex.desc}}</p>
-	{% endfor %}
-
-	<h4>Support Materials</h4>
-	{% for mat in page.support %}
-		<a href="{{mat.link}}">{{mat.name}}</a>
-		<p>{{mat.desc}}</p>
-	{% endfor %}
+	<!-- <div class="card col-sm-8	 mx-auto border-0 text-left mb-5 d-flex flex-column justify-content-center">
+		<h4>Examples</h4>
+		{% for ex in m.examples %}
+			<a href="{{ex.link}}">{{ex.name}}</a>
+			<p>{{ex.desc}}</p>
+		{% endfor %}
+	</div> -->
 </div>
 
-<div id="share-container">
+<!-- <div class="text-left row card-deck">
+	<div class="card col-sm-6	 mx-auto border-0 text-left mb-5 d-flex flex-column justify-content-center">
+		<h4>Support Materials</h4>
+		{% for mat in m.support %}
+			<a href="{{mat.link}}">{{mat.name}}</a>
+			<p>{{mat.desc}}</p>
+		{% endfor %}
+	</div>
+</div> -->
+
+<!-- <div id="share-container">
   <h4>Share</h4>
-  Head to <a href="{{page.forum-link}}">the forum</a> to share your creation...
-</div>
+  Head to <a href="{{m.forum-link}}">the forum</a> to share your creation...
+</div> -->

@@ -3,39 +3,51 @@ layout: default
 ---
 {% assign current = page.url | downcase | split: '/' %}
 
-<div class="jumbotron jumbotron-fluid bg-grey tall-jumbotron">
+<div class="jumbotron jumbotron-fluid bg-grey tall-jumbotron mb-0">
   <div class="container text-center">
-    <h1 class="mb-4">{{ page.title | escape }}</h1>
-    {% if page.subtitle %}
-		<h5 class="lead jumbotron-subtitle">{{ page.subtitle | escape }}</h5>
-	{% endif %}
+  	<div class="row"> 
+	    <h1 class="mb-5 font-weight-bold col-sm-9 mx-auto">{{ page.title | escape }}</h1>
+	    {% if page.subtitle %}
+				<p class="lead jumbotron-subtitle col-sm-9 mx-auto">{{ page.subtitle | escape }}</p>
+			{% endif %}
+		</div>
   </div>
 </div>
 
 <div class="row sticky-top">
-	<div class="col-sm-3 col-md-2 module-nav-column">
+	<!-- <div class="col-sm-3 col-md-2 module-nav-column">
 		<nav class="nav flex-column list-group text-right sticky-top" id="module-nav">
 		  <a class="nav-link list-group-item list-group-item-action {% if current[3] == 'watch-and-read' %}active{% endif %}" href="{{ site.baseurl }}/{{ current[1]}}/{{ current[2] }}/watch-and-read/">Watch & Read</a>
 		  <a class="nav-link list-group-item list-group-item-action {% if current[3] == 'make-and-share' %}active{% endif %}" href="{{ site.baseurl }}/{{ current[1]}}/{{ current[2] }}/make-and-share/">Make & Share</a>
 		  <a class="nav-link list-group-item list-group-item-action {% if current[3] == 'discuss-and-reflect' %}active{% endif %}" href="{{ site.baseurl }}/{{ current[1]}}/{{ current[2] }}/discuss-and-reflect/">Discuss & Reflect</a>
 		  <a class="nav-link list-group-item list-group-item-action disabled" href="#">Disabled</a>
 		</nav>
-	</div>
-	<div class="col-sm-9 col-md-10 mb-5" style="min-height:800px">
-		{% if page.section-title %}
-	      	<h3 class="font-weight-bold">{{ page.section-title | escape }}</h3>
-    {% endif %}
-    {{ page.url }}
-    <br>
-    <br>
+	</div> -->
+	<div class="col-sm-10 mb-5 text-center center-block mx-auto d-flex flex-column" style="min-height:800px">
+    <div class="mb-5">
+			<h2 class="font-weight-bold my-5">Watch & Read</h2>
+			{% assign wr = page.watch-read}
+	    {% include watch-and-read.html %}
+	  </div>
 
-    {% if page.module-part == 'watch-and-read' %}
-    	{% include watch-and-read.html %}
-    {% elsif page.module-part == 'make-and-share' %}
-    	{% include make-and-share.html %}
-    {% elsif page.module-part == 'discuss-and-reflect' %}
+	  <div class="bg-grey">
+	    <h2 class="font-weight-bold my-5">Make & Share</h2>
+	    {% assign m = page.make-share}
+	    {% include make-and-share.html %}
+	  </div>
+
+		<div>
+	    <h2 class="font-weight-bold my-5">Reflect & Discuss</h2>
+	    {% assign r = page.reflct %}
     	{% include discuss-and-reflect.html %}
-    {% endif %}
+    </div>
+
+    <div class="bg-grey">
+	    <h2 class="font-weight-bold my-5">Meet & Chat</h2>
+	    {% assign me = page.meet %}
+    	{% include meet-and-chat.html %}
+    </div>
+
 
 		{{ content }}
 	</div>

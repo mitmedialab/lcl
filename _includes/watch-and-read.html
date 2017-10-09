@@ -1,36 +1,55 @@
-<div id="watch-container">
+<div id="watch-container" class="row card-deck text-left">
   <!-- <h3>Watch</h3> -->
-  {% for video in page.videos %}
-	  <div>
-	    <h4 class="part-header">{{video.title}}</h4>
-	    <p>{{video.desc}}</p>
-	    <div class="embed-responsive embed-responsive-16by9 my-3 border-0 rounded col-sm-4" id="trailer-video">
+  {% for video in wr.videos %}
+	  <div class="card col-sm-10 mx-auto border-0 mb-3 d-flex flex-column justify-content-center">
+	    <div class="embed-responsive embed-responsive-16by9 mx-auto border-0 rounded" id="trailer-video">
 	      <iframe id="video-iframe" src="{{video.link}}" allowfullscreen></iframe>
 	    </div>
+	    <h4 class="card-title part-header mt-4">{{video.title}}</h4>
+	    <p class="card-text">{{video.desc}}</p>
+	    {% if video.download-link %}
+	    	<p>* You can also <a href={{video.dowload-link}}>download the video</a>. Subtitles are available in multiple languages, check out the FAQ to know more about translations.</p>
+	    {% endif %}
 	  </div>
 	{% endfor %}
 </div>
 
-<div id="read-container">
-  <!-- <h3>Read</h3> -->
-  <div id="core-container">
-    <h4 class="mt-2 mb-2">Core Readings</h4>
-    {% for read in page.readings %}
-      <div class="caption">
-        <a href="{{read.link}}">{{read.title}}</a>
-        <p>{{read.desc}}</p>
-      </div>
-    {% endfor %}
-  </div>
+<div id="core-container" class="row card-deck mb-3 text-left">
+  {% for read in wr.readings %}
+  	<div class="card col-sm-10 mx-auto border-0">
+    	<h4 class="card-title mt-2 mb-2">{{read.title}}</h4>
+    	<p class="card-text">{{read.desc}}</p>
+      <a href="{{read.link}}">{{read.title}}</a>
+    </div>
+  {% endfor %}
+</div>
+
+{% if wr.add-readings %}
   <div id="addition-container">
   	<!-- TODO(morant): this is a copy of readings, can we template it out? -->
     <h4 class="mt-3">Additional Readings</h4>
-    {% for read in page.add-readings %}
+    {% for read in wr.add-readings %}
       <div class="caption">
         <a href="{{read.link}}">{{read.title}}</a>
         <p>{{read.desc}}</p>
       </div>
     {% endfor %}
   </div>
-  <a href="">Download all readings as a zip file</a>
-</div>
+{% endif %}
+
+{% if wr.download-zip-link %}
+	<div class="row card-deck mb-3 text-left">
+		<div class="card col-sm-10 mx-auto border-0">
+  		<a href="{{wr.download-zip-link}}">Download all readings as a zip file</a>
+  	</div>
+  </div>
+{% endif %}
+
+{% if wr.think-prompt %}
+	<div class="row card-deck mb-3 text-left">
+  	<div class="card col-sm-10 mx-auto border-0">
+    	<h4 class="card-title mt-2 mb-2">Think</h4>
+    	<p class="card-text">{{wr.think-prompt}}</p>
+    </div>
+	</div>
+{% endif %}
