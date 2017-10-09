@@ -43,7 +43,7 @@ make-share:
     To summarize:
     1. Read Seymour Papert’s essay on [Gears of My Childhood](./activity/week1/gears.pdf) (also available in [italian](./activity/week1/gears.it.pdf), [japanese](./activity/week1/gears.pdf.ja.pdf), [portuguese](./activity/week1/gears.pt.pdf))
     2. Think about an object from your childhood that interested and influenced you
-    3. Share a photo and a short description [in the forum](http://lcl-discuss.media.mit.edu) [maybe a button?]
+    3. Share a photo and a short description [in the forum](http://lcl-discuss.media.mit.edu)
 
     For inspiration, here are some additional examples from Sherry Turkle’s books Evocative Objects (2007): [Cello](./activity/week1/cello.pdf), [Knots](./activity/week1/knots.pdf), [Stars](./activity/week1/stars.pdf), [Blocks](./activity/week1/blocks.pdf)
 
@@ -51,6 +51,7 @@ make-share:
   video-download-link: ./videos/1-activity.mp4
 
 reflect:
+    forum-link: http://lcl-discuss.media.mit.edu
     title: Reflection prompts
     discussion-prompt: |
       Here are some ideas on how to reflect on this week's topics:
@@ -62,6 +63,7 @@ reflect:
       Choose one (or more!) of the prompts and share your thoughts with others. You can click on the links to access the forum, or discuss with your friends and colleagues in person if you are hosting a meet-up.
 
 meet:
+    unhangout-link: https://unhangout.media.mit.edu
     prompt: |
       Would you like to meet the LCL team and the rest of the community?
       We are hosting our weekly video call on Tuesday October 25th at 4pm EST ([time converter](https://www.google.com/search?&q=time+in+est+now)).
