@@ -3,12 +3,12 @@
 
   {% include head.html %}
 
-  <!-- TODO(morant): better solution to max-width? -->
-  <body class="mx-auto" style="max-width: 1454px">
+  <body class="mx-auto">
 
     {% include navbar.html %}
 
-    <div class="container-fluid">
+    <!-- TODO(morant): better solution to max-width? -->
+    <div class="container-fluid" style="max-width: 1454px">
       {{ content }}
     </div>
 
