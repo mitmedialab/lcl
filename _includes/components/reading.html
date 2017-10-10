@@ -1,0 +1,16 @@
+<div class="card col-sm-10 mx-auto border-0">
+	<h4 class="card-title mt-2">{{read.title}}</h4>
+	<p class="card-text">{{read.desc}}</p>
+  <a class="card-text" href="{{read.link}}">{{read.name}}</a>
+  {% if read.lang_links %}
+    <p>
+      * The readings are also available in these languages:
+      {% for l in read.lang_links %}
+        <a href="{{l.link}}">{{l.language}}</a>
+        {% if forloop.last == false %}
+        ,
+        {% endif %}
+      {% endfor %}
+    </p>
+  {% endif %}
+</div>
