@@ -63,3 +63,9 @@ body > .container, .container-fluid {
 
 .map {
   height: 100vh; }
+
+#get-started-list > li {
+  font-weight: bold;
+  margin: 8px 0; }
+  #get-started-list > li .list-unstyled {
+    font-weight: normal; }
