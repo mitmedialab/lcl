@@ -2,14 +2,8 @@
 	<div class="card col-sm-10 mx-auto border-0 mb-5 d-flex flex-column justify-content-center" style="background-color: inherit">
 	  <h4 class="mb-2">{{m.activity-title}}</h4>
 	  <p>{{m.activity-overview}}</p>
-    <div class="embed-responsive embed-responsive-16by9 my-3 mx-auto border-0 rounded" id="trailer-video">
-      <iframe id="video-iframe" src="{{m.video-link}}" allowfullscreen></iframe>
-    </div>
-    <div class="mt-2 mb-3">
-	    {% if m.video-download-link %}
-	    	<a href={{m.video-dowload-link}}>download the video</a>
-	    {% endif %}
-	  </div>
+    {% assign video = m.video %}
+    {% include components/video.html%}
 		{{m.activity-desc | markdownify }}
 		<a href="{{m.forum-link}}" class="forum-btn btn btn-primary btn-lg mx-auto">forum</a>
 	</div>

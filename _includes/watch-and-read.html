@@ -1,16 +1,9 @@
 <div id="watch-container" class="row card-deck text-left">
   <!-- <h3>Watch</h3> -->
   {% for video in wr.videos %}
-	  <div class="card col-sm-10 mx-auto border-0 mb-3 d-flex flex-column justify-content-center">
-	    <div class="embed-responsive embed-responsive-16by9 mx-auto border-0 rounded" id="trailer-video">
-	      <iframe id="video-iframe" src="{{video.link}}" allowfullscreen></iframe>
-	    </div>
-	    <h4 class="card-title part-header mt-4">{{video.title}}</h4>
-	    <p class="card-text">{{video.desc}}</p>
-	    {% if video.download-link %}
-	    	<p>* You can also <a href={{video.dowload-link}}>download the video</a>. Subtitles are available in multiple languages, check out the FAQ to know more about translations.</p>
-	    {% endif %}
-	  </div>
+    <div class="card col-sm-10 mx-auto border-0 mb-3 d-flex flex-column justify-content-center">
+	    {% include components/video.html%}
+    </div>
 	{% endfor %}
 </div>
 

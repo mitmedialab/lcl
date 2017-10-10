@@ -11,6 +11,7 @@ watch-read:
         title: Watch - Introduction to Creative Learning
         desc: In this video, Mitch Resnick introduces some of the core ideas of creative learning and how those ideas are inspired by the way children learn in kindergarten.
         download-link: ./videos/1-intro.mp4
+        show-subtitle-hint: true
 
   readings:
       - link: ./readings/llk-1.pdf
@@ -47,8 +48,9 @@ make-share:
 
     For inspiration, here are some additional examples from Sherry Turkle’s books Evocative Objects (2007): [Cello](./activity/week1/cello.pdf), [Knots](./activity/week1/knots.pdf), [Stars](./activity/week1/stars.pdf), [Blocks](./activity/week1/blocks.pdf)
 
-  video-link: https://www.youtube.com/embed/hPFZUMQfzac?rel=0&cc_load_policy=1
-  video-download-link: ./videos/1-activity.mp4
+  video:
+    link: https://www.youtube.com/embed/hPFZUMQfzac?rel=0&cc_load_policy=1
+    download-link: ./videos/1-activity.mp4
 
 reflect:
     forum-link: http://lcl-discuss.media.mit.edu
