@@ -21,7 +21,7 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 325px;
+  margin-bottom: 481px;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
 p{
@@ -38,12 +38,6 @@ p{
 .jumbotron-subtitle{
   max-width: 900px;
   margin: auto;
-}
-.mark-black{
-  mark{
-    background-color: #000;
-    color:#fff;
-  }
 }
 .line-height-more{
   line-height: 1.25em;
@@ -74,11 +68,9 @@ body > .container,.container-fluid{
 .map{
   height: 100vh;
 }
-
 #get-started-list>li {
   font-weight: bold;
   margin: 8px 0;
-
   .list-unstyled {
     font-weight: normal;
   }

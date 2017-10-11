@@ -1,13 +1,19 @@
-<div class="embed-responsive embed-responsive-16by9 mx-auto border-0 rounded" id="trailer-video">
-  <iframe id="video-iframe" src="{{video.link}}" allowfullscreen></iframe>
+<div class="row bg-grey pt-3 mb-4">
+	<div class="col-md-8 mb-3">
+		<div class="embed-responsive embed-responsive-16by9 border-0" id="trailer-video">
+		  <iframe id="video-iframe" src="{{video.link}}" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="col-md-4 my-auto">
+		<h4>{{video.title}}</h4>
+		{% if video.desc %}
+			<p>{{video.desc}}</p>
+		{% endif %}
+		{% if video.download-link %}
+			<p><a href={{video.dowload-link}}><i class="fa fa-download mr-2" aria-hidden="true"></i>Download the video</a></p>
+		{% endif %}
+		{% if video.show-subtitle-hint %}
+			<p><i class="fa fa-globe mr-2" aria-hidden="true"></i>Subtitles are available in multiple languages, check out the <a href="{{ site.baseurl }}{% link faq.html %}">FAQ</a> to learn more about translations!</p>
+		{% endif%}
+	</div>
 </div>
-<h4 class="card-title part-header mt-4">{{video.title}}</h4>
-{% if video.desc %}
-	<p class="card-text">{{video.desc}}</p>
-{% endif %}
-{% if video.download-link %}
-	<a href={{video.dowload-link}}>download the video</a>
-{% endif %}
-{% if video.show-subtitle-hint %}
-	<p> * Subtitles are available in multiple languages, check out the FAQ to know more about translations.</p>
-{% endif%}

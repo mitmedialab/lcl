@@ -24,7 +24,7 @@
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <!-- Font --> 
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <!-- Custom styles -->
   <link rel="stylesheet" href="/lcl-staging-jekyll/assets/main.css">
   <link rel="canonical" href="http://localhost:4000/lcl-staging-jekyll/modules/week1/">
@@ -54,8 +54,6 @@
           <li class="nav-item btn bg-grey font-weight-bold dropdown active">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Modules</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="/lcl-staging-jekyll/modules/">Overview</a>
-              <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="/lcl-staging-jekyll/modules/week1/">1. Introduction<span class="badge badge-primary ml-2">Current</span></a>
               <a class="dropdown-item disabled" href="#">2. Projects</a>
               <!--
@@ -76,8 +74,7 @@
     <!-- TODO(morant): better solution to max-width? -->
     <div class="container-fluid" style="max-width: 1454px">
       
-
-<div class="jumbotron jumbotron-fluid bg-grey tall-jumbotron mb-0">
+<div class="jumbotron jumbotron-fluid bg-grey tall-jumbotron mb-5">
   <div class="container text-center">
   	<div class="row">
 	    <h1 class="mb-5 font-weight-bold col-sm-9 mx-auto">Introduction to Creative Learning</h1>
@@ -88,109 +85,109 @@
   </div>
 </div>
 
-<div class="row sticky-top">
-	<!-- <div class="col-sm-3 col-md-2 module-nav-column">
-		<nav class="nav flex-column list-group text-right sticky-top" id="module-nav">
-		  <a class="nav-link list-group-item list-group-item-action " href="/lcl-staging-jekyll/modules/week1/watch-and-read/">Watch & Read</a>
-		  <a class="nav-link list-group-item list-group-item-action " href="/lcl-staging-jekyll/modules/week1/make-and-share/">Make & Share</a>
-		  <a class="nav-link list-group-item list-group-item-action " href="/lcl-staging-jekyll/modules/week1/discuss-and-reflect/">Discuss & Reflect</a>
-		  <a class="nav-link list-group-item list-group-item-action disabled" href="#">Disabled</a>
-		</nav>
-	</div> -->
-	<div class="col-sm-10 mb-5 text-center center-block mx-auto d-flex flex-column" style="min-height:800px">
-    <div class="mb-5">
-			<h2 class="font-weight-bold my-5">Watch & Read</h2>
+<div class="container">
+	<div class="row justify-content-center">
+		<div class="col-sm-10">
+			<h2 class="font-weight-bold mb-5 text-center">Watch & Read</h2>
 			
-	    <div id="watch-container" class="row card-deck text-left">
-  <!-- <h3>Watch</h3> -->
+		    <div id="watch-container">
   
-    <div class="card col-sm-10 mx-auto border-0 mb-3 d-flex flex-column justify-content-center">
-	    <div class="embed-responsive embed-responsive-16by9 mx-auto border-0 rounded" id="trailer-video">
-  <iframe id="video-iframe" src="https://www.youtube.com/embed/hPFZUMQfzac?rel=0&cc_load_policy=1" allowfullscreen></iframe>
+	    <div class="row bg-grey pt-3 mb-4">
+	<div class="col-md-8 mb-3">
+		<div class="embed-responsive embed-responsive-16by9 border-0" id="trailer-video">
+		  <iframe id="video-iframe" src="https://www.youtube.com/embed/hPFZUMQfzac?rel=0&cc_load_policy=1" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="col-md-4 my-auto">
+		<h4>Watch - Introduction to Creative Learning</h4>
+		
+			<p>In this video, Mitch Resnick introduces some of the core ideas of creative learning and how those ideas are inspired by the way children learn in kindergarten.</p>
+		
+		
+			<p><a href=><i class="fa fa-download mr-2" aria-hidden="true"></i>Download the video</a></p>
+		
+		
+			<p><i class="fa fa-globe mr-2" aria-hidden="true"></i>Subtitles are available in multiple languages, check out the <a href="/lcl-staging-jekyll/faq/">FAQ</a> to learn more about translations!</p>
+		
+	</div>
 </div>
-<h4 class="card-title part-header mt-4">Watch - Introduction to Creative Learning</h4>
-
-	<p class="card-text">In this video, Mitch Resnick introduces some of the core ideas of creative learning and how those ideas are inspired by the way children learn in kindergarten.</p>
-
-
-	<a href=>download the video</a>
-
-
-	<p> * Subtitles are available in multiple languages, check out the FAQ to know more about translations.</p>
-
-    </div>
 	
 </div>
 
-<div id="core-container" class="row card-deck mb-3 text-left">
+<div id="core-container">
   
-  	<div class="card col-sm-10 mx-auto border-0">
-	<h4 class="card-title mt-2">Read - Chapter 1 from Lifelong Kindergarten</h4>
-	<p class="card-text">Learn more about the big ideas of creative learning, such as the four P's and the creative learning spiral.</p>
-  <a class="card-text" href="./readings/llk-1.pdf">Lifelong Kindergarten - Chapter 1 (excerpts)</a>
-  
-    <p>
-      * The readings are also available in these languages:
+  	<h4 class="mt-2">Read - Chapter 1 from Lifelong Kindergarten</h4>
+<p>Learn more about the big ideas of creative learning, such as the four P's and the creative learning spiral.</p>
+<p>
+  <i class="fa fa-book mr-2" aria-hidden="true"></i>
+  <a href="./readings/llk-1.pdf">Lifelong Kindergarten - Chapter 1 (excerpts)</a>
+</p>
+
+  <p class="mt-3">
+    <i class="fa fa-globe mr-2" aria-hidden="true"></i> The readings are also available in these languages:
+    
+      <a href="./readings/llk-1.it.pdf">Italiano (Italian)</a>
       
-        <a href="./readings/llk-1.it.pdf">Italiano (Italian)</a>
-        
-        ,
-        
+      ,
       
-        <a href="./readings/llk-1.he.pdf">עברית (Hebrew)</a>
-        
-        ,
-        
+    
+      <a href="./readings/llk-1.he.pdf">עברית (Hebrew)</a>
       
-        <a href="./readings/llk-1.ja.pdf">日本語 (Japanese)</a>
-        
+      ,
       
-    </p>
+    
+      <a href="./readings/llk-1.ja.pdf">日本語 (Japanese)</a>
+      
+    
+  </p>
+
+
   
 </div>
-  
-</div>
 
 
 
 
-	<div class="row card-deck mb-3 text-left">
-		<div class="card col-sm-10 mx-auto border-0">
-  		<a href="./readings/week-1.zip">Download all readings as a zip file</a>
-  	</div>
+	<p>
+		<i class="fa fa-download mr-2" aria-hidden="true"></i>
+    <a href="./readings/week-1.zip">Download all readings as a zip file</a>
+	</p>
+
+
+
+	<div>
+  	<h4 class="mt-4">Think</h4>
+  	<p>Now, take a minute to think about the idea of a kindergarten-inspired approach to learning. What does it mean for you? What is exciting about it? What questions do you have?</p>
   </div>
 
 
+		</div>
 
-	<div class="row card-deck mb-3 text-left">
-  	<div class="card col-sm-10 mx-auto border-0">
-    	<h4 class="card-title mt-2 mb-2">Think</h4>
-    	<p class="card-text">Now, take a minute to think about the idea of a kindergarten-inspired approach to learning. What does it mean for you? What is exciting about it? What questions do you have?</p>
-    </div>
-	</div>
-
-
-	  </div>
-
-	  <div class="bg-grey">
-	    <h2 class="font-weight-bold my-5">Make & Share</h2>
-	    
-	    <div id="make-container" class="row card-deck text-left"">
+		<div class="cols-sm-10 bg-grey">
+			<h2 class="font-weight-bold my-5">Make & Share</h2>
+			
+			<div id="make-container">
 	<div class="card col-sm-10 mx-auto border-0 mb-5 d-flex flex-column justify-content-center" style="background-color: inherit">
 	  <h4 class="mb-2">Activity - Childhood objects</h4>
 	  <p>This week we invite you to share a childhood object with the community.
 In the following video, Lily and Shruti explain a little bit more (subtitles available in multiple languages)
 </p>
     
-    <div class="embed-responsive embed-responsive-16by9 mx-auto border-0 rounded" id="trailer-video">
-  <iframe id="video-iframe" src="https://www.youtube.com/embed/hPFZUMQfzac?rel=0&cc_load_policy=1" allowfullscreen></iframe>
+    <div class="row bg-grey pt-3 mb-4">
+	<div class="col-md-8 mb-3">
+		<div class="embed-responsive embed-responsive-16by9 border-0" id="trailer-video">
+		  <iframe id="video-iframe" src="https://www.youtube.com/embed/hPFZUMQfzac?rel=0&cc_load_policy=1" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="col-md-4 my-auto">
+		<h4></h4>
+		
+		
+			<p><a href=><i class="fa fa-download mr-2" aria-hidden="true"></i>Download the video</a></p>
+		
+		
+	</div>
 </div>
-<h4 class="card-title part-header mt-4"></h4>
-
-
-	<a href=>download the video</a>
-
-
 		<p>To summarize:</p>
 <ol>
   <li>Read Seymour Papert’s essay on <a href="./activity/week1/gears.pdf">Gears of My Childhood</a> (also available in <a href="./activity/week1/gears.it.pdf">italian</a>, <a href="./activity/week1/gears.pdf.ja.pdf">japanese</a>, <a href="./activity/week1/gears.pt.pdf">portuguese</a>)</li>
@@ -221,12 +218,12 @@ In the following video, Lily and Shruti explain a little bit more (subtitles ava
   Head to <a href="http://lcl-discuss.media.mit.edu">the forum</a> to share your creation...
 </div> -->
 
-	  </div>
+		</div>
 
-		<div>
-	    <h2 class="font-weight-bold my-5">Reflect & Discuss</h2>
-	    
-    	<div id="discuss-container" class="text-left row card-deck">
+		<div class="col-sm-10">
+			<h2 class="font-weight-bold my-5">Reflect & Discuss</h2>
+			
+			<div id="discuss-container" class="text-left row card-deck">
 	<div class="card col-sm-10 mx-auto border-0 mb-5 d-flex flex-column justify-content-center">
 	  <h4>Reflection prompts</h4>
 	  <p><p>Here are some ideas on how to reflect on this week’s topics:</p>
@@ -243,12 +240,12 @@ In the following video, Lily and Shruti explain a little bit more (subtitles ava
 	</div>
 </div>
 
-    </div>
+		</div>
 
-    <div class="bg-grey">
-	    <h2 class="font-weight-bold my-5">Meet & Chat</h2>
-	    
-    	<div id="meet-container" class="row card-deck">
+	    <div class="col-sm-10 bg-grey">
+		    <h2 class="font-weight-bold my-5">Meet & Chat</h2>
+		    
+	    	<div id="meet-container" class="row card-deck">
 	<div class="card col-sm-10 mx-auto border-0 text-left mb-5 d-flex flex-column justify-content-center" 
 			 style="background-color: inherit;">
 	  <p><p>Would you like to meet the LCL team and the rest of the community?
@@ -259,13 +256,9 @@ We’d love to see you there, here is the <a href="">link to join</a>!</p>
 	</div>
 </div>
 
-    </div>
-
-
-		
-
-	</div>
-</div> <!-- row -->
+	    </div>
+	</div> <!-- row -->
+</div> <!-- container -->
     </div>
 
     <footer class="footer">

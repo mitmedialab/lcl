@@ -1,13 +1,10 @@
-<div id="watch-container" class="row card-deck text-left">
-  <!-- <h3>Watch</h3> -->
+<div id="watch-container">
   {% for video in wr.videos %}
-    <div class="card col-sm-10 mx-auto border-0 mb-3 d-flex flex-column justify-content-center">
 	    {% include components/video.html%}
-    </div>
 	{% endfor %}
 </div>
 
-<div id="core-container" class="row card-deck mb-3 text-left">
+<div id="core-container">
   {% for read in wr.readings %}
   	{% include components/reading.html%}
   {% endfor %}
@@ -23,18 +20,15 @@
 {% endif %}
 
 {% if wr.download-zip-link %}
-	<div class="row card-deck mb-3 text-left">
-		<div class="card col-sm-10 mx-auto border-0">
-  		<a href="{{wr.download-zip-link}}">Download all readings as a zip file</a>
-  	</div>
-  </div>
+	<p>
+		<i class="fa fa-download mr-2" aria-hidden="true"></i>
+    <a href="{{wr.download-zip-link}}">Download all readings as a zip file</a>
+	</p>
 {% endif %}
 
 {% if wr.think-prompt %}
-	<div class="row card-deck mb-3 text-left">
-  	<div class="card col-sm-10 mx-auto border-0">
-    	<h4 class="card-title mt-2 mb-2">Think</h4>
-    	<p class="card-text">{{wr.think-prompt}}</p>
-    </div>
-	</div>
+	<div>
+  	<h4 class="mt-4">Think</h4>
+  	<p>{{wr.think-prompt}}</p>
+  </div>
 {% endif %}
