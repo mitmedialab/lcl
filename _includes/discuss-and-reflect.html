@@ -1,7 +1,11 @@
-<div id="discuss-container" class="text-left row card-deck">
-	<div class="card col-sm-10 mx-auto border-0 mb-5 d-flex flex-column justify-content-center">
-	  <h4>{{r.title}}</h4>
-	  <p>{{r.discussion-prompt | markdownify}}</p>
-	  <a href="{{r.forum-link}}" class="forum-btn btn btn-primary btn-lg mx-auto">forum</a>
-	</div>
+<div id="discuss-container">
+  <h4>{{r.title}}</h4>
+  <p>{{r.discussion-prompt | markdownify}}</p>
+  <p class="text-center">
+  	{% if r.forum-button-text %}
+  		<a href="{{r.forum-link}}" class="forum-btn btn btn-primary btn-lg my-3">{{r.forum-button-text}}</a>
+  	{% else %}
+  		<a href="{{r.forum-link}}" class="forum-btn btn btn-primary btn-lg my-3">Reflect with us</a>
+  	{% endif%}
+  </p>
 </div>

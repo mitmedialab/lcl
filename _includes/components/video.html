@@ -1,10 +1,10 @@
-<div class="row bg-grey pt-3 mb-4">
-	<div class="col-md-8 mb-3">
+<div class="row bg-grey py-3 px-2 mb-4">
+	<div class="col-lg-8 my-3 order-lg-1 order-2">
 		<div class="embed-responsive embed-responsive-16by9 border-0" id="trailer-video">
 		  <iframe id="video-iframe" src="{{video.link}}" allowfullscreen></iframe>
 		</div>
 	</div>
-	<div class="col-md-4 my-auto">
+	<div class="col-lg-4 order-lg-2 order-1 my-auto">
 		<h4>{{video.title}}</h4>
 		{% if video.desc %}
 			<p>{{video.desc}}</p>
@@ -13,7 +13,7 @@
 			<p><a href={{video.dowload-link}}><i class="fa fa-download mr-2" aria-hidden="true"></i>Download the video</a></p>
 		{% endif %}
 		{% if video.show-subtitle-hint %}
-			<p><i class="fa fa-globe mr-2" aria-hidden="true"></i>Subtitles are available in multiple languages, check out the <a href="{{ site.baseurl }}{% link faq.html %}">FAQ</a> to learn more about translations!</p>
+			<small class="text-muted"><i class="fa fa-globe mr-1" aria-hidden="true"></i>Subtitles are available in multiple languages. Learn more about translations in the <a href="{{ site.baseurl }}{% link faq.html %}">FAQ</a>.</small>
 		{% endif%}
 	</div>
 </div>

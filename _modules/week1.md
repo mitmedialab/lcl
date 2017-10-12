@@ -34,6 +34,7 @@ watch-read:
 
 make-share:
   forum-link: http://lcl-discuss.media.mit.edu
+  forum-button-text: Share your object
 
   activity-title: Activity - Childhood objects
   activity-overview: |
@@ -46,15 +47,22 @@ make-share:
     2. Think about an object from your childhood that interested and influenced you
     3. Share a photo and a short description [in the forum](http://lcl-discuss.media.mit.edu)
 
-    For inspiration, here are some additional examples from Sherry Turkle’s books Evocative Objects (2007): [Cello](./activity/week1/cello.pdf), [Knots](./activity/week1/knots.pdf), [Stars](./activity/week1/stars.pdf), [Blocks](./activity/week1/blocks.pdf)
+    For inspiration, here are some additional examples from Sherry Turkle’s book *Evocative Objects* (2007):
+    - [Cello](./activity/week1/cello.pdf), [Knots](./activity/week1/knots.pdf), [Stars](./activity/week1/stars.pdf), [Blocks](./activity/week1/blocks.pdf)
 
   video:
     link: https://www.youtube.com/embed/hPFZUMQfzac?rel=0&cc_load_policy=1
     download-link: ./videos/1-activity.mp4
+    title: Activity - Childhood objects
+    desc: |
+      This week we invite you to share a childhood object with the community.
+      In this video, Lily and Shruti explain a little bit more.
+    show-subtitle-hint: true
 
 reflect:
     forum-link: http://lcl-discuss.media.mit.edu
-    title: Reflection prompts
+    forum-button-text:
+    title: Reflection Prompts
     discussion-prompt: |
       Here are some ideas on how to reflect on this week's topics:
 

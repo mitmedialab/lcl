@@ -1,33 +1,14 @@
 <div id="make-container">
-	<div class="card col-sm-10 mx-auto border-0 mb-5 d-flex flex-column justify-content-center" style="background-color: inherit">
-	  <h4 class="mb-2">{{m.activity-title}}</h4>
-	  <p>{{m.activity-overview}}</p>
+	<!--  
+	<h4 class="mb-2">{{m.activity-title}}</h4>
+	<p>{{m.activity-overview}}</p>
+	-->
     {% assign video = m.video %}
     {% include components/video.html%}
-		{{m.activity-desc | markdownify }}
-		<a href="{{m.forum-link}}" class="forum-btn btn btn-primary btn-lg mx-auto">forum</a>
-	</div>
-
-	<!-- <div class="card col-sm-8	 mx-auto border-0 text-left mb-5 d-flex flex-column justify-content-center">
-		<h4>Examples</h4>
-		{% for ex in m.examples %}
-			<a href="{{ex.link}}">{{ex.name}}</a>
-			<p>{{ex.desc}}</p>
-		{% endfor %}
-	</div> -->
+	{{m.activity-desc | markdownify }}
+	{% if m.forum-button-text %}
+	<p class="text-center my-4"><a href="{{m.forum-link}}" class="forum-btn btn btn-primary btn-lg">{{m.forum-button-text}}</a></p>
+	{% else %}
+	<p class="text-center my-4"><a href="{{m.forum-link}}" class="forum-btn btn btn-primary btn-lg">Share with us</a></p>
+	{% endif %}
 </div>
-
-<!-- <div class="text-left row card-deck">
-	<div class="card col-sm-6	 mx-auto border-0 text-left mb-5 d-flex flex-column justify-content-center">
-		<h4>Support Materials</h4>
-		{% for mat in m.support %}
-			<a href="{{mat.link}}">{{mat.name}}</a>
-			<p>{{mat.desc}}</p>
-		{% endfor %}
-	</div>
-</div> -->
-
-<!-- <div id="share-container">
-  <h4>Share</h4>
-  Head to <a href="{{m.forum-link}}">the forum</a> to share your creation...
-</div> -->
