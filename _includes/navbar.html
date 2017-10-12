@@ -14,7 +14,13 @@
         </ul>
         <ul class="navbar-nav justify-content-end">
           <li class="nav-item btn bg-grey font-weight-bold dropdown {% if current[1] == 'modules' %}active{% endif %}">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Modules</a>
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+              {% if page.navbar-name %}
+                {{page.navbar-name}}
+              {% else %}
+                Modules
+              {% endif %}
+            </a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="{{ site.baseurl }}{% link _modules/week1.md %}">1. Introduction<span class="badge badge-primary ml-2">Current</span></a>
               <a class="dropdown-item disabled" href="#">2. Projects</a>

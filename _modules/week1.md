@@ -1,6 +1,8 @@
 ---
 layout: module
 
+navbar-name: 1. Introduction
+
 title: Introduction to Creative Learning
 subtitle: This week includes an introduction to the course, discussion of the Kindergarten approach, and sharing a childhood object based on Seymour Papert's Gears of my childhood essay
 section-title: Watch & Read
