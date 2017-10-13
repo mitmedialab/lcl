@@ -5,10 +5,15 @@
 
   <body class="mx-auto">
 
-    {% include navbar.html %}
+    {% if page.hide-navbar == true %}
+      {% assign container-classes = 'container-fluid' %}
+    {% else %}
+      {% include navbar.html %}
+      {% assign container-classes = 'container-fluid container-pad-top' %}
+    {% endif %}
 
     <!-- TODO(morant): better solution to max-width? -->
-    <div class="container-fluid" style="max-width: 1454px">
+    <div class="{{container-classes}}" style="max-width: 1454px">
       {{ content }}
     </div>
 

@@ -54,7 +54,12 @@ p{
   background-color: $grey-color;
 }
 body > .container,.container-fluid{
-  padding: 86px 15px 0;
+  padding-right:  15px;
+  padding-left: 15px;
+  padding-bottom: 0;
+}
+body > .container-pad-top {
+  padding-top: 86px
 }
 .footer > .container {
   padding-right: 50px;
