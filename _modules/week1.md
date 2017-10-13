@@ -4,12 +4,12 @@ layout: module
 navbar-name: 1. Introduction
 
 title: Introduction to Creative Learning
-subtitle: This week includes an introduction to the course, discussion of the Kindergarten approach, and sharing a childhood object based on Seymour Papert's Gears of my childhood essay
+subtitle: This week includes an introduction to the course, discussion of the Kindergarten approach, and sharing a childhood object
 section-title: Watch & Read
 
 watch-read:
   videos:
-      - link: https://www.youtube.com/embed/hPFZUMQfzac?rel=0&cc_load_policy=1
+      - link: https://www.youtube.com/embed/ftxQXXw82uI?rel=0&cc_load_policy=1
         title: Watch - Introduction to Creative Learning
         desc: In this video, Mitch Resnick introduces some of the core ideas of creative learning and how those ideas are inspired by the way children learn in kindergarten.
         download-link: ./videos/1-intro.mp4
@@ -53,7 +53,7 @@ make-share:
     - [Cello](./activity/week1/cello.pdf), [Knots](./activity/week1/knots.pdf), [Stars](./activity/week1/stars.pdf), [Blocks](./activity/week1/blocks.pdf)
 
   video:
-    link: https://www.youtube.com/embed/hPFZUMQfzac?rel=0&cc_load_policy=1
+    link: https://www.youtube.com/embed/AqZEKy8AiYY?rel=0&cc_load_policy=1
     download-link: ./videos/1-activity.mp4
     title: Activity - Childhood objects
     desc: |
