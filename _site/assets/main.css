@@ -58,9 +58,15 @@ body > .container-pad-top {
   padding-left: 55px; }
 
 .peg-background {
-  background-color: #000;
+  background-color: transparent;
   background-image: url("/lcl-staging-jekyll/images/peg_pattern.svg");
-  background-size: 1475px; }
+  background-size: 1475px;
+  position: relative;
+  top: 30px; }
+
+.black-title-box {
+  background-color: #000;
+  margin-top: -30px; }
 
 #module-nav {
   top: 90px; }
