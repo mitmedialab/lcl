@@ -68,9 +68,10 @@ body > .container-pad-top {
 .peg-background{
   background-color: transparent;
   background-image: url('#{$baseurl}/images/peg_pattern.svg');
-  background-size: 1475px;
+  background-size: 1489px;
   position: relative;
   top: 30px;
+  margin-bottom: 70px
 }
 .black-title-box {
   background-color: #000;
@@ -89,3 +90,88 @@ body > .container-pad-top {
     font-weight: normal;
   }
 }
+
+/* INDEX BODY CONTENT
+-------------------------------------------------- */
+
+.content {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 0px;
+}
+
+.content h1{
+  font-weight: bold;
+  text-align: center;
+  color: #191919;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 2.3em;
+}
+
+.content .intro-p{
+  font-size: 1.17em;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.content .row{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.content .col-lg-4 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.content img {
+  height:140px;
+  width:140px;
+}
+
+.content .col-lg-4 .container{
+  width:100%;
+  height: 100%;
+  background-color: #ffffff;
+  padding:15px;
+  border-radius: 15px;
+}
+
+@media (max-width: 767px){
+  .content .col-lg-4 .container{
+    max-width: 600px;
+  }
+  .content h1{
+    font-size: 2em;
+  } 
+}
+
+.content .col-lg-4 a{
+  text-decoration: none;
+  color: #191919;
+  display:block;
+}
+
+.content .col-lg-4 .container:hover{
+  background-color: #ccebf5;
+  opacity: 80%;
+}
+
+.content .col-lg-4 .container.disabled{
+  pointer-events: none;
+  background-color: #cccccc;
+  opacity: 80%;
+}
+
+.content h2 {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.content .col-lg-4 p {
+  margin-bottom: 2px;
+  font-size: 0.9em;
+}
+
+/* ------- */
