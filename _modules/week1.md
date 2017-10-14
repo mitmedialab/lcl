@@ -46,7 +46,7 @@ make-share:
   activity-desc: |
     Here are the steps for this activity
     1. Read Seymour Papert’s essay on [Gears of My Childhood](./activity/week1/gears.pdf) 
-    * also available in [Italian](./activity/week1/gears.it.pdf), [Japanese](./activity/week1/gears.ja.pdf), [Portuguese](./activity/week1/gears.pt.pdf), [Spanish](./activity/week1/gears.es.pdf)
+    <br/><i class="fa fa-globe mr-2" aria-hidden="true"></i> also available in [Italiano (Italian)](./activity/week1/gears.it.pdf), [日本語 (Japanese)](./activity/week1/gears.ja.pdf), [Português (Portuguese)](./activity/week1/gears.pt.pdf), [Español (Spanish)](./activity/week1/gears.es.pdf)
     2. Think about an object from your childhood that interested and influenced you
     3. Go to the [discussion forum](http://lcl-discuss.media.mit.edu) to see other people's objects and share a photo and short description of your childhood object
 

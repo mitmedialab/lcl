@@ -9,11 +9,8 @@
 		{% if video.desc %}
 			<p>{{video.desc}}</p>
 		{% endif %}
-		{% if video.download-link %}
-			<p><a href={{video.dowload-link}}><i class="fa fa-download mr-2" aria-hidden="true"></i>Download the video</a></p>
-		{% endif %}
 		{% if video.show-subtitle-hint %}
-			<small class="text-muted"><i class="fa fa-globe mr-1" aria-hidden="true"></i>Subtitles are available in multiple languages. Learn more about translations in the <a href="{{ site.baseurl }}{% link faq.html %}">FAQ</a>.</small>
+			<small class="text-muted"><i class="fa fa-globe mr-1" aria-hidden="true"></i>Subtitles are available in multiple languages.</small>
 		{% endif%}
 	</div>
 </div>
