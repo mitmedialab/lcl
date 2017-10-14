@@ -1,12 +1,12 @@
 <h4 class="mt-2">{{read.title}}</h4>
 <p>{{read.desc}}</p>
-<p>
+<h4>
   <i class="fa fa-book mr-2" aria-hidden="true"></i>
   <a href="{{read.link}}">{{read.name}}</a>
-</p>
+</h4>
 {% if read.lang_links %}
   <p class="mt-3">
-    <i class="fa fa-globe mr-2" aria-hidden="true"></i> The readings are also available in these languages:
+    <i class="fa fa-globe mr-2" aria-hidden="true"></i>Also available in these languages:
     {% for l in read.lang_links %}
       <a href="{{l.link}}">{{l.language}}</a>
       {% if forloop.last == false %}
