@@ -6,10 +6,7 @@
  */
 
 ;(function() {
-	// Use a seeded PRNG in order to produce the same pattern on window resize
-	// (but different on each page load)
-	var originalSeed = Math.floor(Math.random() * 10000);
-	var seed = originalSeed;
+	var seed = Math.floor(Math.random() * 10000);
 
 	function randomFromSeed() {
 	    var x = Math.sin(seed++) * 10000;
@@ -17,16 +14,9 @@
 	}
 
 	function generatePegs() {
-		// Reset the seed to generate the same pegs upon resize
-		seed = originalSeed;
-
 		var PEG_SIZE = 49; // in pixels
-		var TITLE_PEGS = 20; // total number of grid slots taken up by the title
-		var SUBTITLE_PEGS = 26; // total number of grid slots taken up by the subtitle
 		var rows = 11;
-		var columns = Math.ceil($(document).width() / PEG_SIZE);
-
-		console.log("Columns: " + columns);
+		var columns = 50; // Enough to cover a 1080 screen
 
 		// Set the grid rows and columns
 		var grid = $('#peg-grid');
@@ -37,7 +27,7 @@
 		});
 
 		// Generate pegs
-		var totalPegs = (rows * columns) - TITLE_PEGS - SUBTITLE_PEGS;
+		var totalPegs = (rows * columns);
 		for (var i = 0; i < totalPegs; ++i) {
 			var rand = randomFromSeed() % 4;
 			switch (rand) {
@@ -60,6 +50,5 @@
 
 	}
 
-	$(window).resize(generatePegs);
 	$(document).ready(generatePegs);
 })();

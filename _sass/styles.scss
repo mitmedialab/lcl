@@ -53,9 +53,9 @@ p{
   background-color: $grey-color;
 
 }
-body > .container,.container-fluid{
-  padding-right:  15px;
-  padding-left: 15px;
+.container, .container-fluid {
+  padding-right:  0;
+  padding-left: 0;
   padding-bottom: 0;
 }
 body > .container-pad-top {
@@ -98,6 +98,7 @@ body > .container-pad-top {
 #peg-grid {
   background-color: #000;
   display: grid;
+  overflow: hidden;
 
   img {
     padding: 0;
@@ -126,3 +127,28 @@ body > .container-pad-top {
   grid-column: 6 / 19;
   color: white;
 }
+
+@media (max-width: 767px) {
+  .peg-grid-title {
+    grid-row: 2 / 6;
+    grid-column: 2 / 7;
+  }
+
+  .peg-grid-subtitle {
+    grid-row: 7 / 11;
+    grid-column: 2 / 9;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .peg-grid-title {
+    grid-row: 3 / 5;
+    grid-column: 3 / 13;
+  }
+
+  .peg-grid-subtitle {
+    grid-row: 6 / 8;
+    grid-column: 3 / 16;
+  }
+}
+
