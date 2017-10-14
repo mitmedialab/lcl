@@ -27,15 +27,14 @@
                 Modules
               {% endif %}
             </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="{{ site.baseurl }}{% link _modules/week1.md %}">1. Introduction<span class="badge badge-primary ml-2">Current</span></a>
-              <a class="dropdown-item disabled" href="#">2. Projects</a>
-              <!--
-              <a class="dropdown-item" href="#">3. Passion</a>
-              <a class="dropdown-item" href="#">4. Peers</a>
-              <a class="dropdown-item" href="#">5. Play</a>
-              <a class="dropdown-item" href="#">6. Creative Society</a>
-              -->
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="{{ site.baseurl }}{% link get-started.md %}">Getting Started</a>
+              <div class="dropdown-divider"></div>
+              {% for module in site.modules %}
+                <a class="dropdown-item" href="{{ site.baseurl }}{{ module.url }}">{{module.navbar-name}}
+                  {% if site.current-module == module.id %}<span class="badge badge-primary ml-2">Current</span>{% endif %}
+                </a>
+              {% endfor %}
             </div>
           </li>
         </ul>

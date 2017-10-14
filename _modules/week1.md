@@ -1,7 +1,7 @@
 ---
 layout: module
 
-navbar-name: Week 1 - Introduction
+navbar-name: Introduction
 
 title: Introduction to Creative Learning
 subtitle: This week includes an introduction to the course, a discussion of the Lifelong Kindergarten approach, and an opportunity to share a childhood object
