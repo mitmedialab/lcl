@@ -7,13 +7,12 @@
 .bg-black {
   background-color: #000; }
 
-html {
-  position: relative;
-  min-height: 100%; }
+html, body {
+  margin: 0;
+  height: 100%; }
 
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 481px;
   font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif; }
 
 p {
@@ -38,8 +37,7 @@ p {
   line-height: 0.9em; }
 
 .footer {
-  position: absolute;
-  bottom: 0;
+  margin-top: 37px;
   width: 100%;
   /* Set the fixed height of the footer here */
   min-height: 333px;
@@ -54,8 +52,10 @@ body > .container-pad-top {
   padding-top: 86px; }
 
 .footer > .container {
+  padding-top: 37px;
   padding-right: 50px;
-  padding-left: 55px; }
+  padding-left: 55px;
+  padding-bottom: 37px; }
 
 .peg-background {
   background-color: transparent;
