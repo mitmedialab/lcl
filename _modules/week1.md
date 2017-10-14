@@ -1,17 +1,17 @@
 ---
 layout: module
 
-navbar-name: 1. Introduction
+navbar-name: Week 1 - Introduction
 
 title: Introduction to Creative Learning
-subtitle: This week includes an introduction to the course, discussion of the Kindergarten approach, and sharing a childhood object
+subtitle: This week includes an introduction to the course, a discussion of the Lifelong Kindergarten approach, and an opportunity to share a childhood object
 section-title: Watch & Read
 
 watch-read:
   videos:
       - link: https://www.youtube.com/embed/ftxQXXw82uI?rel=0&cc_load_policy=1
         title: Introduction to Creative Learning
-        desc: In this video, Mitch Resnick introduces some of the core ideas of creative learning, and how those ideas are inspired by the way children learn in kindergarten.
+        desc: In this video, Mitch Resnick introduces the core ideas of creative learning and how those ideas are inspired by the way children learn in kindergarten.
         download-link: ./videos/1-intro.mp4
         show-subtitle-hint: true
 
@@ -19,7 +19,7 @@ watch-read:
       - link: ./readings/llk-1.pdf
         name: Lifelong Kindergarten - Chapter 1 (excerpts)
         title: Readings
-        desc: Learn more about the big ideas of creative learning, such as the four P's and the creative learning spiral.
+        desc: Learn more about the big ideas of creative learning including the four P's and the creative learning spiral.
         lang_links:
           - language: Italiano (Italian)
             link: ./readings/llk-1.it.pdf
@@ -36,7 +36,7 @@ watch-read:
 
 make-share:
   forum-link: http://lcl-discuss.media.mit.edu
-  forum-button-text: Share your Object
+  forum-button-text: Share Your Object
 
   activity-title: Childhood Object
   activity-overview: |
@@ -48,13 +48,14 @@ make-share:
     1. Read Seymour Papert’s essay on [Gears of My Childhood](./activity/week1/gears.pdf) 
     <br/><i class="fa fa-globe mr-2" aria-hidden="true"></i> also available in [Italiano (Italian)](./activity/week1/gears.it.pdf), [日本語 (Japanese)](./activity/week1/gears.ja.pdf), [Português (Portuguese)](./activity/week1/gears.pt.pdf), [Español (Spanish)](./activity/week1/gears.es.pdf)
     2. Think about an object from your childhood that interested and influenced you
-    3. Go to the [discussion forum](http://lcl-discuss.media.mit.edu) to see other people's objects and share a photo and short description of your childhood object
+    3. Go to the [discussion forum](http://lcl-discuss.media.mit.edu) to see other people's objects
+    4. Share a photo and short description of your childhood object:
 
 
   video:
     link: https://www.youtube.com/embed/AqZEKy8AiYY?rel=0&cc_load_policy=1
     download-link: ./videos/1-activity.mp4
-    title: Childhood Objects
+    title: Childhood Object
     desc: |
       This week we invite you to share a childhood object with the community.
       In this video, Lily and Shruti explain a little bit more.
@@ -62,16 +63,16 @@ make-share:
 
 reflect:
     forum-link: http://lcl-discuss.media.mit.edu
-    forum-button-text: Share your Thoughts
+    forum-button-text: Share Your Thoughts
     title:
     discussion-prompt: |
 
       Choose one (or more) of the prompts and share your thoughts with others. 
-      You can do it in the discussion forum, or talk with your friends and colleagues in person if you are hosting a local meet-up.
+      You can do it in the discussion forum and/or talk with your friends and colleagues in person if you are hosting a local meet-up.
       
       Here are some ideas:
       
-      * [Play with the P's](http://lcl-discuss.media.mit.edu) - Which one is your favorite P and why? (Don't take this questions too seriously, we know all of them are important! :))
+      * [Play with the P's](http://lcl-discuss.media.mit.edu) - Which one is your favorite P and why? (Don't take this questions too seriously, we know all of them are important!)
 
       * [Lifelong Kindergarten approach](http://lcl-discuss.media.mit.edu) - Imagine if your learning environment was more similar to a kindergarten. What would be exciting? What would you be worried about?
       
@@ -83,5 +84,5 @@ meet:
     prompt: |
       Would you like to meet the LCL team and the rest of the community?
       We are hosting two video calls on Tuesday October 24th - one at 9am EST and another one at 4pm EST.
-      We'd love to see you there, here is the [link to join](https://unhangout.media.mit.edu/event/lcl-week1/)
+      We'd love to see you there!
 ---
