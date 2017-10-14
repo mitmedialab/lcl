@@ -86,4 +86,10 @@ meet:
       We are hosting two video calls on Tuesday October 24th - one at 9am EST and another one at 4pm EST.
       
       We'd love to see you there!
+
+
+download:
+    prompt: |
+      You can get this week's videos, subtitles, and readings in a single zip file for offline use.
+    zipfile-link: ./week1.zip
 ---
