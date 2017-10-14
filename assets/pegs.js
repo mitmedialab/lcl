@@ -15,7 +15,7 @@
 
 	function generatePegs() {
 		var PEG_SIZE = 49; // in pixels
-		var rows = 11;
+		var rows = 10;
 		var columns = 50; // Enough to cover a 1080 screen
 
 		// Set the grid rows and columns
