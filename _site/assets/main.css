@@ -80,3 +80,30 @@ body > .container-pad-top {
   margin: 8px 0; }
   #get-started-list > li .list-unstyled {
     font-weight: normal; }
+
+/* Peg grid experiment */
+#peg-grid {
+  background-color: #000;
+  display: grid; }
+  #peg-grid img {
+    padding: 0;
+    margin: 0;
+    width: 49px;
+    height: 49px; }
+
+.peg-grid-title {
+  padding-left: 29px;
+  padding-top: 17px;
+  font-size: 36px;
+  font-weight: bold;
+  grid-row: 3 / 5;
+  grid-column: 6 / 16;
+  color: white; }
+
+.peg-grid-subtitle {
+  padding-left: 29px;
+  padding-top: 13px;
+  font-size: 22px;
+  grid-row: 6 / 8;
+  grid-column: 6 / 19;
+  color: white; }
