@@ -175,7 +175,8 @@ body > .container-pad-top {
     left: 49px;
     width: 196px;
     height: 147px;
-    line-height: 1em;
+    padding-top: 13px;
+    line-height: 1.1em;
     padding-left: 21px; }
 
   #peg-grid-subtitle {

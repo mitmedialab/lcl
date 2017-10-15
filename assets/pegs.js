@@ -21,6 +21,7 @@
 		var gridContainer = $('#peg-grid-overflow');
 
 		// Generate pegs
+		// TODO: Fix the src URLs for the images below on production
 		var totalPegs = (rows * columns);
 		for (var i = 0; i < totalPegs; ++i) {
 			var rand = randomFromSeed() % 4;
