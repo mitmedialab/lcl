@@ -14,17 +14,11 @@
 	}
 
 	function generatePegs() {
-		var PEG_SIZE = 49; // in pixels
 		var rows = 10;
-		var columns = 50; // Enough to cover a 1080 screen
+		var columns = 60;
 
 		// Set the grid rows and columns
-		var grid = $('#peg-grid');
-		grid.empty();
-		grid.css({
-			'grid-template-rows': 'repeat(' + rows + ', 49px)',
-			'grid-template-columns': 'repeat(' + columns + ', 49px)'
-		});
+		var gridContainer = $('#peg-grid-overflow');
 
 		// Generate pegs
 		var totalPegs = (rows * columns);
@@ -32,21 +26,19 @@
 			var rand = randomFromSeed() % 4;
 			switch (rand) {
 				case 0:
-					grid.append('<div><img src="/lcl-staging-jekyll/images/peg_green.svg" /></div>');
+					gridContainer.append('<img class="peg" src="/lcl-staging-jekyll/images/peg_green.svg" />');
 					break;
 				case 1:
-					grid.append('<div><img src="/lcl-staging-jekyll/images/peg_blue.svg" /></div>');
+					gridContainer.append('<img class="peg" src="/lcl-staging-jekyll/images/peg_blue.svg" />');
 					break;
 				case 2:
-					grid.append('<div><img src="/lcl-staging-jekyll/images/peg_red.svg" /></div>');
+					gridContainer.append('<img class="peg" src="/lcl-staging-jekyll/images/peg_red.svg" />');
 					break;
 				case 3:
-					grid.append('<div><img src="/lcl-staging-jekyll/images/peg_yellow.svg" /></div>');
+					gridContainer.append('<img class="peg" src="/lcl-staging-jekyll/images/peg_yellow.svg" />');
 					break;
 			}
 		}
-
-		grid.append('<div class="peg-grid-title">Learning Creative Learning</div><div class="peg-grid-subtitle">A community of educators, designers, and tinkerers exploring creative learning through projects, passion, peers, and play</div>');
 
 	}
 

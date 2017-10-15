@@ -127,49 +127,77 @@ body > .container-pad-top {
 
 /* Peg grid experiment */
 #peg-grid {
+  position: relative;
   background-color: #000;
-  display: grid;
+  width: 100%;
+  height: 441px;
   overflow: hidden;
-  margin-bottom: 40px; }
-  #peg-grid img {
-    padding: 0;
-    margin: 0;
-    width: 49px;
-    height: 49px; }
+  margin-bottom: 30px; }
 
-.peg-grid-title {
+#peg-grid-overflow {
+  width: 3000px;
+  height: 100%; }
+
+.peg {
+  width: 49px;
+  height: 49px;
+  margin: 0;
+  padding: 0; }
+
+#peg-grid-title {
+  position: absolute;
+  top: 98px;
+  left: 245px;
+  width: 490px;
+  height: 98px;
   padding-left: 29px;
-  padding-top: 17px;
+  padding-top: 20px;
   font-size: 36px;
   font-weight: bold;
-  grid-row: 3 / 5;
-  grid-column: 6 / 16;
+  background-color: black;
   color: white; }
 
-.peg-grid-subtitle {
+#peg-grid-subtitle {
+  position: absolute;
+  top: 245px;
+  left: 245px;
+  width: 637px;
+  height: 98px;
   padding-left: 29px;
   padding-top: 13px;
   font-size: 22px;
-  grid-row: 6 / 8;
-  grid-column: 6 / 19;
+  background-color: black;
   color: white; }
 
 @media (max-width: 767px) {
-  .peg-grid-title {
-    grid-row: 2 / 6;
-    grid-column: 2 / 7; }
+  #peg-grid-title {
+    top: 49px;
+    left: 49px;
+    width: 196px;
+    height: 147px;
+    line-height: 1em;
+    padding-left: 21px; }
 
-  .peg-grid-subtitle {
-    grid-row: 7 / 11;
-    grid-column: 2 / 9; } }
+  #peg-grid-subtitle {
+    top: 245px;
+    left: 49px;
+    width: 343px;
+    height: 147px;
+    line-height: 1.1em;
+    padding-left: 21px; } }
 @media (min-width: 768px) and (max-width: 991px) {
-  .peg-grid-title {
-    grid-row: 3 / 5;
-    grid-column: 3 / 13; }
+  #peg-grid-title {
+    top: 98px;
+    left: 98px;
+    width: 490px;
+    height: 98px; }
 
-  .peg-grid-subtitle {
-    grid-row: 6 / 8;
-    grid-column: 3 / 16; } }
+  #peg-grid-subtitle {
+    top: 245px;
+    left: 98px;
+    width: 588px;
+    height: 98px;
+    line-height: 1.1em; } }
 /* Discourse Stuff for Front Page */
 .conversation-row {
   margin-top: 36px;
