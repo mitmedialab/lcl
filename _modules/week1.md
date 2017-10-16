@@ -49,7 +49,7 @@ make-share:
     1. Read Seymour Papert’s essay on [Gears of My Childhood]( ../../resources/activity/week1/gears-v1.pdf) 
     <br/><i class="fa fa-globe mr-2" aria-hidden="true"></i> also available in [Italiano (Italian)]( ../../resources/activity/week1/gears-v1.it.pdf), [日本語 (Japanese)]( ../../resources/activity/week1/gears-v1.ja.pdf), [Português (Portuguese)]( ../../resources/activity/week1/gears-v1.pt.pdf), [Español (Spanish)]( ../../resources/activity/week1/gears-v1.es.pdf)
     
-    2. Think about an object from your childhood that interested and influenced you
+    2. Think about an object from your childhood that interested and influenced you. What was special about it? How did it affect the way you think and learn?
     
     3. Go to the [discussion forum](http://lcl-discuss.media.mit.edu) to see other people's objects
     
@@ -75,7 +75,7 @@ reflect:
 
       We'd love to hear: 
 
-      ##### **Which one among the 4P's (Projects, Passion, Peers and Play) are you particularly curious or excited about, and why?** #####
+      <p class="ml-4"><strong>Which one among the 4P's (Projects, Passion, Peers and Play) are you particularly curious or excited about, and why?</strong></p>
 
       Feel free to start new conversations and play with other ideas: for example imagining the kindergarten approach in your learning environment, or sharing a favorite quote from the week's readings and explaining why it resonates with you.
       
@@ -86,7 +86,8 @@ meet:
     unhangout-link: https://unhangout.media.mit.edu/event/lcl-week1/
     prompt: |
       Would you like to meet the LCL team and the rest of the community?
-      We are hosting two video calls on Tuesday October 24th - one at 9am EST and another one at 4pm EST.
+
+      We are hosting two video calls on Tuesday October 24th - one at 9am EST and another one at 5pm EST.
       
       We'd love to see you there!
 
