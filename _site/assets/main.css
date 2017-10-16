@@ -22,6 +22,10 @@ p {
 .row {
   margin: 0; }
 
+.disabled {
+  pointer-events: none;
+  cursor: default; }
+
 .lead {
   font-weight: 400; }
 
@@ -40,7 +44,7 @@ p {
   line-height: 0.9em; }
 
 .footer {
-  margin-top: 37px;
+  margin-top: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
   min-height: 333px;
