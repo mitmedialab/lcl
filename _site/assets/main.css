@@ -229,6 +229,9 @@ body > .container-pad-top {
 .post-mod-1 {
   transform: rotate(5deg); }
 
+.emoji {
+  height: 1em; }
+
 .speech-bubble {
   position: relative;
   padding: 15px;
