@@ -24,7 +24,11 @@
 					var content = post.cooked;
 					var avatar = 'http://lcl-discuss.media.mit.edu' + post.avatar_template.replace('{size}', '120');
 
-					htmlToAppend += '<div class="row discourse-post"><div class="col-md-3 text-right"><img class="post-avatar" src="' + avatar +'" /></div><div class="col-md-9"><div class="speech-bubble"><div class="post-title">' + username + ' posted in ' + topic + '</div><div class="post-content-box"><div class="post-content">' + content + '</div></div></div></div></div>';
+					var mod = i % 2;
+					var pos = mod == 0 ? "2" : "6";
+
+
+					htmlToAppend += '<div class="row discourse-post post-mod-' + mod + '"><div class="col-md-' + pos + ' text-right"><img class="post-avatar" src="' + avatar +'" /></div><div class="col-md-6"><div class="speech-bubble"><div class="post-title">' + username + ' posted in ' + topic + '</div><div class="post-content-box"><div class="post-content">' + content + '</div></div></div></div></div>';
 				}
 				$('#discourse-posts').append(htmlToAppend);
 			}

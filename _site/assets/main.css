@@ -19,6 +19,9 @@ p {
   line-height: 1.7em;
   font-size: 17px; }
 
+.row {
+  margin: 0; }
+
 .lead {
   font-weight: 400; }
 
@@ -97,8 +100,8 @@ body > .container-pad-top {
   padding-bottom: 3px;
   padding-left: 5px; }
 
-.map-row {
-  height: 100vh; }
+.front-page-map-row {
+  height: 80vh; }
 
 #first-time-peg-1 {
   position: relative;
@@ -213,6 +216,12 @@ body > .container-pad-top {
   margin-top: 60px;
   margin-bottom: 60px; }
 
+.post-mod-0 {
+  transform: rotate(-5deg); }
+
+.post-mod-1 {
+  transform: rotate(5deg); }
+
 .speech-bubble {
   position: relative;
   padding: 15px;
@@ -220,15 +229,18 @@ body > .container-pad-top {
   min-height: 160px;
   border-radius: 10px; }
   .speech-bubble .post-title {
-    font-size: 22px;
+    font-size: 20px;
     padding-left: 10px; }
   .speech-bubble .post-content-box {
     position: relative; }
   .speech-bubble .post-content {
-    font-size: 18px;
+    font-size: 12px;
     margin-top: 16px;
     padding-left: 42px;
     padding-right: 42px; }
+    .speech-bubble .post-content p {
+      font-size: 16px;
+      line-height: 1.2em; }
   .speech-bubble .post-content:before {
     content: "\201C";
     position: absolute;
@@ -242,16 +254,16 @@ body > .container-pad-top {
   content: "";
   display: block;
   position: absolute;
-  left: -35px;
-  top: 40px;
+  left: -25px;
+  top: 20px;
   background-color: transparent;
-  border-width: 40px 35px 40px 0;
+  border-width: 30px 25px 30px 0;
   border-style: solid;
   border-color: transparent white; }
 
 .post-avatar {
-  width: 120px;
-  height: 120px;
-  border-radius: 60px;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
   margin-top: 20px;
-  margin-right: 30px; }
+  margin-right: 10px; }
