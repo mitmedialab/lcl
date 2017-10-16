@@ -73,13 +73,11 @@ reflect:
 
       This week we are going to reflect on the core ideas of Creative Learning by playing with the 4P's.
 
-      We'd love to hear: 
+      We'd love to hear:
 
       <p class="ml-4"><strong>Which one among the 4P's (Projects, Passion, Peers and Play) are you particularly curious or excited about, and why?</strong></p>
 
       Feel free to start new conversations and play with other ideas: for example imagining the kindergarten approach in your learning environment, or sharing a favorite quote from the week's readings and explaining why it resonates with you.
-      
-      We'd love to hear your thoughts!
 
 
 meet:
