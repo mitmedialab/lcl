@@ -24,10 +24,18 @@ layout: default
 			{% include discuss-and-reflect.html %}
 		</div>
 
-	    <div class="col-sm-10 bg-grey p-4 mt-5">
-		    <h2 class="font-weight-bold mt-4 mb-4 text-center">Meet & Chat</h2>
-		    {% assign me = page.meet %}
-	    	{% include meet-and-chat.html %}
-	    </div>
+	  <div class="col-sm-10 bg-grey p-4 mt-5">
+	    <h2 class="font-weight-bold mt-4 mb-4 text-center">Meet & Chat</h2>
+	    {% assign me = page.meet %}
+	  	{% include meet-and-chat.html %}
+	  </div>
+
+		<div class="col-sm-10 p-4 mt-5">
+	    <h2 class="font-weight-bold mt-4 mb-4 text-center">Offline Materials</h2>
+	    {% assign dl = page.download %}
+	  	{% include download.html %}
+	  </div>
+
+
 	</div> <!-- row -->
 </div> <!-- container -->

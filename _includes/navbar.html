@@ -31,8 +31,11 @@
               <a class="dropdown-item" href="{{ site.baseurl }}{% link get-started.md %}">Getting Started</a>
               <div class="dropdown-divider"></div>
               {% for module in site.modules %}
-                <a class="dropdown-item" href="{{ site.baseurl }}{{ module.url }}">{{module.navbar-name}}
-                  {% if site.current-module == module.id %}<span class="badge badge-primary ml-2">Current</span>{% endif %}
+                <a class="dropdown-item" href="{{ site.baseurl }}{{ module.url }}">
+                  {{module.navbar-name}}
+                  {% if site.current-module == module.id %}
+                    <img id="current-week-indicator" src="{{ site.baseurl }}/images/peg_blue.svg" />
+                  {% endif %}
                 </a>
               {% endfor %}
             </div>
