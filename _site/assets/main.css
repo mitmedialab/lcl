@@ -19,6 +19,13 @@ p {
   line-height: 1.7em;
   font-size: 17px; }
 
+.row {
+  margin: 0; }
+
+.disabled {
+  pointer-events: none;
+  cursor: default; }
+
 .lead {
   font-weight: 400; }
 
@@ -37,16 +44,19 @@ p {
   line-height: 0.9em; }
 
 .footer {
-  margin-top: 37px;
+  margin-top: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
   min-height: 333px;
   background-color: #f0f4f6; }
 
-body > .container, .container-fluid {
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-bottom: 0; }
+.grey-row {
+  background-color: #f0f4f6; }
+
+.container, .container-fluid {
+  margin: 0;
+  padding: 0;
+  max-width: none; }
 
 body > .container-pad-top {
   padding-top: 86px; }
@@ -80,6 +90,187 @@ body > .container-pad-top {
   margin: 8px 0; }
   #get-started-list > li .list-unstyled {
     font-weight: normal; }
+
+.front-page-callout {
+  font-size: 28px;
+  margin-bottom: 12px; }
+
+.front-page-list-item {
+  font-size: 20px; }
+
+.front-page-current-indicator {
+  width: 22px;
+  height: 22px;
+  padding-bottom: 3px;
+  padding-left: 5px; }
+
+.front-page-map-row {
+  height: 80vh; }
+
+#first-time-peg-1 {
+  position: relative;
+  top: 149px; }
+
+#first-time-peg-2 {
+  position: relative;
+  top: 100px; }
+
+#footer-peg-1 {
+  position: relative;
+  top: 11px;
+  left: 49px; }
+
+#footer-peg-2 {
+  position: relative;
+  top: 60px; }
+
+#footer-peg-3 {
+  position: relative;
+  top: 60px; }
+
+#footer-peg-4 {
+  position: relative;
+  top: 109px; }
+
+/* Peg grid experiment */
+#peg-grid {
+  position: relative;
+  background-color: #000;
+  width: 100%;
+  height: 441px;
+  overflow: hidden;
+  margin-bottom: 30px; }
+
+#peg-grid-overflow {
+  width: 3000px;
+  height: 100%; }
+
+.peg {
+  width: 49px;
+  height: 49px;
+  margin: 0;
+  padding: 0; }
+
+#peg-grid-title {
+  position: absolute;
+  top: 98px;
+  left: 245px;
+  width: 490px;
+  height: 98px;
+  padding-left: 29px;
+  padding-top: 20px;
+  font-size: 36px;
+  font-weight: bold;
+  background-color: black;
+  color: white; }
+
+#peg-grid-subtitle {
+  position: absolute;
+  top: 245px;
+  left: 245px;
+  width: 637px;
+  height: 98px;
+  padding-left: 29px;
+  padding-top: 13px;
+  font-size: 22px;
+  background-color: black;
+  color: white; }
+
+@media (max-width: 767px) {
+  #peg-grid-title {
+    top: 49px;
+    left: 49px;
+    width: 196px;
+    height: 147px;
+    padding-top: 13px;
+    line-height: 1.1em;
+    padding-left: 21px; }
+
+  #peg-grid-subtitle {
+    top: 245px;
+    left: 49px;
+    width: 343px;
+    height: 147px;
+    line-height: 1.1em;
+    padding-left: 21px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  #peg-grid-title {
+    top: 98px;
+    left: 98px;
+    width: 490px;
+    height: 98px; }
+
+  #peg-grid-subtitle {
+    top: 245px;
+    left: 98px;
+    width: 588px;
+    height: 98px;
+    line-height: 1.1em; } }
+/* Discourse Stuff for Front Page */
+.conversation-row {
+  margin-top: 36px;
+  padding-top: 30px;
+  padding-bottom: 60px; }
+
+.conversation-title {
+  padding-top: 10px;
+  margin-bottom: 30px; }
+
+.discourse-post {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+
+.post-mod-0 {
+  transform: rotate(-5deg); }
+
+.post-mod-1 {
+  transform: rotate(5deg); }
+
+.speech-bubble {
+  position: relative;
+  padding: 15px;
+  background-color: white;
+  min-height: 160px;
+  border-radius: 10px; }
+  .speech-bubble .post-title {
+    font-size: 20px;
+    padding-left: 10px; }
+  .speech-bubble .post-content-box {
+    position: relative; }
+  .speech-bubble .post-content {
+    font-size: 12px;
+    margin-top: 16px;
+    padding-left: 42px;
+    padding-right: 42px; }
+    .speech-bubble .post-content p {
+      font-size: 16px;
+      line-height: 1.2em; }
+  .speech-bubble .post-content:before {
+    content: "\201C";
+    position: absolute;
+    display: block;
+    top: -36px;
+    left: 14px;
+    font-size: 72px;
+    color: #e0e8ec; }
+
+.speech-bubble:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -25px;
+  top: 20px;
+  background-color: transparent;
+  border-width: 30px 25px 30px 0;
+  border-style: solid;
+  border-color: transparent white; }
+
+.post-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-right: 10px; }
 
 #current-week-indicator {
   width: 16px;
