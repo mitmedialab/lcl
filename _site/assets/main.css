@@ -67,6 +67,9 @@ body > .container-pad-top {
   padding-left: 55px;
   padding-bottom: 37px; }
 
+.navbar-lcl-logo {
+  margin-left: 30px; }
+
 .peg-background {
   background-color: transparent;
   background-image: url("/lcl-staging-jekyll/images/peg_pattern.svg");
