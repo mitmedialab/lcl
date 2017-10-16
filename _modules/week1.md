@@ -12,21 +12,21 @@ watch-read:
       - link: https://www.youtube.com/embed/ftxQXXw82uI?rel=0&cc_load_policy=1
         title: Introduction to Creative Learning
         desc: In this video, Mitch Resnick introduces the core ideas of creative learning and how those ideas are inspired by the way children learn in kindergarten.
-        download-link: ../../videos/1-intro.mp4
+        download-link:  ../../resources/videos/1-intro.mp4
         show-subtitle-hint: true
 
   readings:
-      - link: ../../readings/chapter1-excerpt.pdf
+      - link:  ../../resources/readings/chapter1-excerpt.pdf
         name: Lifelong Kindergarten - Chapter 1 (excerpts)
         title: Readings
         desc: Learn more about the big ideas of creative learning including the four P's and the creative learning spiral.
         lang_links:
           - language: Italiano (Italian)
-            link: ../../readings/llk-1.it.pdf
+            link:  ../../resources/readings/llk-1.it.pdf
           - language: עברית (Hebrew)
-            link: ../../readings/llk-1.he.pdf
+            link:  ../../resources/readings/llk-1.he.pdf
           - language: 日本語 (Japanese)
-            link: ../../readings/llk-1.ja.pdf
+            link:  ../../resources/readings/llk-1.ja.pdf
 
   think-prompt: false
 
@@ -46,8 +46,8 @@ make-share:
   activity-desc: |
     Here are the steps for this activity
 
-    1. Read Seymour Papert’s essay on [Gears of My Childhood](../../activity/week1/gears.pdf) 
-    <br/><i class="fa fa-globe mr-2" aria-hidden="true"></i> also available in [Italiano (Italian)](../../activity/week1/gears.it.pdf), [日本語 (Japanese)](../../activity/week1/gears.ja.pdf), [Português (Portuguese)](../../activity/week1/gears.pt.pdf), [Español (Spanish)](../../activity/week1/gears.es.pdf)
+    1. Read Seymour Papert’s essay on [Gears of My Childhood]( ../../resources/activity/week1/gears-v1.pdf) 
+    <br/><i class="fa fa-globe mr-2" aria-hidden="true"></i> also available in [Italiano (Italian)]( ../../resources/activity/week1/gears-v1.it.pdf), [日本語 (Japanese)]( ../../resources/activity/week1/gears-v1.ja.pdf), [Português (Portuguese)]( ../../resources/activity/week1/gears-v1.pt.pdf), [Español (Spanish)]( ../../resources/activity/week1/gears-v1.es.pdf)
     
     2. Think about an object from your childhood that interested and influenced you
     
@@ -58,7 +58,7 @@ make-share:
 
   video:
     link: https://www.youtube.com/embed/AqZEKy8AiYY?rel=0&cc_load_policy=1
-    download-link: ../../videos/1-activity.mp4
+    download-link:  ../../resources/videos/1-activity.mp4
     title: Childhood Object
     desc: |
       This week we invite you to share a childhood object with the community.
@@ -95,5 +95,5 @@ meet:
 download:
     prompt: |
       You can get this week's videos, subtitles, and readings in a single zip file for offline use.
-    zipfile-link: ../../week1.zip
+    zipfile-link:  ../../resources/week1.zip
 ---
