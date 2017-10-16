@@ -135,6 +135,10 @@ body > .container-pad-top {
   position: relative;
   top: 109px; }
 
+.week-page-title-peg {
+  height: 0.7em;
+  vertical-align: baseline; }
+
 /* Peg grid experiment */
 #peg-grid {
   position: relative;

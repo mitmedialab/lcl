@@ -12,5 +12,8 @@
 		{% if video.show-subtitle-hint %}
 			<small class="text-muted"><i class="fa fa-globe mr-1" aria-hidden="true"></i>Subtitles are available in multiple languages.</small>
 		{% endif%}
+		{% if video.download-link %}
+			<p><small class="text-muted"><a href="{{video.download-link}}"><i class="fa fa-download mr-1" aria-hidden="true"></i>Download this video</a></small></p>
+		{% endif %}
 	</div>
 </div>
