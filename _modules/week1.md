@@ -71,16 +71,15 @@ reflect:
     title:
     discussion-prompt: |
 
-      Think about the ideas of this week and share your thoughts with others, using the discussion forum and/or talking with your friends and colleagues in person if you are hosting a local meet-up.
-      
-      We invite you to start reflecting by picking one of the P's (Projects, Passion, Peers, and Play) and explaining why it is particularly important for you.
-      
-      * Which one is your favorite P - and why? 
-      (Don't take this questions too seriously, we know all of them are important!)
+      This week we are going to reflect on the core ideas of Creative Learning by playing with the 4P's.
 
-      Other ways to reflect this week could include a discussion about A and X students, imagining the kindergarten approach in your learning environment, or sharing a favorite quote from the week's readings and explaining why it resonates with you.
+      We'd love to hear: 
+
+      ##### **Which one among the 4P's (Projects, Passion, Peers and Play) are you particularly curious or excited about, and why?** #####
+
+      Feel free to start new conversations and play with other ideas: for example imagining the kindergarten approach in your learning environment, or sharing a favorite quote from the week's readings and explaining why it resonates with you.
       
-      Ask your own questions, reply to other people's and start new conversations. We'd love to hear your ideas!
+      We'd love to hear your thoughts!
 
 
 meet:
