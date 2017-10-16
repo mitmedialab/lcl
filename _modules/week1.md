@@ -23,8 +23,8 @@ watch-read:
         lang_links:
           - language: Italiano (Italian)
             link:  ../../resources/readings/llk-1.it.pdf
-          - language: עברית (Hebrew)
-            link:  ../../resources/readings/llk-1.he.pdf
+          - language: Português (Portuguese)
+            link:  ../../resources/readings/chapter1-excerpt.pt.pdf
           - language: 日本語 (Japanese)
             link:  ../../resources/readings/llk-1.ja.pdf
 
