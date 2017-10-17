@@ -22,11 +22,11 @@ watch-read:
         desc: Learn more about the big ideas of creative learning including the four P's and the creative learning spiral.
         lang_links:
           - language: Italiano (Italian)
-            link:  ../../resources/readings/llk-1.it.pdf
+            link:  ../../resources/readings/chapter1-excerpt.it.pdf
           - language: Português (Portuguese)
             link:  ../../resources/readings/chapter1-excerpt.pt.pdf
           - language: 日本語 (Japanese)
-            link:  ../../resources/readings/llk-1.ja.pdf
+            link:  ../../resources/readings/chapter1-excerpt.ja.pdf
 
   think-prompt: false
 
@@ -47,7 +47,7 @@ make-share:
     Here are the steps for this activity
 
     1. Read Seymour Papert’s essay on [Gears of My Childhood]( ../../resources/activity/week1/gears-v1.pdf) 
-    <br/><i class="fa fa-globe mr-2" aria-hidden="true"></i> also available in [Italiano (Italian)]( ../../resources/activity/week1/gears-v1.it.pdf), [日本語 (Japanese)]( ../../resources/activity/week1/gears-v1.ja.pdf), [Português (Portuguese)]( ../../resources/activity/week1/gears-v1.pt.pdf), [Español (Spanish)]( ../../resources/activity/week1/gears-v1.es.pdf)
+    <br/><i class="fa fa-globe mr-2" aria-hidden="true"></i> also available in [Italiano (Italian)]( ../../resources/activity/week1/gears-v1.it.pdf), [Português (Portuguese)]( ../../resources/activity/week1/gears-v1.pt.pdf), [Español (Spanish)]( ../../resources/activity/week1/gears-v1.es.pdf), [日本語 (Japanese)]( ../../resources/activity/week1/gears-v1.ja.pdf)
     
     2. Think about an object from your childhood that interested and influenced you. What was special about it? How did it affect the way you think and learn?
     
