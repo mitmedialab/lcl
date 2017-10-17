@@ -5,7 +5,7 @@ layout: default
 {% include components/title.html %}
 
 <div class="container">
-	<div class="row justify-content-center">
+	<div id="watch-and-read" class="row justify-content-center">
 		<div class="col-sm-10">
 			{% assign title = "Watch & Read" %}
 			{% assign color = "green" %}
@@ -15,7 +15,7 @@ layout: default
 		  {% include watch-and-read.html %}
 		</div>
 
-		<div class="col-sm-10">
+		<div id="make-and-share" class="col-sm-10">
 			{% assign title = "Make & Share" %}
 			{% assign color = "blue" %}
 			{% include components/section-title.html %}
@@ -24,7 +24,7 @@ layout: default
 			{% include make-and-share.html %}
 		</div>
 
-		<div class="col-sm-10">
+		<div id="reflect-and-discuss" class="col-sm-10">
 			{% assign title = "Reflect & Discuss" %}
 			{% assign color = "red" %}
 			{% include components/section-title.html %}
@@ -33,7 +33,7 @@ layout: default
 			{% include discuss-and-reflect.html %}
 		</div>
 
-	  <div class="col-sm-10 bg-grey p-4 mt-5">
+	  <div id="meet-and-chat" class="col-sm-10 bg-grey p-4 mt-5">
 	    {% assign title = "Meet & Chat" %}
 			{% assign color = "yellow" %}
 			{% include components/section-title.html %}
@@ -42,7 +42,7 @@ layout: default
 	  	{% include meet-and-chat.html %}
 	  </div>
 
-		<div class="col-sm-10 p-4 mt-5">
+		<div id="offline-materials" class="col-sm-10 p-4 mt-5">
 			{% assign title = "Offline Materials" %}
 			{% assign color = "green" %}
 			{% include components/section-title.html %}

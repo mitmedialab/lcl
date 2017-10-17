@@ -16,7 +16,7 @@
           <li class="nav-item btn">
             <a class="nav-link" href="http://lcl-discuss.media.mit.edu">Forum</a>
           </li>
-          <li class="nav-item btn bg-grey font-weight-bold dropdown {% if current[1] == 'modules' %}active{% endif %}">
+          <li class="nav-item btn bg-grey font-weight-bold dropdown {% if current[1] == 'weeks' %}active{% endif %}">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
               {% if page.navbar-name %}
                 {{page.navbar-name}}
@@ -27,10 +27,10 @@
             <div class="dropdown-menu dropdown-menu-right">
               <a class="dropdown-item" href="{{ site.baseurl }}{% link get-started.md %}">Getting Started</a>
               <div class="dropdown-divider"></div>
-              {% for module in site.modules %}
-                <a class="dropdown-item" href="{{ site.baseurl }}{{ module.url }}">
-                  {{module.navbar-name}}
-                  {% if site.current-module == module.id %}
+              {% for week in site.weeks %}
+                <a class="dropdown-item" href="{{ site.baseurl }}{{ week.url }}">
+                  {{week.navbar-name}}
+                  {% if site.current-week == week.id %}
                     <img id="current-week-indicator" src="{{ site.baseurl }}/images/peg_blue.svg" />
                   {% endif %}
                 </a>

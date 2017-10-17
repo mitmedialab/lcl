@@ -23,10 +23,10 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/lcl-staging-jekyll" # the subpath of your site, e.g. /blog
 url: "http://learn.media.mit.edu" # the base hostname & protocol for your site, e.g. http://example.com
 
-current-module: '/modules/week1'
+current-module: '/weeks/week1'
 
 collections:
-  modules:
+  weeks:
     output: true
 
 # Build settings
