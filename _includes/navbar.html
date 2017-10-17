@@ -27,14 +27,15 @@
             <div class="dropdown-menu dropdown-menu-right">
               <a class="dropdown-item" href="{{ site.baseurl }}{% link get-started.md %}">Getting Started</a>
               <div class="dropdown-divider"></div>
-              {% for week in site.weeks %}
-                <a class="dropdown-item" href="{{ site.baseurl }}{{ week.url }}">
-                  {{week.navbar-name}}
-                  {% if site.current-week == week.id %}
+                <a class="dropdown-item" href="{{ site.baseurl }}{{ weeks/week1.md }}">
+                    1 - Introduction
                     <img id="current-week-indicator" src="{{ site.baseurl }}/images/peg_blue.svg" />
-                  {% endif %}
                 </a>
-              {% endfor %}
+                <a class="dropdown-item disabled" href="#">2 - Projects</a>
+                <a class="dropdown-item disabled" href="#">3 - Passion</a>
+                <a class="dropdown-item disabled" href="#">4 - Peers</a>
+                <a class="dropdown-item disabled" href="#">5 - Play</a>
+                <a class="dropdown-item disabled" href="#">6 - Creative Society</a>
             </div>
           </li>
         </ul>
