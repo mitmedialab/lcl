@@ -75,7 +75,7 @@ body > .container-pad-top {
 
 .peg-background {
   background-color: transparent;
-  background-image: url("/lcl-staging-jekyll/images/peg_pattern.svg");
+  background-image: url("/lcl-test/images/peg_pattern.svg");
   background-size: 1489px;
   position: relative;
   top: 30px;
