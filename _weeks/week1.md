@@ -12,7 +12,7 @@ watch-read:
       - link: https://www.youtube.com/embed/zALGoSjIvAY?rel=0&cc_load_policy=1
         title: Introduction to Creative Learning
         desc: In this video, Mitch Resnick introduces the core ideas of creative learning and how those ideas are inspired by the way children learn in kindergarten.
-        download-link:  ../../resources/videos/1-intro.mp4
+        download-link:  https://drive.google.com/open?id=0B3VgW3YdW0UKQWM4OVRCODdOY1k
         show-subtitle-hint: true
 
   readings:
@@ -58,7 +58,7 @@ make-share:
 
   video:
     link: https://www.youtube.com/embed/YeJRW7dBoM0?rel=0&cc_load_policy=1
-    download-link:  ../../resources/videos/1-activity.mp4
+    download-link:  https://drive.google.com/open?id=0B3VgW3YdW0UKN2dpbW5hcWg0alk
     title: Childhood Object
     desc: |
       This week we invite you to share a childhood object with the community.
@@ -93,5 +93,5 @@ meet:
 download:
     prompt: |
       You can get this week's videos, subtitles, and readings in a single zip file for offline use.
-    zipfile-link:  ../../resources/week1.zip
+    zipfile-link:  https://drive.google.com/open?id=0B3VgW3YdW0UKcmN4LWpxbzlUYm8
 ---
