@@ -106,10 +106,6 @@ body > .container-pad-top {
 #module-nav{
 	top: 90px;
 }
-.map{
-  position: relative;
-  height: 100vh;
-}
 #get-started-list>li {
   font-weight: bold;
   margin: 8px 0;
@@ -134,16 +130,8 @@ body > .container-pad-top {
   padding-left: 5px;
 }
 
-.front-page-map-row {
-  height: 80vh;
-}
-
-#front-page-map-title {
-  padding: 10px 30px;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 30px);
-  background-color: rgba(255, 255, 255, 0.8);
+#map-container {
+  min-height: 600px;
 }
 
 #first-time-peg-1 {
