@@ -107,6 +107,7 @@ body > .container-pad-top {
 	top: 90px;
 }
 .map{
+  position: relative;
   height: 100vh;
 }
 #get-started-list>li {
@@ -135,6 +136,14 @@ body > .container-pad-top {
 
 .front-page-map-row {
   height: 80vh;
+}
+
+#front-page-map-title {
+  padding: 10px 30px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 30px);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 #first-time-peg-1 {
