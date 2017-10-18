@@ -11,8 +11,9 @@
 		$.ajax({
 			url: 'http://lcl-discuss.media.mit.edu/posts.json',
 			success: function(data) {
-				// var jsonData = JSON.parse(data);
-				var posts = data.latest_posts;
+				var posts = data.latest_posts.filter(function(post) {
+					return post.action_code == undefined;
+				});
 
 				var htmlToAppend = '';
 
