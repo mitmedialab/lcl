@@ -1,95 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="./favicon.png">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta property="og:url" content="http://learn.media.mit.edu/lcl/">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Learning Creative learning">
-    <meta property="og:description" content="Join a community of educators, designers, and tinkerers exploring how to support creative learning through projects, passion, peers, and play">
-    <meta property="og:image" content="http://learn.media.mit.edu/lcl/lcl-image.png">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="962">
-    <meta property="og:image:height" content="563">
+  <title>Learning Creative Learning</title>
+  <meta name="author" content="MIT Media Lab">
+  <meta name="description" content="We&#39;re a community of educators, designers, and tinkerers exploring how to support creative learning through projects, passion, peers, and play.">
 
-    <title>Learning Creative Learning</title>
+  <!-- open graph stuff --> 
+  <meta property="og:url" content="http://localhost:4000/lcl/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Learning Creative Learning">
+  <meta property="og:description" content="We&#39;re a community of educators, designers, and tinkerers exploring how to support creative learning through projects, passion, peers, and play.">
+  <meta property="og:image" content="/lcl/images/lcl-image.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="962">
+  <meta property="og:image:height" content="563">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-    <!--<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">-->
-    <!-- Custom styles for this template -->
-    <link href="./styles.css" rel="stylesheet">
-    <script type="text/javascript">window.liveSettings={api_key:"ddd65cab1c8f4bf0924ad1a18534da75"}</script>
-    <script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
-  </head>
-  
+  <link rel="icon" href="/lcl/images/favicon.ico">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <!-- Font --> 
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="/lcl/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/lcl/">
+  <link rel="alternate" type="application/rss+xml" title="Learning Creative Learning" href="/lcl/feed.xml">
+  <script type="text/javascript">window.liveSettings={api_key:"ddd65cab1c8f4bf0924ad1a18534da75"}</script>
+  <script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+  <!-- Global Site Tag (gtag.js) - Google Analytics - DO NOT CHANGE-->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106500697-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-106500697-1');
+</script>
+
+</head>
+
+
   <body>
-    <div class="container-fluid main-container d-flex flex-column justify-content-center">
-      <div class="card align-self-center text-center m-4">
-        <div class="card-body m-4" id="main-card">
-          <h1 class="font-weight-bold mt-3">Learning Creative Learning</h1>
-          <h2 class="lead mt-1">A Lifelong Kindergarten Course and Community</h2>
-          <hr class="mt-5"/>
-          <p class="mt-3 mb-4 p-2">
-            Join a community of educators, designers, and tinkerers exploring how to support creative learning through projects, passion, peers, and play
-          </p>
-          <div class="embed-responsive embed-responsive-16by9 my-3 border-0 rounded m-auto" id="trailer-video">
-            <iframe id="video-iframe" src="https://www.youtube.com/embed/hPFZUMQfzac?rel=0&cc_load_policy=1" allowfullscreen></iframe>
-          </div>
-          <h4 class="my-3 mt-5">Course starts October 18<br>but you can sign up now - <b>it's free!</b></h4> 
-          
-          <!-- Begin MailChimp Signup Form -->
-          <div id="mc_embed_signup" class="m-auto">
-            <form action="https://mit.us16.list-manage.com/subscribe/post?u=d4055f9dadb47752210df2aa0&amp;id=75be5c6ad6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-              <div class="form-group" id="mc_embed_signup_scroll">
-                <input type="email" name="EMAIL" class="form-control email inputlg mt-4 text-center" id="mce-EMAIL" aria-describedby="emailHelp" placeholder="email address" required>
-                <small id="emailHelp" class="form-text text-muted">Sign up to get messages about the course</small>
-                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d4055f9dadb47752210df2aa0_75be5c6ad6" tabindex="-1" value=""></div>
-                <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-lg mt-4">Sign up</button>
-              </div>
-            </form>
-          </div>
-          <!--End mc_embed_signup-->
-          <hr class="mt-4"/>
 
-          <h4 class="my-3 mt-5">Have questions?</h4>
-          <p class="mt-3 p-2">
-             Learn more about the course: <br/> how it will work, what to expect, and who is organizing it.
-          </p>
-          <a href="about.html" class="btn btn-outline-primary btn-lg mt-2">Find out more</a>
-
-          <hr class="mt-4"/>
-          <p class="mb-0"><small>Playfully created by the <a href="https://llk.media.mit.edu" target="_blank">Lifelong Kindergarten Group</a> and the <a href="http://learn.media.mit.edu" target="_blank">Learning Initiative</a> at <a href="https://www.media.mit.edu/" target="_blank">MIT Media Lab</a></small></p>
-        </div> 
-      </div>
-    </div>
+    
+      
     
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, Bootstrap JS, MailChimp, Google Analytics -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
-    <!-- Global Site Tag (gtag.js) - Google Analytics - DO NOT CHANGE-->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106500697-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments)};
-      gtag('js', new Date());
+    <div class="container-fluid"">
+      <script type="text/javascript" src="/lcl/assets/pegs.js"></script>
+<!--<script type="text/javascript" src="/lcl/assets/discourse-posts.js"></script>-->
 
-      gtag('config', 'UA-106500697-1');
-    </script>
+<div id="peg-grid">
+	<div id="peg-grid-overflow">
+		<!-- Populated by pegs.js -->
+	</div>
+	<div id="peg-grid-title">Learning Creative Learning</div>
+	<div id="peg-grid-subtitle">A community of educators, designers, and tinkerers exploring creative learning through projects, passion, peers, and play</div>
+</div>
 
-    <script type="text/javascript" src="script.js"></script>
 
+<div class="container">
+	<div class="row justify-content-center">
+		<div class="col-md-4 text-center">
+			<div class="front-page-callout">First time here?</div>
+			<a href="/lcl/get-started/" class="btn btn-lg btn-block btn-primary">Get Started</a>
+			<img id="first-time-peg-1" src="/lcl/images/peg_yellow.svg" />
+			<img id="first-time-peg-2" src="/lcl/images/peg_green.svg" />
+		</div>
+		<div class="col-md-1"></div>
+		<div class="col-md-4">
+			<div class="front-page-callout text-center">Explore Creative Learning!</div>
+			<div class="list-group">
+			  <a href="/lcl/weeks/week1" class="list-group-item front-page-list-item">Week 1 - Introduction<img class="front-page-current-indicator" src="/lcl/images/peg_blue.svg" /></a>
+			  <a href="#" class="list-group-item front-page-list-item list-group-item-action disabled">Week 2 - Projects</a>
+			  <a href="#" class="list-group-item front-page-list-item list-group-item-action disabled">Week 3 - Passion</a>
+			  <a href="#" class="list-group-item front-page-list-item list-group-item-action disabled">Week 4 - Peers</a>
+			  <a href="#" class="list-group-item front-page-list-item list-group-item-action disabled">Week 5 - Play</a>
+			  <a href="#" class="list-group-item front-page-list-item list-group-item-action disabled">Week 6 - Creative Society</a>
+			</div>
+		</div>
+	</div>
+	<div class="row justify-content-end">
+		<div class="col-md-4">
+			<img id="footer-peg-1" src="/lcl/images/peg_yellow.svg" />
+			<img id="footer-peg-2" src="/lcl/images/peg_blue.svg" />
+			<img id="footer-peg-3" src="/lcl/images/peg_red.svg" />
+			<img id="footer-peg-4" src="/lcl/images/peg_green.svg" />
+		</div>
+	</div>
+	<div class="row justify-content-center grey-row conversation-row">
+		<div class="col-md-10">
+			<div class="row justify-content-center conversation-title">
+				<h2>Join the Conversation</h2>
+      </div>
+      <!--<div id="discourse-posts">-->
+          <!-- Generated by discourse-posts.js -->
+      <!--</div>-->
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+            <a href="http://lcl-discuss.media.mit.edu"; class="btn btn-primary btn-lg btn-block">Discussion Forum</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="map" class="row justify-content-center">
+		<h2 class="my-5 col-md-10 text-center">Global Community</h2>
+		<p class="col-md-10 text-center">To add yourself to the map, click the + sign at the top right</p>
+		<div id="map-container" class="col-md-12 mb-5">
+			<iframe frameborder=0 style='width:100%;height:100%' src='//www.zeemaps.com/pub?group=2723786&search=1&list=1&shuttered=1&add=1&x=-7.085654&y=25.905357&z=15'> </iframe>
+		</div>
+	</div>
+</div>
+
+
+    </div>
+
+    <footer class="footer">
+	<div class="container mx-auto">
+		<h6 class="font-weight-bold col-md-2 col-6">Helpful Links</h6>
+		<div class="row">
+			<div class="col-md-2 col-6">
+				<p class="mb-2"><a href="/lcl/about/">About</a></p>
+				<p class="mb-2"><a href="/lcl/faq/">Frequently Asked Questions</a></p>
+				<p class="mb-2"><a href="http://lcl-discuss.media.mit.edu">Forum</a></p>
+			</div>
+			<div class="col-md-5 col-6">
+				<p class="mb-2"><a href="/lcl/#map">Map</a></p>
+				<p class="mb-2"><a href="https://www.facebook.com/LearningCreativeLearning/">Facebook</a></p>
+			</div>
+		</div>
+		<div class="text-center mt-5">
+			<small class="text-muted">Playfully created by the <a href="https://llk.media.mit.edu" target="_blank">Lifelong Kindergarten Group</a> and the <a href="http://learn.media.mit.edu" target="_blank">Learning Initiative</a> at <a href="https://www.media.mit.edu/" target="_blank">MIT Media Lab</a>.</small>
+			<br>
+			<small class="text-muted">All materials licensed under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 license</a>, unless otherwise noted.</small>
+		</div>
+	</div>
+</footer>
+
+<!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   </body>
+
 </html>
