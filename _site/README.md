@@ -1,2 +1,4 @@
-# lcl-staging-jekyll
-Jekyll Version of lcl-staging (not connected in any way to lcl-staging)
+# Learning Creative Learning
+
+This repository generates the official website for Learning Creative Learning (LCL). 
+<br> You can visit the site here > http://learn.media.mit.edu/lcl
