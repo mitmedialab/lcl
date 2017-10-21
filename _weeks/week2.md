@@ -29,7 +29,7 @@ watch-read:
             link:  ../../resources/readings/chapter2-excerpt.ja.pdf?pdf=ch2-ja
 
 make-share:
-  forum-link: http://lcl-discuss.media.mit.edu/t/week-1-activity-childhood-objects/22
+  forum-link: http://lcl-discuss.media.mit.edu/t/week-2-activity-animate-a-name/192
   forum-button-text: Animate a Name
 
   activity-title: Animate a Name
@@ -38,11 +38,9 @@ make-share:
 
   activity-desc: |
     In this activity you will
-      * Make a Project with Scratch
-      ** First timer? No worries!
-      * Share it with the community
-      ** See what other people are making
-
+    * Make a project with Scratch
+    * Share your project (and your process!) with the community
+    * Learn more about Scratch, and discover resources to get started
 
   video:
     link: https://www.youtube.com/embed/r_X37lMVQFk?rel=0&cc_load_policy=1
@@ -58,7 +56,12 @@ reflect:
     title:
     discussion-prompt: |
 
-      <WEEK 2 REFELECTION PROMPTS>
+      This week we want to highlight different ideas around Projects.
+
+      Pick one (or more) of this reflection prompts and share your ideas in the discussion forum:
+      * [Projects in Scratch](https://aaa.com) - Projects are the basic unit of making in Scratch. What differences do you see with other approaches? How has you experience with Scratch changed the way you think about coding?
+      * [Projects into your Practice](https://aaa.com) - Learning through making projects doesn't apply only to coding. What challenges do you see in supporting this P in your practice? What opportunities? What questions do you have?
+      * [Creative Learning Spiral](https://aaa.com) - The Creative Learning Spiral is a model to help us thinking about the creative process. How would you describe or draw your creative learning process? How would you remix the spiral?
 
 
 meet:
