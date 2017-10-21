@@ -71,7 +71,7 @@ meet:
       We'd love to see you there!
 
 additional:
-    videos: 
+    videos:
       - link: https://www.youtube.com/embed/MHJdmm-cIU0?rel=0&cc_load_policy=1
         title: Conversation with Andrew Sliwinksi
         desc: Mitch and Andrew share experiences of engaging children in learning through projects, and highlight analogies in the creative process with physical and digital materials.
@@ -82,11 +82,10 @@ additional:
     readings:
       - link:  https://www.ted.com/talks/mitch_resnick_let_s_teach_kids_to_code
         name: Mitch Resnick - Let's teach kids to code.
-        title: Readings
         desc: (Video from TEDx talk - subtitles available)
+        type: video
       - link: MISSING
         name: Seymour Papert - Instructionism versus Constructionism
-        title: Readings
         desc: (Chapter 7 from 'The Children Machine')
 
 download:
