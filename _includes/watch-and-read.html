@@ -10,25 +10,6 @@
   {% endfor %}
 </div>
 
-{% if wr.add-readings %}
-  <div id="addition-container">
-    <h4 class="mt-3">Additional Readings</h4>
-    {% for read in wr.add-readings %}
-      {% include components/reading.html%}
-    {% endfor %}
-  </div>
-{% endif %}
-
-{% if wr.download-zip-link %}
-	<p>
-		<i class="fa fa-download mr-2" aria-hidden="true"></i>
-    <a href="{{wr.download-zip-link}}">Download all readings as a zip file</a>
-	</p>
-{% endif %}
-
-{% if wr.think-prompt %}
-	<div>
-  	<h4 class="mt-4">Think</h4>
-  	<p>{{wr.think-prompt}}</p>
-  </div>
+{% if additional %}
+  <h4 class="mt-5"><a href="#additional">Want more materials?</a></h4>
 {% endif %}

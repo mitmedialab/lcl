@@ -1,3 +1,7 @@
+{% if wr.readings %}
+  <p class="text-center mb-3">You may enjoy these additional materials</p>
+{% endif %}
+
 <div id="watch-container">
   {% for video in wr.videos %}
 	    {% include components/video.html%}

@@ -12,6 +12,7 @@ layout: default
 			{% include components/section-title.html %}
 
 			{% assign wr = page.watch-read %}
+			{% assign additional = page.additional %}
 		  {% include watch-and-read.html %}
 		</div>
 
@@ -42,16 +43,19 @@ layout: default
 	  	{% include meet-and-chat.html %}
 	  </div>
 
-	  <div id="watch-and-read" class="col-sm-10">
-			{% assign title = "Want More?" %}
-			{% assign color = "green" %}
-			{% include components/section-title.html %}
-
+	  <div id="additional" class="col-sm-10">
 			{% assign wr = page.additional %}
-		  {% include additional.html %}
+
+			{% if wr %}
+				{% assign title = "Want More?" %}
+				{% assign color = "green" %}
+				{% include components/section-title.html %}
+
+			  {% include additional.html %}
+			{% endif %}
 		</div>
 
-		<div id="offline-materials" class="col-sm-10 p-4 mt-5">
+		<div id="offline-materials" class="col-sm-10 p-4">
 			{% assign title = "Offline Materials" %}
 			{% assign color = "blue" %}
 			{% include components/section-title.html %}
