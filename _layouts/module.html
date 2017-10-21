@@ -5,8 +5,8 @@ layout: default
 {% include components/title.html %}
 
 <div class="container lcl-content">
-	<div id="watch-and-read" class="row justify-content-center">
-		<div class="col-sm-10">
+	<div class="row justify-content-center">
+		<div id="watch-and-read" class="col-sm-10">
 			{% assign title = "Watch & Read" %}
 			{% assign color = "green" %}
 			{% include components/section-title.html %}
@@ -42,15 +42,23 @@ layout: default
 	  	{% include meet-and-chat.html %}
 	  </div>
 
+	  <div id="watch-and-read" class="col-sm-10">
+			{% assign title = "Want More?" %}
+			{% assign color = "green" %}
+			{% include components/section-title.html %}
+
+			{% assign wr = page.additional %}
+		  {% include additional.html %}
+		</div>
+
 		<div id="offline-materials" class="col-sm-10 p-4 mt-5">
 			{% assign title = "Offline Materials" %}
-			{% assign color = "green" %}
+			{% assign color = "blue" %}
 			{% include components/section-title.html %}
 
 	    {% assign dl = page.download %}
 	  	{% include download.html %}
 	  </div>
-
 
 	</div> <!-- row -->
 </div> <!-- container -->
