@@ -30,7 +30,7 @@ watch-read:
 
 make-share:
   forum-link: http://lcl-discuss.media.mit.edu/t/week-2-activity-animate-a-name/192
-  forum-button-text: Start the Activity!
+  forum-button-text: Start the Activity
 
   activity-title: Animate a Name
   activity-overview: |
