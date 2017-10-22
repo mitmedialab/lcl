@@ -4,13 +4,13 @@ layout: module
 navbar-name: 2 - Projects
 
 title: Projects
-subtitle: This week we focus on learning through making, and reflect on the creative process through the Creative Learning Spiral. We also introduce coding as fluency and self expression, and we start making projects with Scratch.
+subtitle: This week we focus on learning through making, and reflect on the creative process through the Creative Learning Spiral. We also introduce coding as a new form of fluency and self-expression, and we start making projects with Scratch.
 
 watch-read:
   videos:
       - link: https://www.youtube.com/embed/UqymVt-TtwU?rel=0&cc_load_policy=1
         title: Learning through Projects
-        desc: In this video, Mitch Resnick describes how people learn through making projects, and introduces the Creative Learning Spiral as a tool to reflect about the creative process.
+        desc: In this video, Mitch Resnick describes how people learn through making projects, and introduces the Creative Learning Spiral as a framework to reflect about the creative process.
         download-link:  MISSING
         show-subtitle-hint: true
 
@@ -30,18 +30,18 @@ watch-read:
 
 make-share:
   forum-link: http://lcl-discuss.media.mit.edu/t/week-2-activity-animate-a-name/192
-  forum-button-text: Animate a Name
+  forum-button-text: Start the Activity!
 
   activity-title: Animate a Name
   activity-overview: |
     This week, we invite you to make a project, using Scratch (or other materials) to create an animation of your name. In this video, Yumiko and Dhwani show you examples and explain a little bit more.
 
   activity-desc: |
-    In this activity you will
-    * Make a project with Scratch
-    * Share your project (and your process!) with the community
-    * Learn more about Scratch, and discover resources to get started
-
+    In this activity, you will:
+      * Make a project with Scratch
+      * Share your project (and your process!) with the community
+      * Learn more about Scratch, and discover resources to get started
+    
   video:
     link: https://www.youtube.com/embed/r_X37lMVQFk?rel=0&cc_load_policy=1
     download-link:  MISSING
@@ -56,13 +56,10 @@ reflect:
     title:
     discussion-prompt: |
 
-      This week we want to highlight different ideas around Projects.
-
-      Pick one (or more) of this reflection prompts and share your ideas in the discussion forum:
-      * [Projects in Scratch](https://aaa.com) - Projects are the basic unit of making in Scratch. What differences do you see with other approaches? How has you experience with Scratch changed the way you think about coding?
-      * [Projects into your Practice](https://aaa.com) - Learning through making projects doesn't apply only to coding. What challenges do you see in supporting this P in your practice? What opportunities? What questions do you have?
-      * [Creative Learning Spiral](https://aaa.com) - The Creative Learning Spiral is a model to help us thinking about the creative process. How would you describe or draw your creative learning process? How would you remix the spiral?
-
+      Pick one (or more) of these topics, and share your ideas in the discussion forum:
+        * [Thinking about Coding](): In what ways does coding seem similar to other forms of making? In what ways does it seem different? How have your experiences with Scratch changed the way you think about coding?
+        * [Putting Projects into Practice](): What strategies have you used in working on projects -- and helping others work on projects? What are the biggest challenges? What are the opportunities? What questions do you have?
+        * [Creative Learning Spiral](): The Creative Learning Spiral is a model to help us think about the creative process. How would you describe or draw your own creative learning process?
 
 meet:
     unhangout-link: https://unhangout.media.mit.edu/event/lcl-week2/
@@ -76,8 +73,8 @@ meet:
 additional:
     videos:
       - link: https://www.youtube.com/embed/MHJdmm-cIU0?rel=0&cc_load_policy=1
-        title: Conversation with Andrew Sliwinksi
-        desc: Mitch and Andrew share experiences of engaging children in learning through projects, and highlight analogies in the creative process with physical and digital materials.
+        title: Conversation with Andrew Sliwinski
+        desc: Mitch and Andrew discuss strategies for engaging children in creative learning through projects — and compare experiences with physical and digital materials
         download-link: MISSING
         show-subtitle-hint: true
         additional-video: true
