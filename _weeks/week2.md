@@ -86,7 +86,7 @@ additional:
         type: video
       - link: MISSING
         name: Seymour Papert - Instructionism versus Constructionism
-        desc: (Chapter 7 from 'The Children Machine')
+        desc: (Chapter 7 from 'The Children's Machine')
 
 download:
     prompt: |
