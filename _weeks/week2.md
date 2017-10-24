@@ -51,7 +51,7 @@ make-share:
     show-subtitle-hint: true
 
 reflect:
-    forum-link: http://lcl-discuss.media.mit.edu/t/week-1-reflection-your-favorite-p/56
+    forum-link: http://lcl-discuss.media.mit.edu/c/week-2-projects
     forum-button-text: Join the Conversation
     title:
     discussion-prompt: |
