@@ -81,7 +81,7 @@ reflect:
 
 
 meet:
-    unhangout-link: https://unhangout.media.mit.edu/event/lcl-week1/
+    unhangout-link: https://unhangout.media.mit.edu/event/lcl/
     prompt: |
       Would you like to meet the LCL team and the rest of the community?
 
