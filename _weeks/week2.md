@@ -11,7 +11,7 @@ watch-read:
       - link: https://www.youtube.com/embed/UqymVt-TtwU?rel=0&cc_load_policy=1
         title: Learning through Projects
         desc: In this video, Mitch Resnick describes how people learn through making projects, and introduces the Creative Learning Spiral as a framework to reflect about the creative process.
-        download-link:  MISSING
+        download-link:  https://drive.google.com/open?id=0B3VgW3YdW0UKTnpfZVlWLXNCVzA
         show-subtitle-hint: true
 
   readings:
@@ -44,7 +44,7 @@ make-share:
     
   video:
     link: https://www.youtube.com/embed/r_X37lMVQFk?rel=0&cc_load_policy=1
-    download-link:  MISSING
+    download-link:  https://drive.google.com/open?id=0B3VgW3YdW0UKY2J6cjVIVXdfcG8
     title: Animate a Name
     desc: |
       This week, we invite you to make a project, using Scratch (or other materials) to create an animation of your name. In this video, Yumiko and Dhwani show you examples and explain a little bit more.
@@ -66,8 +66,14 @@ meet:
     prompt: |
       Would you like to meet the LCL team and the rest of the community?
 
-      We are hosting two video calls on Tuesday October 31th - one at 9am EST and another one at 5pm EST.
-      
+      We are hosting three video calls on Tuesday, October 31th:
+
+      9-10am EST
+
+      11am-12pm EST
+
+      5-6pm EST
+
       We'd love to see you there!
 
 additional:
@@ -75,7 +81,7 @@ additional:
       - link: https://www.youtube.com/embed/MHJdmm-cIU0?rel=0&cc_load_policy=1
         title: Conversation with Andrew Sliwinski
         desc: Mitch and Andrew discuss strategies for engaging children in creative learning through projects — and compare experiences with physical and digital materials
-        download-link: MISSING
+        download-link: https://drive.google.com/open?id=0B3VgW3YdW0UKanFXRUlKMDFqTW8
         show-subtitle-hint: true
         additional-video: true
 
@@ -84,9 +90,12 @@ additional:
         name: Mitch Resnick - Let's teach kids to code.
         desc: (Video from TEDx talk - subtitles available)
         type: video
-      - link: MISSING
+      - link: ../../resources/readings/childrens-machine.pdf
         name: Seymour Papert - Instructionism versus Constructionism
         desc: (Chapter 7 from 'The Children's Machine')
+        lang_links:
+          - language: Português (Portuguese)
+            link:  ../../resources/readings/Instrucionismo-x-construcionismo.pdf
 
 download:
     prompt: |
