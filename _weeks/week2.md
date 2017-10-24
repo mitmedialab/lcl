@@ -51,15 +51,15 @@ make-share:
     show-subtitle-hint: true
 
 reflect:
-    forum-link: http://lcl-discuss.media.mit.edu/t/week-1-reflection-your-favorite-p/56
+    forum-link: http://lcl-discuss.media.mit.edu/c/week-2-projects
     forum-button-text: Join the Conversation
     title:
     discussion-prompt: |
 
       Pick one (or more) of these topics, and share your ideas in the discussion forum:
-        * [Thinking about Coding](): In what ways does coding seem similar to other forms of making? In what ways does it seem different? How have your experiences with Scratch changed the way you think about coding?
-        * [Putting Projects into Practice](): What strategies have you used in working on projects -- and helping others work on projects? What are the biggest challenges? What are the opportunities? What questions do you have?
-        * [Creative Learning Spiral](): The Creative Learning Spiral is a model to help us think about the creative process. How would you describe or draw your own creative learning process?
+        * [Thinking about Coding](http://lcl-discuss.media.mit.edu/t/week-2-reflection-thinking-about-coding/231) - Has your experience with Scratch changed the way you think about coding? How did you think of coding before? How do you think of it now?
+        * [How do you Facilitate Projects?](http://lcl-discuss.media.mit.edu/t/week-2-reflection-put-projects-into-practice/230) - Have you helped others learn to create projects? What were the biggest challenges you faced? What strategies have you used to address these challenges? What questions do you have about a project-based approach to learning?
+        * [Creative Learning Spiral](http://lcl-discuss.media.mit.edu/t/week-2-reflection-creative-learning-spiral/233) - The Creative Learning Spiral is a way to think about the creative process. How would you describe or draw your own creative learning process?
 
 meet:
     unhangout-link: https://unhangout.media.mit.edu/event/lcl-week2/
@@ -88,7 +88,7 @@ additional:
     readings:
       - link:  https://www.ted.com/talks/mitch_resnick_let_s_teach_kids_to_code
         name: Mitch Resnick - Let's teach kids to code.
-        desc: (Video from TEDx talk - subtitles available)
+        desc: (Video from TEDx talk - subtitles available in multiple languages)
         type: video
       - link: ../../resources/readings/childrens-machine.pdf
         name: Seymour Papert - Instructionism versus Constructionism
