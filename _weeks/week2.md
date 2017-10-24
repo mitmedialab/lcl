@@ -11,7 +11,7 @@ watch-read:
       - link: https://www.youtube.com/embed/UqymVt-TtwU?rel=0&cc_load_policy=1
         title: Learning through Projects
         desc: In this video, Mitch Resnick describes how people learn through making projects, and introduces the Creative Learning Spiral as a framework to reflect about the creative process.
-        download-link:  https://drive.google.com/open?id=0B3VgW3YdW0UKTnpfZVlWLXNCVzA
+        download-link:  https://media.mit.edu/~tarmelop/lcl/week2-video-projects.zip
         show-subtitle-hint: true
 
   readings:
@@ -44,7 +44,7 @@ make-share:
     
   video:
     link: https://www.youtube.com/embed/r_X37lMVQFk?rel=0&cc_load_policy=1
-    download-link:  https://drive.google.com/open?id=0B3VgW3YdW0UKY2J6cjVIVXdfcG8
+    download-link:  https://media.mit.edu/~tarmelop/lcl/week2-video-activity.zip
     title: Animate a Name
     desc: |
       This week, we invite you to make a project, using Scratch (or other materials) to create an animation of your name. In this video, Yumiko and Dhwani show you examples and explain a little bit more.
@@ -81,7 +81,7 @@ additional:
       - link: https://www.youtube.com/embed/MHJdmm-cIU0?rel=0&cc_load_policy=1
         title: Conversation with Andrew Sliwinski
         desc: Mitch and Andrew discuss strategies for engaging children in creative learning through projects — and compare experiences with physical and digital materials
-        download-link: https://drive.google.com/open?id=0B3VgW3YdW0UKanFXRUlKMDFqTW8
+        download-link: https://media.mit.edu/~tarmelop/lcl/week2-conversation-andrew.zip
         show-subtitle-hint: true
         additional-video: true
 
@@ -100,5 +100,5 @@ additional:
 download:
     prompt: |
       You can get this week's videos, subtitles, and readings in a single zip file for offline use.
-    zipfile-link:  MISSING
+    zipfile-link:  https://media.mit.edu/~tarmelop/lcl/week2-all.zip
 ---
