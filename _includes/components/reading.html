@@ -12,7 +12,9 @@
     <i class="fa fa-globe mr-2" aria-hidden="true"></i>Also available in these languages:
     {% for l in read.lang_links %}
       <a href="{{l.link}}"
-         onclick="trackOutboundLink('{{l.link}}'); return false;">{{l.language}}</a>
+         onclick="trackOutboundLink('{{l.link}}'); return false;" tx-content="exclude">
+         <span tx-content="include">{{l.language}}</span>
+       </a>
       {% if forloop.last == false %}
       ,
       {% endif %}
