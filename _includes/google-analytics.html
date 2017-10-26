@@ -6,4 +6,20 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-106500697-1');
+
+	/**
+	* Function that tracks a click on an outbound link in Analytics.
+	* This function takes a valid URL string as an argument, and uses that URL string
+	* as the event label. Setting the transport method to 'beacon' lets the hit be sent
+	* using 'navigator.sendBeacon' in browser that support it.
+	* Code taken from: https://support.google.com/analytics/answer/7478520?hl=en and adjusted
+	*/
+	var trackOutboundLink = function(url, category="outbound") {
+	  gtag('event', 'open-doc', {
+	    'event_category': category,
+	    'event_label': url,
+	    'transport_type': 'beacon',
+	    'event_callback': function(){document.location = url;}
+	  });
+	}
 </script>

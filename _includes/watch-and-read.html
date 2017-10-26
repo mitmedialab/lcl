@@ -11,5 +11,7 @@
 </div>
 
 {% if additional %}
-  <p class="mt-5"><a href="#additional" onclick="ga('send', 'event', 'additional', 'button', 'additional-button-clicked', 1)">Want more things to watch and read?</a></p>
+  <p class="mt-5">
+  	<a href="#additional" onclick="trackOutboundLink('#additional'); return false;">Want more things to watch and read?</a>
+  </p>
 {% endif %}

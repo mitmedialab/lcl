@@ -1,4 +1,7 @@
 <div id="download-container" class="text-center">
 	<p>{{dl.prompt | markdownify}}</p>
-	<p class="text-center mt-3"><a href="{{dl.zipfile-link}}" ><i class="fa fa-download mr-2" aria-hidden="true"></i>Download all materials</a></p>
+	<p class="text-center mt-3">
+		<a href="{{dl.zipfile-link}}" 
+				onclick="trackOutboundLink('{{dl.zipfile-link}}'); return false;"><i class="fa fa-download mr-2" aria-hidden="true"></i>Download all materials</a>
+	</p>
 </div>
