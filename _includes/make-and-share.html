@@ -7,8 +7,8 @@
     {% include components/video.html%}
 	{{m.activity-desc | markdownify }}
 	{% if m.forum-button-text %}
-	<p class="text-center my-4"><a href="{{m.forum-link}}" class="forum-btn btn btn-primary btn-lg">{{m.forum-button-text}}</a></p>
+	<p class="text-center my-4" tx-content="translate_urls block"><a href="{{m.forum-link}}" class="forum-btn btn btn-primary btn-lg">{{m.forum-button-text}}</a></p>
 	{% else %}
-	<p class="text-center my-4"><a href="{{m.forum-link}}" class="forum-btn btn btn-primary btn-lg">Share with us</a></p>
+	<p class="text-center my-4" tx-content="translate_urls block"><a href="{{m.forum-link}}" class="forum-btn btn btn-primary btn-lg">Share with us</a></p>
 	{% endif %}
 </div>
