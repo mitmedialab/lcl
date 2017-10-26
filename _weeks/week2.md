@@ -62,7 +62,7 @@ reflect:
         * [Creative Learning Spiral](http://lcl-discuss.media.mit.edu/t/week-2-reflection-creative-learning-spiral/233) - The Creative Learning Spiral is a way to think about the creative process. How would you describe or draw your own creative learning process?
 
 meet:
-    unhangout-link: https://unhangout.media.mit.edu/event/lcl-week2/
+    unhangout-link: https://unhangout.media.mit.edu/event/lcl/
     prompt: |
       Would you like to meet the LCL team and the rest of the community?
 
