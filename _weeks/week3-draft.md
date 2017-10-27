@@ -4,11 +4,11 @@ layout: module
 navbar-name: 3 - Passion
 
 title: Passion
-subtitle: This week we explore motivation in learning, along with strategies to engage people in meaningful experiences. We introduce the ideas of Hard Fun and Wide Walls, and we continue exploring Scratch by making projects connected to our interests.
+subtitle: This week we explore motivation in learning, along with strategies to engage people in meaningful experiences. We introduce the ideas of Hard Fun and Wide Walls, and you'll have a chance to continue exploring Scratch by making projects connected to your interests.
 
 watch-read:
   videos:
-      - link: https://www.youtube.com/embed/-C2gSVJemC4?rel=0&cc_load_policy=1
+      - link: https://www.youtube.com/embed/IAYgBf7S4NQ?rel=0&cc_load_policy=1
         title: Passion in Learning
         desc: In this video, Mitch Resnick describes the value of people following their interests, and suggests strategies to engage people working on things that they really care about.
         download-link:  MISSING
@@ -39,7 +39,7 @@ make-share:
      * Reflect on how Scratch supports multiple interests and pathways
 
   video:
-    link: https://www.youtube.com/embed/zWTkydtb0kE?rel=0&cc_load_policy=1
+    link: https://www.youtube.com/embed/UCM6ESXCT4Q?rel=0&cc_load_policy=1
     download-link: MISSING
     title: Animate Your Interests
     desc: |
@@ -53,17 +53,11 @@ reflect:
     title:
     discussion-prompt: |
 
-      Pick one (or more) of these topics, and share your ideas in the discussion forum:
-        * [Putting Passion into Practice](www.MISSING.com): What strategies have you used to allow learners to follow their passions? What are the biggest challenges? What are the opportunities? What questions do you have?
-        * [Low Floor, High Ceiling, Wide Walls](www.MISSING.com): Choose a learning activity / tool you like - where does it fall on the axis between low floor and high ceiling? And how wide are the walls? OR How would you change it to push the floor lower, ceiling higher and/or widen the walls?
+      **Pick a Quote**
 
-      OR
+      From this week's readings or videos, choose one quote that you found especially interesting or provocative.
 
-        * [Quotes](www.MISSING.com) - Share a quote from this week's readings or video. Why did you choose it? [What does resonate with you about it? How does it connect to your practice? What questions do you have?]
-
-      OR
-
-        * [Big ideas](www.MISSING.com) - What is one big idea that resonates with you from this week's readings? Share and discuss!
+      Why did it resonate with you? Did it spark new ways of thinking about Passion? How does it relate to your personal experiences?
 
 meet:
     unhangout-link: https://unhangout.media.mit.edu/event/lcl/
@@ -82,26 +76,28 @@ meet:
 
 additional:
     videos:
-      - link: https://www.youtube.com/embed/RQh003RPsnk?rel=0&cc_load_policy=1
+      - link: https://www.youtube.com/embed/oM4RjKLehNE?rel=0&cc_load_policy=1
         title: Conversation with Natalie Rusk
         desc: Mitch and Natalie discuss the role of motivation in learning, sharing experiences and strategies to help young people follow their interests.
         download-link: https://media.mit.edu/~tarmelop/lcl/MISSING
         show-subtitle-hint: true
         additional-video: true
 
-
-    commented_out_until_we_decided:
-      readings:
-        - link: MISSING
-          name: Mitch Resnick - Let's teach kids to code.
-          desc: (Video from TEDx talk - subtitles available in multiple languages)
-          type: video
-        - link: ../../resources/readings/childrens-machine.pdf
-          name: Seymour Papert - Instructionism versus Constructionism
-          desc: (Chapter 7 from 'The Children's Machine')
-          lang_links:
-            - language: Português (Portuguese)
-              link:  ../../resources/readings/Instrucionismo-x-construcionismo.pdf
+    readings:
+      - link: http://www.youtube.com/watch?v=u6XAPnuFjJc
+        name: 'Drive: The Surprising Truth About What Motivates Us'
+        desc: Daniel Pink (2010)
+        type: video
+      - link: http://web.media.mit.edu/~mres/papers/Clubhouse/clubhouse-origins.pdf
+        name: Origins and Guiding Principles of the Computer Clubhouse
+        desc: 'Natalie Rusk, Mitchel Resnick, & Stina Cooke (2009), in The Computer Clubhouse: Constructionism and Creativity in Youth Communities'
+        lang_links:
+      - link: https://www.dropbox.com/s/iax4ah23p924tzi/Motivation-for-Making.pdf
+        name: Motivation for Making
+        desc: Natalie Rusk (2017), in Makeology.
+      - link: http://papert.org/articles/HardFun.html
+        name: Hard Fun
+        desc: Seymour Papert, 2002, Article for the Bangor Daily News (Bangor, Maine)
 
 download:
     prompt: |
