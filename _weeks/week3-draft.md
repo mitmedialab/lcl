@@ -78,7 +78,7 @@ additional:
     videos:
       - link: https://www.youtube.com/embed/oM4RjKLehNE?rel=0&cc_load_policy=1
         title: Conversation with Natalie Rusk
-        desc: Mitch and Natalie discuss the role of motivation in learning, sharing experiences and strategies to help young people follow their interests.
+        desc: Mitch and Natalie discuss motivation for learning, and share examples and strategies for helping young people build on their interests.
         download-link: https://media.mit.edu/~tarmelop/lcl/MISSING
         show-subtitle-hint: true
         additional-video: true
