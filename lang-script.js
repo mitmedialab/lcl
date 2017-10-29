@@ -34,7 +34,7 @@ Transifex.live.onTranslatePage(function(language_code) {
 
     if (supported_lang.indexOf(new_lang.substr(0,2)) != -1) {
       // add new language
-      $('#video-iframe').attr('src', function(i, val){
+      $('.video-iframe').attr('src', function(i, val){
         // remove last lang if exists
         val = val.replace(/&hl=.*/, '').replace(/&cc_lang_pref=.*/, '');
 
