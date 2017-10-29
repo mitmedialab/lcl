@@ -5,20 +5,15 @@ $(document).ready(function() {
                   navigator.language ||   // All browsers
                   navigator.userLanguage; // IE <= 10
 
-  // update MailChimp's browser language field
-  if (language) {
-    $('#mc-embedded-subscribe-form').attr('action', function(i, val){
-      return val + '&BLANG=' + language;
-    });
+  // Don't add language if empty or not supported.
+  if (!language || supported_lang.indexOf(language.substr(0,2)) == -1){
+    return;
   }
 
-  // default to english
-  if (!language || supported_lang.indexOf(language.substr(0,2)) == -1){
-    language = 'en';
-  }
+  $(".youtube-iframe").attr("detected-b-lang", language);
 
   // update iframe src
-  $('#video-iframe').attr('src', function(i, val){
+  $('.youtube-iframe').attr('src', function(i, val){
     // Only add language if isn't set up (by Transifex)
     if (val.indexOf("&hl=") == -1) {
       val = val + '&hl=' + language;
@@ -35,10 +30,9 @@ Transifex.live.onTranslatePage(function(language_code) {
   var new_lang = Transifex.live.getSelectedLanguageCode();
 
   if (new_lang) {
-    $("#trailer-video").attr("lang", new_lang);
+    $(".youtube-iframe").attr("tr-lang", new_lang);
 
     if (supported_lang.indexOf(new_lang.substr(0,2)) != -1) {
-
       // add new language
       $('#video-iframe').attr('src', function(i, val){
         // remove last lang if exists
