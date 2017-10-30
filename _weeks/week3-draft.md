@@ -11,7 +11,7 @@ watch-read:
       - link: https://www.youtube.com/embed/IAYgBf7S4NQ?rel=0&cc_load_policy=1
         title: Passion in Learning
         desc: In this video, Mitch Resnick describes the value of people following their interests, and suggests strategies to engage people working on things that they really care about.
-        download-link:  MISSING
+        download-link:  https://media.mit.edu/~tarmelop/lcl/week3-video-passion.zip
         show-subtitle-hint: true
 
   readings:
@@ -29,7 +29,7 @@ watch-read:
             link:  ../../resources/readings/chapter3-excerpt.ja.pdf
 
 make-share:
-  forum-link: MISSING
+  forum-link: http://lcl-discuss.media.mit.edu/t/activity-week-3-animate-an-interest/325
   forum-button-text: Start the Activity
 
   activity-desc: |
@@ -40,7 +40,7 @@ make-share:
 
   video:
     link: https://www.youtube.com/embed/UCM6ESXCT4Q?rel=0&cc_load_policy=1
-    download-link: MISSING
+    download-link: https://media.mit.edu/~tarmelop/lcl/week3-video-activity.zip
     title: Animate Your Interests
     desc: |
       This week, we invite you to share one of your interests by creating a Scratch project about it. In this video, Lily and Shruti will show you examples and explain a little bit more.
@@ -48,7 +48,7 @@ make-share:
     show-subtitle-hint: true
 
 reflect:
-    forum-link: MISSING
+    forum-link: http://lcl-discuss.media.mit.edu/t/week-3-reflection-pick-a-quote/329/1
     forum-button-text: Join the Conversation
     title:
     discussion-prompt: |
@@ -79,7 +79,7 @@ additional:
       - link: https://www.youtube.com/embed/oM4RjKLehNE?rel=0&cc_load_policy=1
         title: Conversation with Natalie Rusk
         desc: Mitch and Natalie discuss motivation for learning, and share examples and strategies for helping young people build on their interests.
-        download-link: https://media.mit.edu/~tarmelop/lcl/MISSING
+        download-link: https://media.mit.edu/~tarmelop/lcl/week3-conversation-natalie.zip
         show-subtitle-hint: true
         additional-video: true
 
@@ -102,5 +102,5 @@ additional:
 download:
     prompt: |
       You can get this week's videos, subtitles, and readings in a single zip file for offline use.
-    zipfile-link: https://media.mit.edu/~tarmelop/lcl/MISSING.zip
+    zipfile-link: https://media.mit.edu/~tarmelop/lcl/week3-all.zip
 ---
