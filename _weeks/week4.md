@@ -8,7 +8,7 @@ subtitle: This week we focus on learning as a social activity. We explore how le
 
 watch-read:
   videos:
-      - link: https://www.youtube.com/embed/LIxW2tg66mM?rel=0&cc_load_policy=1
+      - link: https://www.youtube.com/embed/ALtSEWV3yeg?rel=0&cc_load_policy=1
         title: Learn with Peers
         desc: In this video, Mitch Resnick shares strategies for encouraging and supporting peer learning within physical spaces and online communities.
         download-link:  https://media.mit.edu/~tarmelop/lcl/week4-video-peers.zip
