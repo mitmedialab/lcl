@@ -53,11 +53,11 @@ reflect:
     forum-button-text: Join the Conversation
     title:
     discussion-prompt: |
-      **Pick a Quote**
+      **Quotes and Questions**
 
-      From this week's readings or videos, choose one quote that you found especially interesting or provocative.
+      From this week’s readings or videos, choose one quote that you found especially intriguing and share a question about it. 
 
-      Why did it resonate with you? Did it spark new ways of thinking about Passion? How does it relate to your personal experiences?
+      What did the quote make you wonder about? 
 
 meet:
     unhangout-link: https://unhangout.media.mit.edu/event/lcl/
