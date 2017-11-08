@@ -87,6 +87,11 @@ additional:
       - link: ../../resources/readings/mindstorms-ch8-images.pdf
         name: Images of the Learning Society
         desc: 'Seymour Papert (1980): Mindstorms, Chapter 8'
+        lang_links:
+          - language: Português (Portuguese)
+            link: ../../resources/readings/mindstorms-ch8-images.pt.pdf
+          - language: Italiano (Italian)
+            link: ../../resources/readings/mindstorms-ch8-images.it.pdf
       - link: https://www.youtube.com/watch?v=iRWXGnWfzk4
         name: A Place to Be Yourself
         desc: Eric Schilling, 2016 (TedX video)
@@ -94,12 +99,14 @@ additional:
       - link: https://www.dropbox.com/s/10yxjsy171mgs00/Creative-Collaboration-Chapter.pdf
         name: Supporting Diverse and Creative Collaboration
         desc: Ricarose Roque, Natalie Rusk, & Mitchel Resnick (2016)
-      - link: http://llk.media.mit.edu/courses/readings/Illich_Deschooling_Ch6.pdf
+      - link: ../../resources/readings/deschooling-ch6.pdf
         name: Learning Webs
         desc: 'Ivan Illich (1971): Deschooling Society, Chapter 6'
         lang_links:
           - language: Português (Portuguese)
             link: http://www.bunkerdacultura.com.br/books/ivan_illich_sociedade_sem_escolas.pdf
+          - language: Italiano (Italian)
+            link: ../../resources/readings/deschooling-ch6.it.pdf
 
 download:
     prompt: |
