@@ -41,7 +41,7 @@ make-share:
   video:
     link: https://www.youtube.com/embed/P2pKwshcaa4?rel=0&cc_load_policy=1
     download-link: https://media.mit.edu/~tarmelop/lcl/week5-video-activity.zip
-    title: Visit a Learning Space
+    title: Take time for Tinkering
     desc: |
       This week, we invite you to playfully experiment with any material or technology you want to try.
 
