@@ -8,7 +8,7 @@ subtitle: "This week we playfully explore the last of the four P's of creative l
 
 watch-read:
   videos:
-      - link: https://www.youtube.com/embed/VaSSFKgIBssrel=0&cc_load_policy=1
+      - link: https://www.youtube.com/embed/VaSSFKgIBss&rel=0&cc_load_policy=1
         title: Playful Learning
         desc: In this video, Mitch Resnick discusses different types of play and shares strategies to promote a playful approach to learning.
         download-link:  https://media.mit.edu/~tarmelop/lcl/week5-video-play.zip
@@ -87,7 +87,7 @@ additional:
       - link: http://web.media.mit.edu/~mres/download/Art-of-Tinkering.pdf
         name: The Art of Tinkering (excerpts)
         desc: Karen Wilkinson & Mike Petrich (2014)
-      - link: http://tinkering.exploratorium.edu/wp-content/themes/tinkeringsite/resources/PetrichWilkinsonBevan-ItLooksLikeFun.pdf
+      - link: https://www.exploratorium.edu/sites/default/files/pdfs/PetrichWilkinsonBevan-2013-ItLooksLikeFun.pdf
         name: It Looks Like Fun, But Are They Learning?
         desc: Mike Petrich, Karen Wilkinson, & Bronwyn Bevan (2013), in Design, Make, Play
       - link: http://web.media.mit.edu/~mres/papers/designing-for-tinkerability.pdf
