@@ -8,7 +8,7 @@ subtitle: "This week we playfully explore the last of the four P's of creative l
 
 watch-read:
   videos:
-      - link: https://www.youtube.com/embed/VaSSFKgIBss&rel=0&cc_load_policy=1
+      - link: https://www.youtube.com/embed/VaSSFKgIBss?rel=0&cc_load_policy=1
         title: Playful Learning
         desc: In this video, Mitch Resnick discusses different types of play and shares strategies to promote a playful approach to learning.
         download-link:  https://media.mit.edu/~tarmelop/lcl/week5-video-play.zip
@@ -29,7 +29,7 @@ watch-read:
             link:  ../../resources/readings/chapter5-excerpt.ja.pdf
 
 make-share:
-  forum-link: MISSING
+  forum-link: http://lcl-discuss.media.mit.edu/t/week-5-activity-time-for-tinkering/497
   forum-button-text: Start the Activity
 
   activity-desc: |
@@ -49,15 +49,17 @@ make-share:
       In this video, Lily and Sean will explain what that means and share some examples.
 
 reflect:
-    forum-link: MISSING
+    forum-link: http://lcl-discuss.media.mit.edu/t/week-5-reflection-playful-quotes/498
     forum-button-text: Join the Conversation
     title:
     discussion-prompt: |
-      **Quotes and Tinkering**
+      **Playful Quotes**
 
-      Choose a quote from this week's reading or video that you find especially intriguing
+      Choose a quote from this week’s reading or video that you find especially intriguing
 
-      Tinker with it! You could remix it, animate it, or do something playful with it!
+        * What quote did you select?
+        * Why did you pick this quote?
+        * What actions does it inspire you to do?
 
 meet:
     unhangout-link: https://unhangout.media.mit.edu/event/lcl/
@@ -90,9 +92,9 @@ additional:
       - link: https://www.exploratorium.edu/sites/default/files/pdfs/PetrichWilkinsonBevan-2013-ItLooksLikeFun.pdf
         name: It Looks Like Fun, But Are They Learning?
         desc: Mike Petrich, Karen Wilkinson, & Bronwyn Bevan (2013), in Design, Make, Play
-      - link: http://web.media.mit.edu/~mres/papers/designing-for-tinkerability.pdf
-        name: Designing for Tinkerability, in Design, Make, Play.
-        desc: Mitchel Resnick & Eric Rosenbaum (2013)
+      - link: ../../resources/readings/designing-for-tinkerability.pdf
+        name: Designing for Tinkerability
+        desc: Mitchel Resnick & Eric Rosenbaum (2013), in Design, Make, Play
       - link: https://vimeo.com/104178407
         name: Edith Ackermann’s Pedagogical Perspective on Tinkering & Making
         type: video
