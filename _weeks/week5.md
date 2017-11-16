@@ -95,7 +95,7 @@ additional:
       - link: ../../resources/readings/designing-for-tinkerability.pdf
         name: Designing for Tinkerability
         desc: Mitchel Resnick & Eric Rosenbaum (2013), in Design, Make, Play
-      - link: https://vimeo.com/104178407
+      - link: https://vimeo.com/144683857
         name: Edith Ackermann’s Pedagogical Perspective on Tinkering & Making
         type: video
       - link: http://www.papert.org/articles/EpistemologicalPluralism.html
