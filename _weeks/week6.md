@@ -1,0 +1,111 @@
+---
+layout: module
+
+navbar-name: 6 - Creative Society
+
+title: Play
+subtitle: "How can we help people develop as creative thinkers? In our last week, we explore strategies and motivations for supporting and expanding opportunities for creative learning. We invite you to share a project idea and reflect back on your journey as a creative learner."
+
+watch-read:
+  videos:
+      - link: https://www.youtube.com/embed/lnYyLfhvpWc?rel=0&cc_load_policy=1
+        title: Creative Society
+        desc: In this video, Mitch Resnick describes why it is important to support people develop as creative thinkers in today's fast-changing society, and shares ideas on how to bring the spirit of kindergarten to children of all ages, and all backgrounds.
+        download-link:  https://media.mit.edu/~tarmelop/lcl/week6-video-society.zip
+        show-subtitle-hint: true
+
+  readings:
+      - link:  ../../resources/readings/chapter6-excerpt.pdf
+        name: Lifelong Kindergarten - Chapter 6 (excerpts)
+        title: Readings
+        desc: Learn more about the different ways children can express themselves, and some tips on how to cultivate creativity.
+
+        lang_links:
+          - language: Italiano (Italian)
+            link:  ../../resources/readings/chapter6-excerpt.it.pdf
+          - language: Português (Portuguese)
+            link:  ../../resources/readings/chapter6-excerpt.pt.pdf
+          - language: 日本語 (Japanese)
+            link:  ../../resources/readings/chapter6-excerpt.ja.pdf
+
+make-share:
+  forum-link: MISSING
+  forum-button-text: Start the Activity
+
+  activity-desc: |
+    In this activity, you will:
+    * Share an idea for a project you want to work on to support creative learning
+    * Describe your project and how it connects to the ideas in the course
+    * Exchange feedback with other participants in the community
+
+  video:
+    link: https://www.youtube.com/embed/P2pKwshcaa4?rel=0&cc_load_policy=1
+    download-link: https://media.mit.edu/~tarmelop/lcl/week6-video-activity.zip
+    title: Design a Creative Learning Activity
+    desc: |
+      For our last week, we invite to you to put the ideas of this course into practice, by sharing an idea or a plan for a project you want to work on, for your students or for yourself, building on ideas you learned or explored in this course.
+
+
+      In this video, Jaleesa and Sean explain more and give examples. 
+
+reflect:
+    forum-link: MISSING
+    forum-button-text: Join the Conversation
+    title:
+    discussion-prompt: |
+      **"I used to think ... but now I think ..."**
+
+      We are curious to know how your ideas have evolved, based on the activities and discussions in Learning Creative Learning.
+      One way to reflect on your LCL journey is to fill in this sentence:
+      I used to think ... , but now I think ...
+      What in your journey contributed to the shift in your thinking? How might it influence your work?
+
+meet:
+    unhangout-link: https://unhangout.media.mit.edu/event/lcl/
+    prompt: |
+      Would you like to meet the LCL team and the rest of the community?
+
+      We are hosting three video calls on Tuesday, November 28th:
+
+      9-10am EST
+
+      11am-12pm EST
+
+      5-6pm EST
+
+      We'd love to see you there!
+
+additional:
+    desc: |
+      Becuase it's the last week, we wanted to leave you with much to explore - choose what is right for you.
+
+      Want even more?
+      Find more reading suggestions on the [Lifelong Kindergarten book website](http://lifelongkindergarten.net/).
+
+    readings:
+      - link: http://web.media.mit.edu/~tarmelop/lcl/what-we-mean-by-learning.pdf
+        name: What we mean by learning, LEGO booklet
+        desc: Aaron Falbel & Edith Ackermann
+      - link: http://media.mit.edu/~tarmelop/lcl/experience-and-education.pdf
+        name: "Experience and Education (Chapter 5: The Nature of Freedom)"
+        desc: John Dewey
+      - link: http://media.mit.edu/~tarmelop/lcl/wonderful-ideas.pdf
+        name: The Having of Wonderful Ideas
+        desc: Eleanor Duckworth
+      - link: http://media.mit.edu/~tarmelop/lcl/how-children-fail.pdf
+        name: How Children Fail
+        desc: John Holt (Fear and failure, pp. 91-93)
+      - link: https://dspace.mit.edu/bitstream/handle/1721.1/79157/847525655-MIT.pdf?sequence=2
+        name: Best of Both Worlds - Issues of Structure and Agency in Computational Creation, in and out of School
+        desc: Karen Brennan, Ph.D. thesis (dissertation defense [video](https://www.media.mit.edu/videos/kbrennan-2012-10-4/))
+      - link: https://www.ted.com/talks/sir_ken_robinson_bring_on_the_revolution
+        name: Bring On the Learning Revolution!
+        desc: Sir Ken Robinson (2010), TED Talk (video)
+        type: video
+
+
+download:
+    prompt: |
+      You can get this week's videos, subtitles, and readings in a single zip file for offline use.
+    zipfile-link: https://media.mit.edu/~tarmelop/lcl/week6-all.zip
+---
