@@ -62,7 +62,19 @@ layout: default
 
 	    {% assign dl = page.download %}
 	  	{% include download.html %}
-	  </div>
+		</div>
+
+		<div id="creative" class="col-sm-10">
+		{% assign wr = page.even-more-additional %}
+
+			{% if wr %}
+				{% assign title = "Creative Learning Resources" %}
+				{% assign color = "red" %}
+				{% include components/section-title.html %}
+
+			  {% include additional.html %}
+			{% endif %}
+		</div>
 
 	</div> <!-- row -->
 </div> <!-- container -->

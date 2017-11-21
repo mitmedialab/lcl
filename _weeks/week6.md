@@ -3,7 +3,7 @@ layout: module
 
 navbar-name: 6 - Creative Society
 
-title: Play
+title: Creative Society
 subtitle: "How can we help people develop as creative thinkers? In our last week, we explore strategies and motivations for supporting and expanding opportunities for creative learning. We invite you to share a project idea and reflect back on your journey as a creative learner."
 
 watch-read:
@@ -39,7 +39,7 @@ make-share:
     * Exchange feedback with other participants in the community
 
   video:
-    link: https://www.youtube.com/embed/P2pKwshcaa4?rel=0&cc_load_policy=1
+    link: https://www.youtube.com/embed/-lVPEbeYE8M?rel=0&cc_load_policy=1
     download-link: https://media.mit.edu/~tarmelop/lcl/week6-video-activity.zip
     title: Design a Creative Learning Activity
     desc: |
@@ -77,7 +77,7 @@ meet:
 
 additional:
     desc: |
-      Becuase it's the last week, we wanted to leave you with much to explore - choose what is right for you.
+      Becuase this is the last week, we wanted to leave you with much to explore - choose what is right for you.
 
       Want even more?
       Find more reading suggestions on the [Lifelong Kindergarten book website](http://lifelongkindergarten.net/).
@@ -103,6 +103,17 @@ additional:
         desc: Sir Ken Robinson (2010), TED Talk (video)
         type: video
 
+even-more-additional:
+    desc: |
+     Here are some resources for organizing and leading creative learning experiences.
+
+    readings:
+      - link: http://familycreativelearning.org/
+        name: Family Creative Learning guide
+      - link: http://scratched.gse.harvard.edu/guide/
+        name: Creative Computing Curriculm Guide
+      - link: https://scratch.mit.edu/educators
+        name: Scratch Educator Resources 
 
 download:
     prompt: |
