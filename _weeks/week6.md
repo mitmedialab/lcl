@@ -10,7 +10,7 @@ watch-read:
   videos:
       - link: https://www.youtube.com/embed/lnYyLfhvpWc?rel=0&cc_load_policy=1
         title: Creative Society
-        desc: In this video, Mitch Resnick describes why it is important to support people develop as creative thinkers in today's fast-changing society, and shares ideas on how to bring the spirit of kindergarten to children of all ages, and all backgrounds.
+        desc: In this video, Mitch Resnick describes why it is important to support children's development as creative thinkers in today's fast-changing society, and shares ideas on how to bring the spirit of kindergarten to children of all ages and all backgrounds.
         download-link:  https://media.mit.edu/~tarmelop/lcl/week6-video-society.zip
         show-subtitle-hint: true
 
@@ -77,7 +77,8 @@ meet:
 
 additional:
     desc: |
-      Becuase this is the last week, we wanted to leave you with much to explore - choose what is right for you.
+      Because this the last week of the course, we wanted to offer you a longer list of inspiring readings. 
+      As always, explore as much or as little as you like, at your own pace.
 
       Want even more?
       Find more reading suggestions on the [Lifelong Kindergarten book website](http://lifelongkindergarten.net/).
