@@ -29,7 +29,7 @@ watch-read:
             link:  ../../resources/readings/chapter6-excerpt.ja.pdf
 
 make-share:
-  forum-link: MISSING
+  forum-link: http://lcl-discuss.media.mit.edu/t/week-6-activity-design-a-creative-learning-experience/547
   forum-button-text: Start the Activity
 
   activity-desc: |
@@ -49,7 +49,7 @@ make-share:
       In this video, Jaleesa and Sean explain more and give examples. 
 
 reflect:
-    forum-link: MISSING
+    forum-link: http://lcl-discuss.media.mit.edu/t/week-6-reflection-i-used-to-think-but-now-i-think/548
     forum-button-text: Join the Conversation
     title:
     discussion-prompt: |
