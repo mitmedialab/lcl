@@ -84,15 +84,20 @@ additional:
       Find more reading suggestions on the [Lifelong Kindergarten book website](http://lifelongkindergarten.net/).
 
     readings:
-      - link: http://web.media.mit.edu/~tarmelop/lcl/what-we-mean-by-learning.pdf
+      - link: ../../resources/readings/what-we-mean-by-learning.pdf
         name: What we mean by learning, LEGO booklet
         desc: Aaron Falbel & Edith Ackermann
-      - link: http://media.mit.edu/~tarmelop/lcl/experience-and-education.pdf
-        name: "Experience and Education (Chapter 5: The Nature of Freedom)"
-        desc: John Dewey
-      - link: http://media.mit.edu/~tarmelop/lcl/how-children-fail.pdf
-        name: How Children Fail
-        desc: John Holt (Fear and failure, pp. 91-93)
+        lang_links:
+          - language: Italiano (Italian)
+            link:  ../../resources/readings/what-we-mean-by-learning.it.pdf
+          - language: Português (Portuguese)
+            link:  ../../resources/readings/what-we-mean-by-learning.pt.pdf
+      - link: ../../resources/readings/experience-and-education.pdf
+        name: The Nature of Freedom
+        desc: from John Dewey, Experience and Education (1938)
+      - link: ../../resources/readings/how-children-fail.pdf
+        name: Fear and failure
+        desc: from John Holt, How Children Fail (1964)  
       - link: https://dspace.mit.edu/bitstream/handle/1721.1/79157/847525655-MIT.pdf?sequence=2
         name: Best of Both Worlds - Issues of Structure and Agency in Computational Creation, in and out of School
         desc: Karen Brennan, Ph.D. thesis (dissertation defense [video](https://www.media.mit.edu/videos/kbrennan-2012-10-4/))
