@@ -90,9 +90,6 @@ additional:
       - link: http://media.mit.edu/~tarmelop/lcl/experience-and-education.pdf
         name: "Experience and Education (Chapter 5: The Nature of Freedom)"
         desc: John Dewey
-      - link: http://media.mit.edu/~tarmelop/lcl/wonderful-ideas.pdf
-        name: The Having of Wonderful Ideas
-        desc: Eleanor Duckworth
       - link: http://media.mit.edu/~tarmelop/lcl/how-children-fail.pdf
         name: How Children Fail
         desc: John Holt (Fear and failure, pp. 91-93)
