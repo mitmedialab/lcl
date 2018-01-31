@@ -66,13 +66,7 @@ meet:
     prompt: |
       Would you like to meet the LCL team and the rest of the community?
 
-      We are hosting three video calls on Tuesday, October 31th:
-
-      9-10am EST
-
-      11am-12pm EST
-
-      5-6pm EST
+      From February 6 to March 13 we are hosting Unhangout calls every Tuesday at 4pm EST.
 
       We'd love to see you there!
 

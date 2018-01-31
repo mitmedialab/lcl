@@ -85,7 +85,7 @@ meet:
     prompt: |
       Would you like to meet the LCL team and the rest of the community?
 
-      We are hosting two video calls on Tuesday October 24th - one at 9am EST and another one at 5pm EST.
+      We are hosting a video call on Tuesday February 6 at 4pm EST.
       
       We'd love to see you there!
 
