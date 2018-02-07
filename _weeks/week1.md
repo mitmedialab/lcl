@@ -35,7 +35,7 @@ watch-read:
   add-readings:
 
 make-share:
-  forum-link: http://lcl-discuss.media.mit.edu/t/week-1-activity-childhood-objects/22
+  forum-link: http://lcl-discuss.media.mit.edu/t/activity-1-childhood-objects/762
   forum-button-text: Share Your Object
 
   activity-title: Childhood Object
@@ -66,7 +66,7 @@ make-share:
     show-subtitle-hint: true
 
 reflect:
-    forum-link: http://lcl-discuss.media.mit.edu/t/week-1-reflection-your-favorite-p/56
+    forum-link: http://lcl-discuss.media.mit.edu/t/reflection-1-pick-a-p/765
     forum-button-text: Join the Conversation
     title:
     discussion-prompt: |
@@ -85,7 +85,7 @@ meet:
     prompt: |
       Would you like to meet the LCL team and the rest of the community?
 
-      We are hosting a video call on Tuesday February 6 at 4pm EST.
+      We are hosting a video call on Tuesday February 13 at 4pm EST.
       
       We'd love to see you there!
 

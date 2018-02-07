@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Play</title>
+  <meta name="author" content="MIT Media Lab">
+  <meta name="description" content="">
+
+  <!-- open graph stuff --> 
+  <meta property="og:url" content="http://localhost:4000/lcl/weeks/week5/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Learning Creative Learning">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="/lcl/images/lcl-image.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="962">
+  <meta property="og:image:height" content="563">
+
+  <link rel="icon" href="/lcl/images/favicon.ico">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <!-- Font --> 
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="/lcl/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/lcl/weeks/week5/">
+  <link rel="alternate" type="application/rss+xml" title="Learning Creative Learning" href="/lcl/feed.xml">
+  <script type="text/javascript">window.liveSettings={api_key:"ddd65cab1c8f4bf0924ad1a18534da75"}</script>
+  <script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+  <!-- Global Site Tag (gtag.js) - Google Analytics - DO NOT CHANGE-->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106500697-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-106500697-1');
+
+	/**
+	* Function that tracks a click on an outbound link in Analytics.
+	* This function takes a valid URL string as an argument, and uses that URL string
+	* as the event label. Setting the transport method to 'beacon' lets the hit be sent
+	* using 'navigator.sendBeacon' in browser that support it.
+	* Code taken from: https://support.google.com/analytics/answer/7478520?hl=en and adjusted
+	*/
+	var trackOutboundLink = function(url, category="outbound") {
+	  gtag('event', 'open-doc', {
+	    'event_category': category,
+	    'event_label': url,
+	    'transport_type': 'beacon',
+	    'event_callback': function(){document.location = url;}
+	  });
+	}
+</script>
+
+</head>
+
+
+  <body>
+
+    
+      <!-- Fixed navbar -->
+
+
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white py-3">
+      <a class="navbar-brand font-weight-bold font-blue" href="/lcl/">
+        <img src="/lcl/images/lcl-logo.svg" height="50" class="d-inline-block align-top navbar-lcl-logo" alt="LCL Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+
+        </ul>
+        <ul class="navbar-nav justify-content-end">
+          <li class="nav-item btn">
+            <a class="nav-link" href="http://lcl-discuss.media.mit.edu">Forum</a>
+          </li>
+          <li class="nav-item btn bg-grey font-weight-bold dropdown active">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+              
+                5 - Play
+              
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="/lcl/get-started/">Getting Started</a>
+              <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/lcl/weeks/week1">
+                  1 - Introduction
+                </a>
+                <a class="dropdown-item" href="/lcl/weeks/week2">
+                  2 - Projects
+                </a>
+                <a class="dropdown-item" href="/lcl/weeks/week3">
+                  3 - Passion
+                </a>
+                <a class="dropdown-item" href="/lcl/weeks/week4">
+                  4 - Peers
+                </a>
+                <a class="dropdown-item" href="/lcl/weeks/week5">
+                  5 - Play
+                </a>
+                <a class="dropdown-item" href="/lcl/weeks/week6">
+                  6 - Creative Society
+                  <img id="current-week-indicator" src="/lcl/images/peg_blue.svg" tx-content="exclude" />
+                </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+      
+    
+
+    <div class="container-fluid container-pad-top"">
+      
+<div class="jumbotron jumbotron-fluid bg-grey mb-5">
+  <div class="container text-center">
+  	<div class="row">
+	    <h1 class="mb-5 font-weight-bold col-sm-9 mx-auto">Play</h1>
+	    
+				<p class="lead jumbotron-subtitle col-sm-9 mx-auto">This week we playfully explore the last of the four P&#39;s of creative learning: Play. We discuss different types of play, provide you opportunities for tinkering, and share strategies to promote a playful approach to learning.</p>
+			
+		</div>
+  </div>
+</div>
+
+<div class="container lcl-content">
+	<div class="row justify-content-center">
+		<div id="watch-and-read" class="col-sm-10">
+			
+			
+			<h2 class="font-weight-bold my-5 text-center">
+	<img class="week-page-title-peg" src="/lcl/images/peg_green.svg">
+ 	Watch & Read
+ 	<img class="week-page-title-peg" src="/lcl/images/peg_green.svg">
+</h2>
+
+			
+			
+		  <div id="watch-container">
+  
+	    <div class="row bg-grey py-3 px-2 mb-4">
+	<div class="col-lg-8 my-3 order-lg-1 order-2">
+		<div class="embed-responsive embed-responsive-16by9 border-0" id="trailer-video">
+		  <iframe class="youtube-iframe" src="https://www.youtube.com/embed/VaSSFKgIBss?rel=0&cc_load_policy=1" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="col-lg-4 order-lg-2 order-1 my-auto">
+		<h4>Playful Learning</h4>
+		
+			<p><p>In this video, Mitch Resnick discusses different types of play and shares strategies to promote a playful approach to learning.</p>
+</p>
+		
+		
+			<small class="text-muted"><i class="fa fa-globe mr-1" aria-hidden="true"></i>Subtitles are available in multiple languages.</small>
+		
+		
+			<p><small class="text-muted">
+				<a href="https://media.mit.edu/~tarmelop/lcl/week5-video-play.zip" onclick="trackOutboundLink('https://media.mit.edu/~tarmelop/lcl/week5-video-play.zip'); return false;"><i class="fa fa-download mr-1" aria-hidden="true"></i>Download this video</a>
+			</small></p>
+		
+	</div>
+</div>
+	
+</div>
+
+<div id="core-container" class="mt-4">
+  
+  	<h4 class="mt-2">Readings</h4>
+<p>Learn more about different types of play, tinkering, and supporting different styles of learning and playing.</p>
+<h4 class="ml-4">
+  <i class="fa fa-book mr-2" aria-hidden="true"></i>
+  <a href="../../resources/readings/chapter5-excerpt.pdf"
+     onclick="trackOutboundLink('../../resources/readings/chapter5-excerpt.pdf'); return false;">
+   Lifelong Kindergarten - Chapter 5 (excerpts)
+  </a>
+</h4>
+
+  <p class="mt-3 ml-4">
+    <i class="fa fa-globe mr-2" aria-hidden="true"></i>Also available in these languages:
+    
+      <a href="../../resources/readings/chapter5-excerpt.it.pdf"
+         onclick="trackOutboundLink('../../resources/readings/chapter5-excerpt.it.pdf'); return false;" tx-content="exclude">
+         <span tx-content="include">Italiano (Italian)</span>
+       </a>
+      
+      ,
+      
+    
+      <a href="../../resources/readings/chapter5-excerpt.pt.pdf"
+         onclick="trackOutboundLink('../../resources/readings/chapter5-excerpt.pt.pdf'); return false;" tx-content="exclude">
+         <span tx-content="include">Português (Portuguese)</span>
+       </a>
+      
+      ,
+      
+    
+      <a href="../../resources/readings/chapter5-excerpt.ja.pdf"
+         onclick="trackOutboundLink('../../resources/readings/chapter5-excerpt.ja.pdf'); return false;" tx-content="exclude">
+         <span tx-content="include">日本語 (Japanese)</span>
+       </a>
+      
+    
+  </p>
+
+
+  
+</div>
+
+
+  <p class="mt-5">
+  	<a href="#additional" onclick="trackOutboundLink('#additional'); return false;">Want more things to watch and read?</a>
+  </p>
+
+
+		</div>
+
+		<div id="make-and-share" class="col-sm-10">
+			
+			
+			<h2 class="font-weight-bold my-5 text-center">
+	<img class="week-page-title-peg" src="/lcl/images/peg_blue.svg">
+ 	Make & Share
+ 	<img class="week-page-title-peg" src="/lcl/images/peg_blue.svg">
+</h2>
+
+			
+			<div id="make-container">
+	<!--  
+	<h4 class="mb-2"></h4>
+	<p></p>
+	-->
+    
+    <div class="row bg-grey py-3 px-2 mb-4">
+	<div class="col-lg-8 my-3 order-lg-1 order-2">
+		<div class="embed-responsive embed-responsive-16by9 border-0" id="trailer-video">
+		  <iframe class="youtube-iframe" src="https://www.youtube.com/embed/P2pKwshcaa4?rel=0&cc_load_policy=1" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="col-lg-4 order-lg-2 order-1 my-auto">
+		<h4>Take time for Tinkering</h4>
+		
+			<p><p>This week, we invite you to playfully experiment with any material or technology you want to try.</p>
+
+<p>In this video, Lily and Sean will explain what that means and share some examples.</p>
+</p>
+		
+		
+		
+			<p><small class="text-muted">
+				<a href="https://media.mit.edu/~tarmelop/lcl/week5-video-activity.zip" onclick="trackOutboundLink('https://media.mit.edu/~tarmelop/lcl/week5-video-activity.zip'); return false;"><i class="fa fa-download mr-1" aria-hidden="true"></i>Download this video</a>
+			</small></p>
+		
+	</div>
+</div>
+	<p>In this activity, you will:</p>
+<ul>
+  <li>Choose a material or technology to playfully experiment with</li>
+  <li>Reflect on your tinkering process</li>
+  <li>Describe your process and share what you have made</li>
+</ul>
+
+	
+	<p class="text-center my-4" tx-content="translate_urls block"><a href="http://lcl-discuss.media.mit.edu/t/week-5-activity-time-for-tinkering/497" class="forum-btn btn btn-primary btn-lg">Start the Activity</a></p>
+	
+</div>
+
+		</div>
+
+		<div id="reflect-and-discuss" class="col-sm-10">
+			
+			
+			<h2 class="font-weight-bold my-5 text-center">
+	<img class="week-page-title-peg" src="/lcl/images/peg_red.svg">
+ 	Reflect & Discuss
+ 	<img class="week-page-title-peg" src="/lcl/images/peg_red.svg">
+</h2>
+
+			
+			<div id="discuss-container">
+  <h4></h4>
+  <p><p><strong>Playful Quotes</strong></p>
+
+<p>Choose a quote from this week’s reading or video that you find especially intriguing</p>
+
+<ul>
+  <li>What quote did you select?</li>
+  <li>Why did you pick this quote?</li>
+  <li>What actions does it inspire you to do?</li>
+</ul>
+</p>
+  <p class="text-center mt-4" tx-content="translate_urls block">
+  	
+  		<a href="http://lcl-discuss.media.mit.edu/t/week-5-reflection-playful-quotes/498" class="forum-btn btn btn-primary btn-lg my-3">Join the Conversation</a>
+  	
+  </p>
+</div>
+
+		</div>
+
+	  <div id="meet-and-chat" class="col-sm-10 bg-grey p-4 mt-5">
+	    
+			
+			<h2 class="font-weight-bold my-5 text-center">
+	<img class="week-page-title-peg" src="/lcl/images/peg_yellow.svg">
+ 	Meet & Chat
+ 	<img class="week-page-title-peg" src="/lcl/images/peg_yellow.svg">
+</h2>
+
+	    
+	  	<div id="meet-container" class="text-center">
+	<p><p>Would you like to meet the LCL team and the rest of the community?</p>
+
+<p>From February 6 to March 13 we are hosting Unhangout calls every Tuesday at 4pm EST.</p>
+
+<p>We’d love to see you there!</p>
+</p>
+	<p class="text-center mt-3"><a href="https://unhangout.media.mit.edu/event/lcl/" class="forum-btn btn btn-primary btn-lg">Join our Unhangout</a></p>
+</div>
+
+	  </div>
+
+	  <div id="additional" class="col-sm-10">
+			
+
+			
+				
+				
+				<h2 class="font-weight-bold my-5 text-center">
+	<img class="week-page-title-peg" src="/lcl/images/peg_green.svg">
+ 	Want More to Explore?
+ 	<img class="week-page-title-peg" src="/lcl/images/peg_green.svg">
+</h2>
+
+			  
+  
+    <p class="text-center mb-3">You might enjoy these additional materials</p>
+  
+
+
+<div id="watch-container">
+  
+	    <div class="row bg-grey py-3 px-2 mb-4">
+	<div class="col-lg-8 my-3 order-lg-1 order-2">
+		<div class="embed-responsive embed-responsive-16by9 border-0" id="trailer-video">
+		  <iframe class="youtube-iframe" src="https://www.youtube.com/embed/15toZvWMbAI?rel=0&cc_load_policy=1" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="col-lg-4 order-lg-2 order-1 my-auto">
+		<h4>Conversation with Karen Wilkinson and Mike Petrich</h4>
+		
+			<p><p>Mitch, Karen, and Mike discuss the tinkering process, how people learn through tinkering, and share strategies for facilitating playful learning experiences.</p>
+</p>
+		
+		
+			<small class="text-muted"><i class="fa fa-globe mr-1" aria-hidden="true"></i>Subtitles are available in multiple languages.</small>
+		
+		
+			<p><small class="text-muted">
+				<a href="https://media.mit.edu/~tarmelop/lcl/week5-conversation-karen-mike.zip" onclick="trackOutboundLink('https://media.mit.edu/~tarmelop/lcl/week5-conversation-karen-mike.zip'); return false;"><i class="fa fa-download mr-1" aria-hidden="true"></i>Download this video</a>
+			</small></p>
+		
+	</div>
+</div>
+	
+</div>
+
+<div id="core-container" class="mt-5">
+  
+    <h4 class="ml-4 mt-4">
+      
+        <i class="fa fa-book mr-2" aria-hidden="true"></i>
+      
+
+      <a href="http://web.media.mit.edu/~mres/download/Art-of-Tinkering.pdf" onclick="trackOutboundLink('http://web.media.mit.edu/~mres/download/Art-of-Tinkering.pdf'); return false;">The Art of Tinkering (excerpts)</a>
+      <p><p>Karen Wilkinson &amp; Mike Petrich (2014)</p>
+</p>
+    </h4>
+    
+
+  
+    <h4 class="ml-4 mt-4">
+      
+        <i class="fa fa-book mr-2" aria-hidden="true"></i>
+      
+
+      <a href="https://www.exploratorium.edu/sites/default/files/pdfs/PetrichWilkinsonBevan-2013-ItLooksLikeFun.pdf" onclick="trackOutboundLink('https://www.exploratorium.edu/sites/default/files/pdfs/PetrichWilkinsonBevan-2013-ItLooksLikeFun.pdf'); return false;">It Looks Like Fun, But Are They Learning?</a>
+      <p><p>Mike Petrich, Karen Wilkinson, &amp; Bronwyn Bevan (2013), in Design, Make, Play</p>
+</p>
+    </h4>
+    
+
+  
+    <h4 class="ml-4 mt-4">
+      
+        <i class="fa fa-book mr-2" aria-hidden="true"></i>
+      
+
+      <a href="../../resources/readings/designing-for-tinkerability.pdf" onclick="trackOutboundLink('../../resources/readings/designing-for-tinkerability.pdf'); return false;">Designing for Tinkerability</a>
+      <p><p>Mitchel Resnick &amp; Eric Rosenbaum (2013), in Design, Make, Play</p>
+</p>
+    </h4>
+    
+
+  
+    <h4 class="ml-4 mt-4">
+      
+        <i class="fa fa-play-circle mr-2" aria-hidden="true"></i>
+      
+
+      <a href="https://vimeo.com/144683857" onclick="trackOutboundLink('https://vimeo.com/144683857'); return false;">Edith Ackermann’s Pedagogical Perspective on Tinkering & Making</a>
+      <p>
+</p>
+    </h4>
+    
+
+  
+    <h4 class="ml-4 mt-4">
+      
+        <i class="fa fa-book mr-2" aria-hidden="true"></i>
+      
+
+      <a href="http://www.papert.org/articles/EpistemologicalPluralism.html" onclick="trackOutboundLink('http://www.papert.org/articles/EpistemologicalPluralism.html'); return false;">Epistemological Pluralism</a>
+      <p><p>Sherry Turkle &amp; Seymour Papert (1990), Signs</p>
+</p>
+    </h4>
+    
+
+  
+</div>
+			
+		</div>
+
+		<div id="offline-materials" class="col-sm-10 p-4">
+			
+			
+			<h2 class="font-weight-bold my-5 text-center">
+	<img class="week-page-title-peg" src="/lcl/images/peg_blue.svg">
+ 	Offline Materials
+ 	<img class="week-page-title-peg" src="/lcl/images/peg_blue.svg">
+</h2>
+
+	    
+	  	<div id="download-container" class="text-center">
+	<p><p>You can get this week’s videos, subtitles, and readings in a single zip file for offline use.</p>
+</p>
+	<p class="text-center mt-3">
+		<a href="https://media.mit.edu/~tarmelop/lcl/week5-all.zip" 
+				onclick="trackOutboundLink('https://media.mit.edu/~tarmelop/lcl/week5-all.zip'); return false;"><i class="fa fa-download mr-2" aria-hidden="true"></i>Download all materials</a>
+	</p>
+</div>
+
+		</div>
+
+		<div id="creative" class="col-sm-10">
+		
+
+			
+		</div>
+
+	</div> <!-- row -->
+</div> <!-- container -->
+    </div>
+
+    <footer class="footer">
+	<div class="container mx-auto">
+		<h6 class="font-weight-bold col-md-2 col-6">Helpful Links</h6>
+		<div class="row">
+			<div class="col-md-2 col-6">
+				<p class="mb-2"><a href="/lcl/about/">About</a></p>
+				<p class="mb-2"><a href="/lcl/faq/">Frequently Asked Questions</a></p>
+				<p class="mb-2"><a href="http://lcl-discuss.media.mit.edu">Forum</a></p>
+			</div>
+			<div class="col-md-5 col-6">
+				<p class="mb-2"><a href="/lcl/#map">Map</a></p>
+				<p class="mb-2"><a href="https://www.facebook.com/LearningCreativeLearning/">Facebook</a></p>
+			</div>
+		</div>
+		<div class="text-center mt-5">
+			<small class="text-muted">Playfully created by the <a href="https://llk.media.mit.edu" target="_blank">Lifelong Kindergarten Group</a> and the <a href="http://learn.media.mit.edu" target="_blank">Learning Initiative</a> at <a href="https://www.media.mit.edu/" target="_blank">MIT Media Lab</a>.</small>
+			<br>
+			<small class="text-muted">All materials licensed under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 license</a>, unless otherwise noted.</small>
+		</div>
+	</div>
+</footer>
+
+<!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="/lcl/lang-script.js"></script>
+  </body>
+
+</html>
