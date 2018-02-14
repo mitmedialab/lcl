@@ -29,7 +29,7 @@ watch-read:
             link:  ../../resources/readings/chapter2-excerpt.ja.pdf?pdf=ch2-ja
 
 make-share:
-  forum-link: http://lcl-discuss.media.mit.edu/t/week-2-activity-animate-a-name/192
+  forum-link: http://lcl-discuss.media.mit.edu/t/activity-2-animate-a-name/787
   forum-button-text: Start the Activity
 
   activity-title: Animate a Name
@@ -57,9 +57,9 @@ reflect:
     discussion-prompt: |
 
       Pick one (or more) of these topics, and share your ideas in the discussion forum:
-        * [Thinking about Coding](http://lcl-discuss.media.mit.edu/t/week-2-reflection-thinking-about-coding/231) - Has your experience with Scratch changed the way you think about coding? How did you think of coding before? How do you think of it now?
-        * [How do you Facilitate Projects?](http://lcl-discuss.media.mit.edu/t/week-2-reflection-put-projects-into-practice/230) - Have you helped others learn to create projects? What were the biggest challenges you faced? What strategies have you used to address these challenges? What questions do you have about a project-based approach to learning?
-        * [Creative Learning Spiral](http://lcl-discuss.media.mit.edu/t/week-2-reflection-creative-learning-spiral/233) - The Creative Learning Spiral is a way to think about the creative process. How would you describe or draw your own creative learning process?
+        * [Thinking about Coding](http://lcl-discuss.media.mit.edu/t/reflection-2-thinking-about-coding/785) - Has your experience with Scratch changed the way you think about coding? How did you think of coding before? How do you think of it now?
+        * [How do you Facilitate Projects?](http://lcl-discuss.media.mit.edu/t/reflection-2-how-do-you-facilitate-projects/784) - Have you helped others learn to create projects? What were the biggest challenges you faced? What strategies have you used to address these challenges? What questions do you have about a project-based approach to learning?
+        * [Creative Learning Spiral](http://lcl-discuss.media.mit.edu/t/reflection-2-creative-learning-spiral/786) - The Creative Learning Spiral is a way to think about the creative process. How would you describe or draw your own creative learning process?
 
 meet:
     unhangout-link: https://unhangout.media.mit.edu/event/lcl/
