@@ -29,7 +29,7 @@ watch-read:
             link:  ../../resources/readings/chapter3-excerpt.ja.pdf
 
 make-share:
-  forum-link: http://lcl-discuss.media.mit.edu/t/activity-week-3-animate-an-interest/325
+  forum-link: http://lcl-discuss.media.mit.edu/t/activity-3-animate-an-interest/805
   forum-button-text: Start the Activity
 
   activity-desc: |
@@ -48,7 +48,7 @@ make-share:
     show-subtitle-hint: true
 
 reflect:
-    forum-link: http://lcl-discuss.media.mit.edu/t/week-3-reflection-pick-a-quote/329/1
+    forum-link: http://lcl-discuss.media.mit.edu/t/reflection-3-pick-a-quote/806
     forum-button-text: Join the Conversation
     title:
     discussion-prompt: |
