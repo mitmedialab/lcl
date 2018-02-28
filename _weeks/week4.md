@@ -29,7 +29,7 @@ watch-read:
             link:  ../../resources/readings/chapter4-excerpt.ja.pdf
 
 make-share:
-  forum-link: http://lcl-discuss.media.mit.edu/t/week-4-activity-visit-a-learning-space/447
+  forum-link: http://lcl-discuss.media.mit.edu/t/activity-4-visit-a-learning-space/824
   forum-button-text: Start the Activity
 
   activity-desc: |
@@ -49,7 +49,7 @@ make-share:
       In this video, Jaleesa and Yumiko share some examples and explain a little bit more.
 
 reflect:
-    forum-link: http://lcl-discuss.media.mit.edu/t/week-4-reflection-quotes-and-questions/446
+    forum-link: http://lcl-discuss.media.mit.edu/t/reflection-4-quotes-and-questions/825
     forum-button-text: Join the Conversation
     title:
     discussion-prompt: |
