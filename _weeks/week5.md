@@ -29,7 +29,7 @@ watch-read:
             link:  ../../resources/readings/chapter5-excerpt.ja.pdf
 
 make-share:
-  forum-link: http://lcl-discuss.media.mit.edu/t/week-5-activity-time-for-tinkering/497
+  forum-link: http://lcl-discuss.media.mit.edu/t/activity-5-time-for-tinkering/837
   forum-button-text: Start the Activity
 
   activity-desc: |
@@ -49,7 +49,7 @@ make-share:
       In this video, Lily and Sean will explain what that means and share some examples.
 
 reflect:
-    forum-link: http://lcl-discuss.media.mit.edu/t/week-5-reflection-playful-quotes/498
+    forum-link: http://lcl-discuss.media.mit.edu/t/reflection-5-playful-quotes/838
     forum-button-text: Join the Conversation
     title:
     discussion-prompt: |
