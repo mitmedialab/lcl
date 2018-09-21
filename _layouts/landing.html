@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="container-fluid">
+      {% include components/title.html %}
+			<div class="container lcl-content">
+				
+
+				<div class="row justify-content-center text-center">
+					<div class="col-sm-6">
+
+						<div class="embed-responsive embed-responsive-16by9 border-0" id="trailer-video">
+						  <iframe class="youtube-iframe" src="https://www.youtube.com/embed/-lTPLFEwVOU?rel=0&cc_load_policy=1" allowfullscreen></iframe>
+						</div>
+
+						<div class="mt-5">
+							<h4>Course starts on October 9th, and it's <b>free</b>!</h4>
+						</div>
+
+						<div class="mt-4">
+							<h5>Sign up to receive updates</h5>
+							<a href="http://eepurl.com/dChPl1" class="btn btn-lg btn-primary">Sign up</a>
+						</div>
+
+						<div class="mt-5">
+							<p>If you have any questions, check out the <a href="../lcl/faq/">FAQ</a> or <a href="mailto:lcl-support@media.mit.edu">contact us</a>!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+    </div>
+
+    <footer class="footer" style="min-height: 100px">
+    	<div class="container mx-auto">
+				<div class="text-center">
+					<small class="text-muted">Playfully created by the <a href="https://llk.media.mit.edu" target="_blank">Lifelong Kindergarten Group</a> and the <a href="http://learn.media.mit.edu" target="_blank">Learning Initiative</a> at <a href="https://www.media.mit.edu/" target="_blank">MIT Media Lab</a>.</small>
+					<br>
+					<small class="text-muted">All materials licensed under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 license</a>, unless otherwise noted.</small>
+					<br>
+					<small class="text-muted">The website of the previous round is still available <a href="/lcl/index2/">here</a></small>		
+				</div>
+			</div>
+		</footer>
+
+<!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/lang-script.js"></script>
+  </body>
+
+</html>

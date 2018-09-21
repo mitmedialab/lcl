@@ -12,11 +12,15 @@
       {% assign container-classes = 'container-fluid container-pad-top' %}
     {% endif %}
 
-    <div class="{{container-classes}}"">
+    <div class="{{container-classes}}">
       {{ content }}
     </div>
 
-    {% include footer.html %}
+    {% if page.hide-navbar == true %}
+      <!-- empty footer -->
+    {% else %}
+      {% include footer.html %}
+    {% endif %}
 
 <!-- Bootstrap core JavaScript
   ================================================== -->
