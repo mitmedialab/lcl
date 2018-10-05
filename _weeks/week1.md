@@ -36,7 +36,7 @@ watch-read:
 
 make-share:
   forum-link: http://lcl-discuss.media.mit.edu/t/activity-1-childhood-objects/762
-  forum-button-text: Share Your Object
+  forum-button-text: Go to the activity
 
   activity-title: Childhood Object
   activity-overview: |
@@ -44,18 +44,20 @@ make-share:
     In the following video, Lily and Shruti explain a little bit more (subtitles available in multiple languages)
 
   activity-desc: |
-    Here are the steps for this activity
 
-    1. Read Seymour Papert’s essay on [Gears of My Childhood]( ../../resources/activity/week1/gears.pdf?pdf=gears.en) 
-    <br/><i class="fa fa-globe mr-2" aria-hidden="true"></i> also available in [Italiano (Italian)]( ../../resources/activity/week1/gears.it.pdf?pdf=gears.it), [Português (Portuguese)]( ../../resources/activity/week1/gears.pt.pdf?pdf=gears.pt), [Español (Spanish)]( ../../resources/activity/week1/gears.es.pdf?pdf=gears.es), [日本語 (Japanese)]( ../../resources/activity/week1/gears.ja.pdf?pdf=gears.ja)
-    
-    2. Think about an object from your childhood that interested and influenced you. What was special about it? How did it affect the way you think and learn?
-    
-    3. Go to the [discussion forum](http://lcl-discuss.media.mit.edu) to see other people's objects
-    
-    4. Share a photo and short description of your childhood object
+    This week we invite you to <strong>share a childhood object</strong> with the community.<br/>
+    It is a concrete way to reflect on our own learning, and to start building our community by creating personal and emotional connections.
 
+    In this activity you will:
 
+    1. Read Seymour Papert’s essay on [Gears of My Childhood]( ../../resources/activity/week1/gears.pdf?pdf=gears.en) (also available in [Italiano]( ../../resources/activity/week1/gears.it.pdf?pdf=gears.it), [Português]( ../../resources/activity/week1/gears.pt.pdf?pdf=gears.pt), [Español]( ../../resources/activity/week1/gears.es.pdf?pdf=gears.es), [日本語]( ../../resources/activity/week1/gears.ja.pdf?pdf=gears.ja)). 
+
+    2. Think about an object from your childhood that interested and influenced you.
+
+    3. Share a photo and a short reflection about your object. What was special about it? <strong>How did it affect the way you think and learn?</strong>
+
+    
+   
   video:
     link: https://www.youtube.com/embed/YeJRW7dBoM0?rel=0&cc_load_policy=1
     download-link:  https://media.mit.edu/~tarmelop/lcl/week1-video-activity.zip
@@ -85,7 +87,7 @@ meet:
     prompt: |
       Would you like to meet the LCL team and the rest of the community?
 
-      We are hosting a video call on Tuesday February 13 at 4pm EST.
+      Join our video calls, every Monday 9.00-10.00 AM and 4.00-5.00 PM (Boston time)
       
       We'd love to see you there!
 

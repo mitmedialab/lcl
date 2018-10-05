@@ -3,12 +3,13 @@
 	<h4 class="mb-2">{{m.activity-title}}</h4>
 	<p>{{m.activity-overview}}</p>
 	-->
-    {% assign video = m.video %}
+  <!--  {% assign video = m.video %}
     {% include components/video.html%}
+  -->
 	{{m.activity-desc | markdownify }}
 	{% if m.forum-button-text %}
-	<p class="text-center my-4" tx-content="translate_urls block"><a href="{{m.forum-link}}" class="forum-btn btn btn-primary btn-lg">{{m.forum-button-text}}</a></p>
+	<p class="text-center my-4" tx-content="translate_urls block"><a href="{{m.forum-link}}" class="mt-4 forum-btn btn btn-primary btn-lg">{{m.forum-button-text}}</a></p>
 	{% else %}
-	<p class="text-center my-4" tx-content="translate_urls block"><a href="{{m.forum-link}}" class="forum-btn btn btn-primary btn-lg">Share with us</a></p>
+	<p class="text-center my-4" tx-content="translate_urls block"><a href="{{m.forum-link}}" class="mt-4 forum-btn btn btn-primary btn-lg">Share with us</a></p>
 	{% endif %}
 </div>
