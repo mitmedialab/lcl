@@ -36,7 +36,7 @@ watch-read:
 
 make-share:
   forum-link: http://lcl-discuss.media.mit.edu/t/activity-1-childhood-objects/762
-  forum-button-text: Go to the activity
+  forum-button-text: Go to the Activity
 
   activity-title: Childhood Object
   activity-overview: |
