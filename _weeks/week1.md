@@ -77,7 +77,7 @@ reflect:
       <strong>What is Your Fifth P?</strong><br/>
       We take Creative Learning seriously, that's why we like to play, also with the P's!
 
-      In this course we'll explore learning through Projects, Passion, Peers, and Play. </br>
+      In this course we'll explore learning through Projects, Passion, Peers, and Play. <br/>
       What is another word that Creative Learning evokes for you? It can start with a P, or with any letter! :) <br/>
       Share your thoughs in the forum (or in the experimental <a href="https://join.slack.com/t/lcl-community/shared_invite/enQtNDQ1MDI5NDkzOTc0LWMyZmQ2Yjg5ZDViZTI1MWQ2ZjE4ZmE3NmMzNjdlYzY5Y2MzYmQ4YTA4YjI2ZWZjNTVlYmVkNjUwM2IyNDc4ZDk">Slack channel</a>)
 
