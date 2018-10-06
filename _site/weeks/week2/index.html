@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Projects</title>
+  <meta name="author" content="MIT Media Lab">
+  <meta name="description" content="">
+
+  <!-- open graph stuff --> 
+  <meta property="og:url" content="http://localhost:4000/lcl/weeks/week2/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Learning Creative Learning">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="/lcl/images/lcl-image.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="962">
+  <meta property="og:image:height" content="563">
+
+  <link rel="icon" href="/lcl/images/favicon.ico">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <!-- Font --> 
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="/lcl/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/lcl/weeks/week2/">
+  <link rel="alternate" type="application/rss+xml" title="Learning Creative Learning" href="/lcl/feed.xml">
+  <script type="text/javascript">window.liveSettings={api_key:"ddd65cab1c8f4bf0924ad1a18534da75"}</script>
+  <script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+  <!-- Global Site Tag (gtag.js) - Google Analytics - DO NOT CHANGE-->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106500697-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-106500697-1');
+
+	/**
+	* Function that tracks a click on an outbound link in Analytics.
+	* This function takes a valid URL string as an argument, and uses that URL string
+	* as the event label. Setting the transport method to 'beacon' lets the hit be sent
+	* using 'navigator.sendBeacon' in browser that support it.
+	* Code taken from: https://support.google.com/analytics/answer/7478520?hl=en and adjusted
+	*/
+	var trackOutboundLink = function(url, category="outbound") {
+	  gtag('event', 'open-doc', {
+	    'event_category': category,
+	    'event_label': url,
+	    'transport_type': 'beacon',
+	    'event_callback': function(){document.location = url;}
+	  });
+	}
+</script>
+
+</head>
+
+
+  <body>
+
+    
+      <!-- Fixed navbar -->
+
+
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white py-3">
+      <a class="navbar-brand font-weight-bold font-blue" href="/lcl/index2/"> <!--TODO: change back to index.html-->
+        <img src="/lcl/images/lcl-logo.svg" height="50" class="d-inline-block align-top navbar-lcl-logo" alt="LCL Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+
+        </ul>
+        <ul class="navbar-nav justify-content-end">
+          <li class="nav-item btn">
+            <a class="nav-link" href="http://lcl-discuss.media.mit.edu">Forum</a>
+          </li>
+          <li class="nav-item btn bg-grey font-weight-bold dropdown active">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+              
+                2 - Projects
+              
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="/lcl/get-started/">Getting Started</a>
+              <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/lcl/weeks/week1">
+                  1 - Introduction
+                </a>
+                <a class="disabled dropdown-item" href="/lcl/weeks/week2">
+                  2 - Projects
+                </a>
+                <a class="disabled dropdown-item" href="/lcl/weeks/week3">
+                  3 - Passion
+                </a>
+                <a class="disabled dropdown-item" href="/lcl/weeks/week4">
+                  4 - Peers
+                </a>
+                <a class="disabled dropdown-item" href="/lcl/weeks/week5">
+                  5 - Play
+                </a>
+                <a class="disabled dropdown-item" href="/lcl/weeks/week6">
+                  6 - Creative Society
+                  <!--img id="current-week-indicator" src="/lcl/images/peg_blue.svg" tx-content="exclude" /-->
+                </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+      
+    
+
+    <div class="container-fluid container-pad-top">
+      
+<div class="jumbotron jumbotron-fluid bg-grey mb-5">
+  <div class="container text-center">
+  	<div class="row">
+	    <h1 class="mb-5 font-weight-bold col-sm-9 mx-auto">Projects</h1>
+	    
+				<p class="lead jumbotron-subtitle col-sm-9 mx-auto">This week we focus on learning through making, and reflect on the creative process through the Creative Learning Spiral. We also introduce coding as a new form of fluency and self-expression, and we start making projects with Scratch.</p>
+			
+		</div>
+  </div>
+</div>
+
+<div class="container lcl-content">
+	<div class="row justify-content-center">
+		<div id="watch-and-read" class="col-sm-10">
+			
+			
+			<h2 class="font-weight-bold my-5 text-center">
+	<img class="week-page-title-peg" src="/lcl/images/peg_green.svg">
+ 	Watch & Read
+ 	<img class="week-page-title-peg" src="/lcl/images/peg_green.svg">
+</h2>
+
+			
+			
+		  <div id="watch-container">
+  
+	    <div class="row bg-grey py-3 px-2 mb-4">
+	<div class="col-lg-8 my-3 order-lg-1 order-2">
+		<div class="embed-responsive embed-responsive-16by9 border-0" id="trailer-video">
+		  <iframe class="youtube-iframe" src="https://www.youtube.com/embed/UqymVt-TtwU?rel=0&cc_load_policy=1" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="col-lg-4 order-lg-2 order-1 my-auto">
+		<h4>Learning through Projects</h4>
+		
+			<p><p>In this video, Mitch Resnick describes how people learn through making projects, and introduces the Creative Learning Spiral as a framework to reflect about the creative process.</p>
+</p>
+		
+		
+			<small class="text-muted"><i class="fa fa-globe mr-1" aria-hidden="true"></i>Subtitles are available in multiple languages.</small>
+		
+		
+			<p><small class="text-muted">
+				<a href="https://media.mit.edu/~tarmelop/lcl/week2-video-projects.zip" onclick="trackOutboundLink('https://media.mit.edu/~tarmelop/lcl/week2-video-projects.zip'); return false;"><i class="fa fa-download mr-1" aria-hidden="true"></i>Download this video</a>
+			</small></p>
+		
+	</div>
+</div>
+	
+</div>
+
+<div id="core-container" class="mt-4">
+  
+  	<h4 class="mt-2">Readings</h4>
+<p>Learn more about creativity and the maker movement, and coding as a form of fluency and expression.</p>
+<h4 class="ml-4">
+  <i class="fa fa-book mr-2" aria-hidden="true"></i>
+  <a href="../../resources/readings/chapter2-excerpt.pdf?pdf=ch2-en"
+     onclick="trackOutboundLink('../../resources/readings/chapter2-excerpt.pdf?pdf=ch2-en'); return false;">
+   Lifelong Kindergarten - Chapter 2 (excerpts)
+  </a>
+</h4>
+
+  <p class="mt-3 ml-4">
+    <i class="fa fa-globe mr-2" aria-hidden="true"></i>Also available in these languages:
+    
+      <a href="../../resources/readings/chapter2-excerpt.it.pdf?pdf=ch2-it"
+         onclick="trackOutboundLink('../../resources/readings/chapter2-excerpt.it.pdf?pdf=ch2-it'); return false;" tx-content="exclude">
+         <span tx-content="include">Italiano (Italian)</span>
+       </a>
+      
+      ,
+      
+    
+      <a href="../../resources/readings/chapter2-excerpt.pt.pdf?pdf=ch2-pt"
+         onclick="trackOutboundLink('../../resources/readings/chapter2-excerpt.pt.pdf?pdf=ch2-pt'); return false;" tx-content="exclude">
+         <span tx-content="include">Português (Portuguese)</span>
+       </a>
+      
+      ,
+      
+    
+      <a href="../../resources/readings/chapter2-excerpt.ja.pdf?pdf=ch2-ja"
+         onclick="trackOutboundLink('../../resources/readings/chapter2-excerpt.ja.pdf?pdf=ch2-ja'); return false;" tx-content="exclude">
+         <span tx-content="include">日本語 (Japanese)</span>
+       </a>
+      
+    
+  </p>
+
+
+  
+</div>
+
+
+  <p class="mt-5">
+  	<a href="#additional" onclick="trackOutboundLink('#additional'); return false;">Want more things to watch and read?</a>
+  </p>
+
+
+		</div>
+
+		<div id="make-and-share" class="col-sm-10">
+			
+			
+			<h2 class="font-weight-bold my-5 text-center">
+	<img class="week-page-title-peg" src="/lcl/images/peg_blue.svg">
+ 	Make & Share
+ 	<img class="week-page-title-peg" src="/lcl/images/peg_blue.svg">
+</h2>
+
+			
+			<div id="make-container">
+	<!--  
+	<h4 class="mb-2">Animate a Name</h4>
+	<p>This week, we invite you to make a project, using Scratch (or other materials) to create an animation of your name. In this video, Yumiko and Dhwani show you examples and explain a little bit more.
+</p>
+	-->
+  <!--  
+    <div class="row bg-grey py-3 px-2 mb-4">
+	<div class="col-lg-8 my-3 order-lg-1 order-2">
+		<div class="embed-responsive embed-responsive-16by9 border-0" id="trailer-video">
+		  <iframe class="youtube-iframe" src="https://www.youtube.com/embed/r_X37lMVQFk?rel=0&cc_load_policy=1" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="col-lg-4 order-lg-2 order-1 my-auto">
+		<h4>Animate a Name</h4>
+		
+			<p><p>This week, we invite you to make a project, using Scratch (or other materials) to create an animation of your name. In this video, Yumiko and Dhwani show you examples and explain a little bit more.</p>
+</p>
+		
+		
+			<small class="text-muted"><i class="fa fa-globe mr-1" aria-hidden="true"></i>Subtitles are available in multiple languages.</small>
+		
+		
+			<p><small class="text-muted">
+				<a href="https://media.mit.edu/~tarmelop/lcl/week2-video-activity.zip" onclick="trackOutboundLink('https://media.mit.edu/~tarmelop/lcl/week2-video-activity.zip'); return false;"><i class="fa fa-download mr-1" aria-hidden="true"></i>Download this video</a>
+			</small></p>
+		
+	</div>
+</div>
+  -->
+	<p>In this activity, you will:</p>
+<ul>
+  <li>Make a project with Scratch</li>
+  <li>Share your project (and your process!) with the community</li>
+  <li>Learn more about Scratch, and discover resources to get started</li>
+</ul>
+
+	
+	<p class="text-center my-4" tx-content="translate_urls block"><a href="http://lcl-discuss.media.mit.edu/t/activity-2-animate-a-name/787" class="mt-4 forum-btn btn btn-primary btn-lg">Start the Activity</a></p>
+	
+</div>
+
+		</div>
+
+		<div id="reflect-and-discuss" class="col-sm-10">
+			
+			
+			<h2 class="font-weight-bold my-5 text-center">
+	<img class="week-page-title-peg" src="/lcl/images/peg_red.svg">
+ 	Reflect & Discuss
+ 	<img class="week-page-title-peg" src="/lcl/images/peg_red.svg">
+</h2>
+
+			
+			<div id="discuss-container">
+  <h4></h4>
+  <p>
+<p>Pick one (or more) of these topics, and share your ideas in the discussion forum:</p>
+<ul>
+  <li><a href="http://lcl-discuss.media.mit.edu/t/reflection-2-thinking-about-coding/785">Thinking about Coding</a> - Has your experience with Scratch changed the way you think about coding? How did you think of coding before? How do you think of it now?</li>
+  <li><a href="http://lcl-discuss.media.mit.edu/t/reflection-2-how-do-you-facilitate-projects/784">How do you Facilitate Projects?</a> - Have you helped others learn to create projects? What were the biggest challenges you faced? What strategies have you used to address these challenges? What questions do you have about a project-based approach to learning?</li>
+  <li><a href="http://lcl-discuss.media.mit.edu/t/reflection-2-creative-learning-spiral/786">Creative Learning Spiral</a> - The Creative Learning Spiral is a way to think about the creative process. How would you describe or draw your own creative learning process?</li>
+</ul>
+</p>
+  <p class="text-center mt-4" tx-content="translate_urls block">
+  	
+  		<a href="http://lcl-discuss.media.mit.edu/c/week-2-projects" class="forum-btn btn btn-primary btn-lg my-3">Join the Conversation</a>
+  	
+  </p>
+</div>
+
+		</div>
+
+	  <div id="meet-and-chat" class="col-sm-10 bg-grey p-4 mt-5">
+	    
+			
+			<h2 class="font-weight-bold my-5 text-center">
+	<img class="week-page-title-peg" src="/lcl/images/peg_yellow.svg">
+ 	Meet & Chat
+ 	<img class="week-page-title-peg" src="/lcl/images/peg_yellow.svg">
+</h2>
+
+	    
+	  	<div id="meet-container" class="text-center">
+	<p><p>Would you like to meet the LCL team and the rest of the community?</p>
+
+<p>From February 6 to March 13 we are hosting Unhangout calls every Tuesday at 4pm EST.</p>
+
+<p>We’d love to see you there!</p>
+</p>
+	<p class="text-center mt-3"><a href="https://unhangout.media.mit.edu/event/lcl/" class="forum-btn btn btn-primary btn-lg">Join our Unhangout</a></p>
+</div>
+
+	  </div>
+
+	  <div id="additional" class="col-sm-10">
+			
+
+			
+				
+				
+				<h2 class="font-weight-bold my-5 text-center">
+	<img class="week-page-title-peg" src="/lcl/images/peg_green.svg">
+ 	Want More to Explore?
+ 	<img class="week-page-title-peg" src="/lcl/images/peg_green.svg">
+</h2>
+
+			  
+  
+    <p class="text-center mb-3">You might enjoy these additional materials</p>
+  
+
+
+<div id="watch-container">
+  
+	    <div class="row bg-grey py-3 px-2 mb-4">
+	<div class="col-lg-8 my-3 order-lg-1 order-2">
+		<div class="embed-responsive embed-responsive-16by9 border-0" id="trailer-video">
+		  <iframe class="youtube-iframe" src="https://www.youtube.com/embed/MHJdmm-cIU0?rel=0&cc_load_policy=1" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="col-lg-4 order-lg-2 order-1 my-auto">
+		<h4>Conversation with Andrew Sliwinski</h4>
+		
+			<p><p>Mitch and Andrew discuss strategies for engaging children in creative learning through projects — and compare experiences with physical and digital materials</p>
+</p>
+		
+		
+			<small class="text-muted"><i class="fa fa-globe mr-1" aria-hidden="true"></i>Subtitles are available in multiple languages.</small>
+		
+		
+			<p><small class="text-muted">
+				<a href="https://media.mit.edu/~tarmelop/lcl/week2-conversation-andrew.zip" onclick="trackOutboundLink('https://media.mit.edu/~tarmelop/lcl/week2-conversation-andrew.zip'); return false;"><i class="fa fa-download mr-1" aria-hidden="true"></i>Download this video</a>
+			</small></p>
+		
+	</div>
+</div>
+	
+</div>
+
+<div id="core-container" class="mt-5">
+  
+    <h4 class="ml-4 mt-4">
+      
+        <i class="fa fa-play-circle mr-2" aria-hidden="true"></i>
+      
+
+      <a href="https://www.ted.com/talks/mitch_resnick_let_s_teach_kids_to_code" onclick="trackOutboundLink('https://www.ted.com/talks/mitch_resnick_let_s_teach_kids_to_code'); return false;">Mitch Resnick - Let's teach kids to code.</a>
+      <p><p>(Video from TEDx talk - subtitles available in multiple languages)</p>
+</p>
+    </h4>
+    
+
+  
+    <h4 class="ml-4 mt-4">
+      
+        <i class="fa fa-book mr-2" aria-hidden="true"></i>
+      
+
+      <a href="../../resources/readings/childrens-machine.pdf" onclick="trackOutboundLink('../../resources/readings/childrens-machine.pdf'); return false;">Seymour Papert - Instructionism versus Constructionism</a>
+      <p><p>(Chapter 7 from ‘The Children’s Machine’)</p>
+</p>
+    </h4>
+    
+      <p class="mt-3 ml-4">
+        <i class="fa fa-globe mr-2" aria-hidden="true"></i>Also available in these languages:
+        
+          <a href="../../resources/readings/Instrucionismo-x-construcionismo.pdf" onclick="trackOutboundLink('../../resources/readings/Instrucionismo-x-construcionismo.pdf'); return false;" tx-content="exclude">
+            <span tx-content="include">Português (Portuguese)</span>
+          </a>
+          
+        
+      </p>
+    
+
+  
+</div>
+			
+		</div>
+
+		<div id="offline-materials" class="col-sm-10 p-4">
+			
+			
+			<h2 class="font-weight-bold my-5 text-center">
+	<img class="week-page-title-peg" src="/lcl/images/peg_blue.svg">
+ 	Offline Materials
+ 	<img class="week-page-title-peg" src="/lcl/images/peg_blue.svg">
+</h2>
+
+	    
+	  	<div id="download-container" class="text-center">
+	<p><p>You can get this week’s videos, subtitles, and readings in a single zip file for offline use.</p>
+</p>
+	<p class="text-center mt-3">
+		<a href="https://media.mit.edu/~tarmelop/lcl/week2-all.zip" 
+				onclick="trackOutboundLink('https://media.mit.edu/~tarmelop/lcl/week2-all.zip'); return false;"><i class="fa fa-download mr-2" aria-hidden="true"></i>Download all materials</a>
+	</p>
+</div>
+
+		</div>
+
+		<div id="creative" class="col-sm-10">
+		
+
+			
+		</div>
+
+	</div> <!-- row -->
+</div> <!-- container -->
+    </div>
+
+    
+      <footer class="footer">
+	<div class="container mx-auto">
+		<h6 class="font-weight-bold col-md-2 col-6">Helpful Links</h6>
+		<div class="row">
+			<div class="col-md-2 col-6">
+				<p class="mb-2"><a href="/lcl/about/">About</a></p>
+				<p class="mb-2"><a href="/lcl/faq/">Frequently Asked Questions</a></p>
+				<p class="mb-2"><a href="http://lcl-discuss.media.mit.edu">Forum</a></p>
+			</div>
+			<div class="col-md-5 col-6">
+				<p class="mb-2"><a href="/lcl/#map">Map</a></p>
+				<p class="mb-2"><a href="https://www.facebook.com/LearningCreativeLearning/">Facebook</a></p>
+			</div>
+		</div>
+		<div class="text-center mt-5">
+			<small class="text-muted">Playfully created by the <a href="https://llk.media.mit.edu" target="_blank">Lifelong Kindergarten Group</a> and the <a href="http://learn.media.mit.edu" target="_blank">Learning Initiative</a> at <a href="https://www.media.mit.edu/" target="_blank">MIT Media Lab</a>.</small>
+			<br>
+			<small class="text-muted">All materials licensed under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 license</a>, unless otherwise noted.</small>
+		</div>
+	</div>
+</footer>
+    
+
+<!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="/lcl/lang-script.js"></script>
+  </body>
+
+</html>

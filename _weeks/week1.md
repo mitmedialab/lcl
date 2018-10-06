@@ -45,8 +45,9 @@ make-share:
 
   activity-desc: |
 
-    This week we invite you to <strong>share a childhood object</strong> with the community.<br/>
-    It is a concrete way to reflect on our own learning, and to start building our community by creating personal and emotional connections.
+    This week we invite you to <strong>share one of your childhood objects</strong> with other people.<br/>
+    Objects provide a concrete way for thinking and reflecting on our own learning. <br/>
+    Also, it's a playful way to share something about us, creating personal and emotional connections.
 
     In this activity you will:
 
@@ -54,7 +55,7 @@ make-share:
 
     2. Think about an object from your childhood that interested and influenced you.
 
-    3. Share a photo and a short reflection about your object. What was special about it? <strong>How did it affect the way you think and learn?</strong>
+    3. Share a photo and a short reflection about your object. What was special about it? How did it affect the way you think and learn?
 
     
    
@@ -73,13 +74,12 @@ reflect:
     title:
     discussion-prompt: |
 
-      This week we are going to reflect on the core ideas of Creative Learning by playing with the 4P's.
+      <strong>What is Your Fifth P?</strong><br/>
+      We take Creative Learning seriously, that's why we like to play, also with the P's!
 
-      We'd love to hear:
-
-      <p class="ml-4"><strong>Which one among the 4P's (Projects, Passion, Peers and Play) are you particularly curious or excited about, and why?</strong></p>
-
-      Feel free to start new conversations and play with other ideas: for example imagining the kindergarten approach in your learning environment, or sharing a favorite quote from the week's readings and explaining why it resonates with you.
+      In this course we'll explore learning through Projects, Passion, Peers, and Play. </br>
+      What is another word that Creative Learning evokes for you? It can start with a P, or with any letter! :) <br/>
+      Share your thoughs in the forum (or in the experimental <a href="https://join.slack.com/t/lcl-community/shared_invite/enQtNDQ1MDI5NDkzOTc0LWMyZmQ2Yjg5ZDViZTI1MWQ2ZjE4ZmE3NmMzNjdlYzY5Y2MzYmQ4YTA4YjI2ZWZjNTVlYmVkNjUwM2IyNDc4ZDk">Slack channel</a>)
 
 
 meet:
