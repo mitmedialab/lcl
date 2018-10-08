@@ -36,7 +36,7 @@ watch-read:
 
 make-share:
   forum-link: http://lcl-discuss.media.mit.edu/t/activity-1-childhood-objects/762
-  forum-button-text: Go to the Activity
+  forum-button-text: Share Your Object
 
   activity-title: Childhood Object
   activity-overview: |
@@ -44,21 +44,18 @@ make-share:
     In the following video, Lily and Shruti explain a little bit more (subtitles available in multiple languages)
 
   activity-desc: |
+    Here are the steps for this activity
 
-    This week we invite you to <strong>share one of your childhood objects</strong> with other people.<br/>
-    Objects provide a concrete way for thinking and reflecting on our own learning. <br/>
-    Also, it's a playful way to share something about us, creating personal and emotional connections.
-
-    In this activity you will:
-
-    1. Read Seymour Papert’s essay on [Gears of My Childhood]( ../../resources/activity/week1/gears.pdf?pdf=gears.en) (also available in [Italiano]( ../../resources/activity/week1/gears.it.pdf?pdf=gears.it), [Português]( ../../resources/activity/week1/gears.pt.pdf?pdf=gears.pt), [Español]( ../../resources/activity/week1/gears.es.pdf?pdf=gears.es), [日本語]( ../../resources/activity/week1/gears.ja.pdf?pdf=gears.ja)). 
-
-    2. Think about an object from your childhood that interested and influenced you.
-
-    3. Share a photo and a short reflection about your object. What was special about it? How did it affect the way you think and learn?
-
+    1. Read Seymour Papert’s essay on [Gears of My Childhood]( ../../resources/activity/week1/gears.pdf?pdf=gears.en) 
+    <br/><i class="fa fa-globe mr-2" aria-hidden="true"></i> also available in [Italiano (Italian)]( ../../resources/activity/week1/gears.it.pdf?pdf=gears.it), [Português (Portuguese)]( ../../resources/activity/week1/gears.pt.pdf?pdf=gears.pt), [Español (Spanish)]( ../../resources/activity/week1/gears.es.pdf?pdf=gears.es), [日本語 (Japanese)]( ../../resources/activity/week1/gears.ja.pdf?pdf=gears.ja)
     
-   
+    2. Think about an object from your childhood that interested and influenced you. What was special about it? How did it affect the way you think and learn?
+    
+    3. Go to the [discussion forum](http://lcl-discuss.media.mit.edu) to see other people's objects
+    
+    4. Share a photo and short description of your childhood object
+
+
   video:
     link: https://www.youtube.com/embed/YeJRW7dBoM0?rel=0&cc_load_policy=1
     download-link:  https://media.mit.edu/~tarmelop/lcl/week1-video-activity.zip
@@ -74,12 +71,13 @@ reflect:
     title:
     discussion-prompt: |
 
-      <strong>What is Your Fifth P?</strong><br/>
-      We take Creative Learning seriously, that's why we like to play, also with the P's!
+      This week we are going to reflect on the core ideas of Creative Learning by playing with the 4P's.
 
-      In this course we'll explore learning through Projects, Passion, Peers, and Play. <br/>
-      What is another word that Creative Learning evokes for you? It can start with a P, or with any letter! :) <br/>
-      Share your thoughs in the forum (or in the experimental <a href="https://join.slack.com/t/lcl-community/shared_invite/enQtNDQ1MDI5NDkzOTc0LWMyZmQ2Yjg5ZDViZTI1MWQ2ZjE4ZmE3NmMzNjdlYzY5Y2MzYmQ4YTA4YjI2ZWZjNTVlYmVkNjUwM2IyNDc4ZDk">Slack channel</a>)
+      We'd love to hear:
+
+      <p class="ml-4"><strong>Which one among the 4P's (Projects, Passion, Peers and Play) are you particularly curious or excited about, and why?</strong></p>
+
+      Feel free to start new conversations and play with other ideas: for example imagining the kindergarten approach in your learning environment, or sharing a favorite quote from the week's readings and explaining why it resonates with you.
 
 
 meet:
@@ -97,3 +95,8 @@ download:
       You can get this week's videos, subtitles, and readings in a single zip file for offline use.
     zipfile-link: https://media.mit.edu/~tarmelop/lcl/week1-all.zip
 ---
+
+
+
+
+
