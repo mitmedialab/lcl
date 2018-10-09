@@ -7,7 +7,7 @@ permalink: /about/
 
 For many years, the <a target="_blank" href="http://llk.media.mit.edu">Lifelong Kindergarten group</a> at the <a target="_blank" href="https://www.media.mit.edu">MIT Media Lab</a>, led by <a target="_blank" href="http://web.media.mit.edu/~mres/">Mitch Resnick</a>, has been developing new technologies, activities, and environments (such as <a target="_blank" href="https://scratch.mit.edu/">Scratch</a> and <a target="_blank" href="http://www.computerclubhouse.org/">Computer Clubhouses</a>) to engage all children, from all backgrounds, in creative learning experiences.
  
-[Learning Creative Learning]({{ site.baseurl }}{% link index2.html %}) (LCL) is our effort to connect and share ideas with people around the world with similar goals, visions, and values. It is an opportunity for like-minded educators and learners to meet one another and share ideas, strategies, and practical tips on how to support creative learning.
+[Learning Creative Learning]({{ site.baseurl }}{% link index.html %}) (LCL) is our effort to connect and share ideas with people around the world with similar goals, visions, and values. It is an opportunity for like-minded educators and learners to meet one another and share ideas, strategies, and practical tips on how to support creative learning.
 
 LCL is organized as a six-week online course (starting on October 18, 2017), but its real goal is to cultivate an ongoing learning community in support of creative learning around the world.
 

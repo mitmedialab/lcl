@@ -35,7 +35,7 @@ watch-read:
   add-readings:
 
 make-share:
-  forum-link: http://lcl-discuss.media.mit.edu/t/activity-1-childhood-objects/762
+  forum-link: http://lcl-discuss.media.mit.edu/t/wk-1-activity-childhood-objects/1155
   forum-button-text: Share Your Object
 
   activity-title: Childhood Object
@@ -66,7 +66,7 @@ make-share:
     show-subtitle-hint: true
 
 reflect:
-    forum-link: http://lcl-discuss.media.mit.edu/t/reflection-1-pick-a-p/765
+    forum-link: http://lcl-discuss.media.mit.edu/t/wk-1-reflection-pick-a-p/1156
     forum-button-text: Join the Conversation
     title:
     discussion-prompt: |
