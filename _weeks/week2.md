@@ -32,29 +32,29 @@ make-share:
   forum-link: http://lcl-discuss.media.mit.edu/t/wk-2-activity-make-something/1359
   forum-button-text: Start the Activity
 
-  activity-title: Animate a Name
+  activity-title: Make Something!
   activity-overview: |
-    This week, we invite you to make a project, using Scratch (or other materials) to create an animation of your name. In this video, Yumiko and Dhwani show you examples and explain a little bit more.
 
   activity-desc: |
     This week we invite you to make a project and share your process with the community!
 
     You can make something:
-    - big, small, green, sweet, loud, crazy, ...
-    - in your kitchen,  outside ...
+    - big, small, green, sweet, loud, unusual, ...
+    - in your kitchen, in a makerspace, outside ...
     - with paper, with wood, with Scratch, ...
     - for yourself, for someone else, for work, for fun, ...
 
-    When you are ready, share your project and reflect on your process.
-    <br/>How did you get the idea? What was a challenge you encountered? What would you do if you had more time?
+    It can be something you do only for this week, or a piece of a bigger project you'd like to work on.
+
+    When you are ready, share your project (picture, link, and/or description) and reflect on your process. Some questions to possibly consider as you reflect: How did you get the idea? What was a challenge you encountered? What would you do if you had more time?
+
 
     
   video:
-    link: https://www.youtube.com/embed/r_X37lMVQFk?rel=0&cc_load_policy=1
-    download-link:  https://media.mit.edu/~tarmelop/lcl/week2-video-activity.zip
-    title: Animate a Name
+    link:
+    download-link: 
+    title: 
     desc: |
-      This week, we invite you to make a project, using Scratch (or other materials) to create an animation of your name. In this video, Yumiko and Dhwani show you examples and explain a little bit more.
     show-subtitle-hint: true
 
 reflect:
