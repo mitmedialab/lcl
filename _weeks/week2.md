@@ -29,7 +29,7 @@ watch-read:
             link:  ../../resources/readings/chapter2-excerpt.ja.pdf?pdf=ch2-ja
 
 make-share:
-  forum-link: http://lcl-discuss.media.mit.edu/t/activity-2-animate-a-name/787
+  forum-link: http://lcl-discuss.media.mit.edu/t/wk-2-activity-make-something/1359
   forum-button-text: Start the Activity
 
   activity-title: Animate a Name
@@ -58,7 +58,7 @@ make-share:
     show-subtitle-hint: true
 
 reflect:
-    forum-link: http://lcl-discuss.media.mit.edu/c/week-2-projects
+    forum-link: http://lcl-discuss.media.mit.edu/t/wk-2-reflection-thinking-about-projects/1363
     forum-button-text: Join the Conversation
     title:
     discussion-prompt: |
