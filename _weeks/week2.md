@@ -37,10 +37,17 @@ make-share:
     This week, we invite you to make a project, using Scratch (or other materials) to create an animation of your name. In this video, Yumiko and Dhwani show you examples and explain a little bit more.
 
   activity-desc: |
-    In this activity, you will:
-      * Make a project with Scratch
-      * Share your project (and your process!) with the community
-      * Learn more about Scratch, and discover resources to get started
+    This week we invite you to make a project and share your process with the community!
+
+    You can make something:
+    - big, small, green, sweet, loud, crazy, ...
+    - in your kitchen,  outside ...
+    - with paper, with wood, with Scratch, ...
+    - for yourself, for someone else, for work, for fun, ...
+
+    When you are ready, share your project and reflect on your process.
+    <br/>How did you get the idea? What was a challenge you encountered? What would you do if you had more time?
+
     
   video:
     link: https://www.youtube.com/embed/r_X37lMVQFk?rel=0&cc_load_policy=1
@@ -56,17 +63,20 @@ reflect:
     title:
     discussion-prompt: |
 
-      Pick one (or more) of these topics, and share your ideas in the discussion forum:
-        * [Thinking about Coding](http://lcl-discuss.media.mit.edu/t/reflection-2-thinking-about-coding/785) - Has your experience with Scratch changed the way you think about coding? How did you think of coding before? How do you think of it now?
-        * [How do you Facilitate Projects?](http://lcl-discuss.media.mit.edu/t/reflection-2-how-do-you-facilitate-projects/784) - Have you helped others learn to create projects? What were the biggest challenges you faced? What strategies have you used to address these challenges? What questions do you have about a project-based approach to learning?
-        * [Creative Learning Spiral](http://lcl-discuss.media.mit.edu/t/reflection-2-creative-learning-spiral/786) - The Creative Learning Spiral is a way to think about the creative process. How would you describe or draw your own creative learning process?
+      Think about this week's video, readings, activity or discussions.
+      <br/>
+      <br/>What is a [<i>idea, quote, question, word, ...</i>]
+      <br/>that you have found [<i>intriguing, provoking, inspiring, ...</i>]
+      <br/>and how do you relate to it as a [<i>learner, educator, designer, human being, ...</i>] ?
+
+      Make your own reflection prompt and share your thoughts with the rest of the community!
 
 meet:
     unhangout-link: https://unhangout.media.mit.edu/event/lcl/
     prompt: |
       Would you like to meet the LCL team and the rest of the community?
 
-      From February 6 to March 13 we are hosting Unhangout calls every Tuesday at 4pm EST.
+      Join our video calls, every Monday 9.00-10.00 AM and 4.00-5.00 PM (Boston time)
 
       We'd love to see you there!
 
