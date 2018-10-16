@@ -4,7 +4,7 @@ layout: module
 navbar-name: 2 - Projects
 
 title: Projects
-subtitle: This week we focus on learning through making, and reflect on the creative process through the Creative Learning Spiral. We also introduce coding as a new form of fluency and self-expression, and we start making projects with Scratch.
+subtitle: This week we focus on learning through making, and reflect on the creative process through the Creative Learning Spiral. We also introduce coding as a new form of fluency and self-expression, and we start making projects.
 
 watch-read:
   videos:
