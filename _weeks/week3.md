@@ -4,7 +4,7 @@ layout: module
 navbar-name: 3 - Passion
 
 title: Passion
-subtitle: This week we explore motivation in learning, along with strategies to engage people in meaningful experiences. We introduce the ideas of Hard Fun and Wide Walls, and you'll have a chance to continue exploring Scratch by making projects connected to your interests.
+subtitle: This week we explore motivation in learning, along with strategies to engage people in meaningful experiences. We introduce the ideas of Hard Fun and Wide Walls, and you'll start exploring Scratch by making projects connected to your interests.
 
 watch-read:
   videos:
