@@ -29,35 +29,36 @@ watch-read:
             link:  ../../resources/readings/chapter3-excerpt.ja.pdf
 
 make-share:
-  forum-link: http://lcl-discuss.media.mit.edu/t/activity-3-animate-an-interest/805
+  forum-link: http://lcl-discuss.media.mit.edu/t/wk-3-activity-make-a-scratch-project/1557
   forum-button-text: Start the Activity
 
   activity-desc: |
-    With this activity, you will have the opportunity to:
-     * Make a new project with Scratch
-     * Share your project with the community
-     * Reflect on how Scratch supports multiple interests and pathways
+
+    This week we invite you to explore Scratch by making a project about something or someone you care about. For example, it can be an animation about one of your favorite hobbies, books, or places, a video game featuring your pet, or a greeting card for someone you love!
+
+    When you feel ready, share your project and your reflections: What motivated you in creating your project? Can you describe a moment of joy or frustration? What helped you persist in face of challenges?
+
+    If you are new to Scratch, you'll find resources to get started. If you get stuck, ask a question in the forum or in our Slack channel.
+ 
 
   video:
     link: https://www.youtube.com/embed/UCM6ESXCT4Q?rel=0&cc_load_policy=1
     download-link: https://media.mit.edu/~tarmelop/lcl/week3-video-activity.zip
-    title: Animate Your Interests
+    title: Build on Your Interests
     desc: |
       This week, we invite you to share one of your interests by creating a Scratch project about it. In this video, Lily and Shruti will show you examples and explain a little bit more.
 
     show-subtitle-hint: true
 
 reflect:
-    forum-link: http://lcl-discuss.media.mit.edu/t/reflection-3-pick-a-quote/806
+    forum-link: http://lcl-discuss.media.mit.edu/t/wk-3-reflection-designing-for-wide-walls/1558
     forum-button-text: Join the Conversation
     title:
     discussion-prompt: |
 
-      **Pick a Quote**
+      In this week’s video and readings, Mitch introduces the idea of “wide walls”: designing learning experiences where people can create a variety of different projects in a variety of ways, based on their interests and styles.
 
-      From this week's readings or videos, choose one quote that you found especially interesting or provocative.
-
-      Why did it resonate with you? Did it spark new ways of thinking about Passion? How does it relate to your personal experiences?
+      What do the wide walls look like in your practice? What are some of the design choices or facilitation strategies that you already use, or you plan to use to widen the walls?
 
 meet:
     unhangout-link: https://unhangout.media.mit.edu/event/lcl/
