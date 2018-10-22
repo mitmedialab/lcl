@@ -27,6 +27,8 @@ watch-read:
             link:  ../../resources/readings/chapter3-excerpt.pt.pdf
           - language: 日本語 (Japanese)
             link:  ../../resources/readings/chapter3-excerpt.ja.pdf
+          - language: Español (Spanish)
+            link: ../../resources/readings/chapter3-excerpt.es.pdf
 
 make-share:
   forum-link: http://lcl-discuss.media.mit.edu/t/wk-3-activity-make-a-scratch-project/1557
