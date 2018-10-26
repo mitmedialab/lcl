@@ -29,7 +29,7 @@ watch-read:
             link:  ../../resources/readings/chapter4-excerpt.ja.pdf
 
 make-share:
-  forum-link: http://lcl-discuss.media.mit.edu/t/activity-4-visit-a-learning-space/824
+  forum-link: http://lcl-discuss.media.mit.edu/t/wk-4-activity-remix-something/1628
   forum-button-text: Start the Activity
 
   activity-desc: |
@@ -51,11 +51,11 @@ make-share:
       In this video, Jaleesa and Yumiko share some examples and explain a little bit more.
 
 reflect:
-    forum-link: http://lcl-discuss.media.mit.edu/t/reflection-4-quotes-and-questions/825
+    forum-link: http://lcl-discuss.media.mit.edu/t/wk-4-reflection-reflect-in-small-groups/1629
     forum-button-text: Join the Conversation
     title:
     discussion-prompt: |
-      This week we’d like for you reflect in small groups, connecting to other members of the LCL community.
+      This week we’d like for you to reflect in small groups, connecting to other members of the LCL community.
 
       Reach out to one or more people in the LCL community andiscuss together, online or offline: What does peer-learning look like in your practice? What are the challenges and opportunities? What can you learn from each other’s experience?
       Share something about your interaction and your reflections in the forum!
