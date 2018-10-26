@@ -33,7 +33,7 @@ make-share:
   forum-button-text: Start the Activity
 
   activity-desc: |
-    Peers collaborate in many different ways, for example building on each other’s ideas. That’s why this week we invite you to create a remix! 
+    This week we invite you to create a remix! 
     Choose one of the projects shared on LCL in the past few weeks (or any other project that inspires you) and create your own version of it. 
     You can remix anything: it can be something physical, a poem, a recipe, or a Scratch project!
 
