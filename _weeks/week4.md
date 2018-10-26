@@ -4,7 +4,7 @@ layout: module
 navbar-name: 4 - Peers
 
 title: Peers
-subtitle: This week we focus on learning as a social activity. We explore how learning spaces and communities can support people sharing ideas, collaborating on projects, and building on one another's work.
+subtitle: This week we focus on learning as a social activity. We explore remixing and support people connecting to each other to share ideas, collaborate on projects, and build on one another's work.
 
 watch-read:
   videos:
@@ -33,10 +33,12 @@ make-share:
   forum-button-text: Start the Activity
 
   activity-desc: |
-    In this activity, you will:
-     * Visit a learning space - physical or digital, new or familiar
-     * Look at how the design of the environment supports peer learning
-     * Share a picture, and your reflections in the discussion forum
+    Peers collaborate in many different ways, for example building on each other’s ideas. That’s why this week we invite you to create a remix! 
+    Choose one of the projects shared on LCL in the past few weeks (or any other project that inspires you) and create your own version of it. 
+    You can remix anything: it can be something physical, a poem, a recipe, or a Scratch project!
+
+    Share your remix in the forum and thank the author of the original project. What inspired you about the original project? What did you change and why? If one of your projects was remixed, how did it feel?
+
 
   video:
     link: https://www.youtube.com/embed/mFHMnVc4ZCQ?rel=0&cc_load_policy=1
@@ -53,11 +55,11 @@ reflect:
     forum-button-text: Join the Conversation
     title:
     discussion-prompt: |
-      **Quotes and Questions**
+      This week we’d like for you reflect in small groups, connecting to other members of the LCL community.
 
-      From this week’s readings or videos, choose one quote that you found especially intriguing and share a question about it. 
+      Reach out to one or more people in the LCL community andiscuss together, online or offline: What does peer-learning look like in your practice? What are the challenges and opportunities? What can you learn from each other’s experience?
+      Share something about your interaction and your reflections in the forum!
 
-      What did the quote make you wonder about? 
 
 meet:
     unhangout-link: https://unhangout.media.mit.edu/event/lcl/
