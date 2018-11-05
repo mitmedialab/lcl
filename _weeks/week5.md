@@ -29,14 +29,18 @@ watch-read:
             link:  ../../resources/readings/chapter5-excerpt.ja.pdf
 
 make-share:
-  forum-link: http://lcl-discuss.media.mit.edu/t/activity-5-time-for-tinkering/837
+  forum-link: https://lcl-discuss.media.mit.edu/t/wk-5-activity-take-time-for-tinkering/1696
   forum-button-text: Start the Activity
 
   activity-desc: |
-    In this activity, you will:
-     * Choose a material or technology to playfully experiment with
-     * Reflect on your tinkering process
-     * Describe your process and share what you have made
+
+    This week we encourage you to take time to tinker with something:
+ 
+    * Choose a material or technology to playfully experiment with
+    * Describe and share a picture or video of what you were tinkering with
+    * Reflect on your tinkering process
+ 
+    What were you tinkering with? Did you try anything new or different? What did you notice? What might you want to try next?
 
   video:
     link: https://www.youtube.com/embed/P2pKwshcaa4?rel=0&cc_load_policy=1
@@ -45,21 +49,18 @@ make-share:
     desc: |
       This week, we invite you to playfully experiment with any material or technology you want to try.
 
-
       In this video, Lily and Sean will explain what that means and share some examples.
 
 reflect:
-    forum-link: http://lcl-discuss.media.mit.edu/t/reflection-5-playful-quotes/838
+    forum-link: https://lcl-discuss.media.mit.edu/t/wk-5-reflection-playpens-and-playgrounds/1697
     forum-button-text: Join the Conversation
     title:
     discussion-prompt: |
-      **Playful Quotes**
+      
+      In this week’s video and readings, Mitch uses Marina Bers’ metaphors of “playpen” and “playground” to illustrate that “not all types of play are created equal”.
 
-      Choose a quote from this week’s reading or video that you find especially intriguing
+      What do you think? What does play look like in your practice? What are some of the design choices or facilitation strategies that you already use, or you plan to use, to promote a playground-style play?
 
-        * What quote did you select?
-        * Why did you pick this quote?
-        * What actions does it inspire you to do?
 
 meet:
     unhangout-link: https://unhangout.media.mit.edu/event/lcl/
