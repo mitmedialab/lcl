@@ -27,6 +27,8 @@ watch-read:
             link:  ../../resources/readings/chapter2-excerpt.pt.pdf?pdf=ch2-pt
           - language: 日本語 (Japanese)
             link:  ../../resources/readings/chapter2-excerpt.ja.pdf?pdf=ch2-ja
+          - language: Español (Spanish)
+            link:  ../../resources/readings/chapter2-excerpt.es.pdf?pdf=ch2-es
 
 make-share:
   forum-link: http://lcl-discuss.media.mit.edu/t/wk-2-activity-make-something/1359
