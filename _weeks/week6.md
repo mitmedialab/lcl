@@ -29,14 +29,17 @@ watch-read:
             link:  ../../resources/readings/chapter6-excerpt.ja.pdf
 
 make-share:
-  forum-link: http://lcl-discuss.media.mit.edu/t/activity-6-design-a-creative-learning-experience/851
+  forum-link: https://lcl-discuss.media.mit.edu/t/wk-6-activity-give-ps-a-chance/1767
   forum-button-text: Start the Activity
 
   activity-desc: |
-    In this activity, you will:
-    * Share an idea for a project you want to work on to support creative learning
-    * Describe your project and how it connects to the ideas in the course
-    * Exchange feedback with other participants in the community
+    **Give P's a chance**
+
+    We hope that the ideas we explored together in LCL can help everyone see learning in new ways, and provide a useful framework to approach learning - and other aspects of your life!
+ 
+    That’s why in this last activity of the LCL journey we invite you to share: 
+    <br/>**How might you use (or have you used) the four P’s in your practice?**
+
 
   video:
     link: https://www.youtube.com/embed/-lVPEbeYE8M?rel=0&cc_load_policy=1
@@ -49,7 +52,7 @@ make-share:
       In this video, Jaleesa and Sean explain more and give examples. 
 
 reflect:
-    forum-link: http://lcl-discuss.media.mit.edu/t/reflection-6-i-used-to-think-but-now-i-think/852
+    forum-link: https://lcl-discuss.media.mit.edu/t/wk-6-reflection-i-used-to-think-now-i-think/1768
     forum-button-text: Join the Conversation
     title:
     discussion-prompt: |
