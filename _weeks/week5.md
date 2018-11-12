@@ -27,6 +27,8 @@ watch-read:
             link:  ../../resources/readings/chapter5-excerpt.pt.pdf
           - language: 日本語 (Japanese)
             link:  ../../resources/readings/chapter5-excerpt.ja.pdf
+          - language: Español (Spanish)
+            link:  ../../resources/readings/chapter5-excerpt.es.pdf
 
 make-share:
   forum-link: https://lcl-discuss.media.mit.edu/t/wk-5-activity-take-time-for-tinkering/1696
