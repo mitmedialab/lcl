@@ -27,6 +27,8 @@ watch-read:
             link:  ../../resources/readings/chapter1-excerpt.pt.pdf?pdf=ch1-pt
           - language: 日本語 (Japanese)
             link:  ../../resources/readings/chapter1-excerpt.ja.pdf?pdf=ch1-ja
+          - language: Español (Spanish)
+            link:  ../../resources/readings/chapter1-excerpt.es.pdf?pdf=ch1-es
 
   think-prompt: false
 
