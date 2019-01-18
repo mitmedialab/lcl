@@ -89,7 +89,13 @@ additional:
       - link: https://www.exploratorium.edu/sites/default/files/pdfs/PetrichWilkinsonBevan-2013-ItLooksLikeFun.pdf
         name: It Looks Like Fun, But Are They Learning?
         desc: Mike Petrich, Karen Wilkinson, & Bronwyn Bevan (2013), in Design, Make, Play
+        lang_links:
+            - language: Português (Portuguese)
+              link:  ../../resources/readings/it-looks-like-fun.pt.pdf
       - link: ../../resources/readings/designing-for-tinkerability.pdf
+        lang_links:
+            - language: Português (Portuguese)
+              link:  ../../resources/readings/designing-for-tinkerability.pt.pdf
         name: Designing for Tinkerability
         desc: Mitchel Resnick & Eric Rosenbaum (2013), in Design, Make, Play
       - link: https://vimeo.com/144683857

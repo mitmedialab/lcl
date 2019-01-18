@@ -25,3 +25,7 @@ body{
 #mc_embed_signup{
 	max-width: 500px;
 }
+
+p > readings{
+  line-height: 1em;
+}

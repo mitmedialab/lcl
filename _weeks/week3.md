@@ -89,6 +89,8 @@ additional:
         name: Origins and Guiding Principles of the Computer Clubhouse
         desc: 'Natalie Rusk, Mitchel Resnick, & Stina Cooke (2009), in The Computer Clubhouse: Constructionism and Creativity in Youth Communities'
         lang_links:
+          - language: Português (Portuguese)
+            link:  ../../resources/readings/clubhouse-origins.pt.pdf
       - link: https://www.dropbox.com/s/iax4ah23p924tzi/Motivation-for-Making.pdf
         name: Motivation for Making
         desc: Natalie Rusk (2017), in Makeology.
