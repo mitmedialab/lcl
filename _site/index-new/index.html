@@ -11,7 +11,7 @@
   <meta name="description" content="We&#39;re a community of educators, designers, and tinkerers exploring how to support creative learning through projects, passion, peers, and play.">
 
   <!-- open graph stuff --> 
-  <meta property="og:url" content="http://localhost:4000/lcl/">
+  <meta property="og:url" content="http://localhost:4000/lcl/index-new/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Learning Creative Learning">
   <meta property="og:description" content="We&#39;re a community of educators, designers, and tinkerers exploring how to support creative learning through projects, passion, peers, and play.">
@@ -28,7 +28,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
   <!-- Custom styles -->
   <link rel="stylesheet" href="/lcl/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/lcl/">
+  <link rel="canonical" href="http://localhost:4000/lcl/index-new/">
   <link rel="alternate" type="application/rss+xml" title="Learning Creative Learning" href="/lcl/feed.xml">
   <script type="text/javascript">window.liveSettings={api_key:"ddd65cab1c8f4bf0924ad1a18534da75"}</script>
   <script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
@@ -74,6 +74,7 @@
 
     <div class="container-fluid">
       <script type="text/javascript" src="/lcl/assets/pegs.js"></script>
+<script type="text/javascript" src="/lcl/assets/utils.js"></script>
 <!--<script type="text/javascript" src="/lcl/assets/discourse-posts.js"></script>-->
 
 <div id="peg-grid">
@@ -85,36 +86,57 @@
 </div>
 
 <div class="container">
+	
 	<div class="row justify-content-center">
+		
 		<div class="col-md-4 text-center">
-			<div class="front-page-callout">First time here?</div>
-			<a href="/lcl/get-started/" class="btn btn-lg btn-block btn-primary">Get Started</a>
+			
+			<div class="front-page-callout">A new round of the course starts on October 28th, and it's free!</div>
+			<a href="http://eepurl.com/gvDPn5" class="btn btn-lg btn-block btn-primary mb-5">Sign up</a>
+
+			<!--
 			<img id="first-time-peg-1" src="/lcl/images/peg_yellow.svg" />
 			<img id="first-time-peg-2" src="/lcl/images/peg_green.svg" />
+			-->
+
+			<div class="mt-4 mb-2">You will connect with educators from around the world and explore design principles of the Lifelong Kindergarten Group at MIT, to help children develop as creative thinkers.
+			</div>
+			<a href="/lcl/learn-more/" class="btn btn-lg btn-block btn-primary">Learn More</a>
+
 		</div>
+		
 		<div class="col-md-1"></div>
+		
 		<div class="col-md-4">
-			<div class="front-page-callout text-center">Explore Creative Learning!</div>
+			<div class="front-page-callout text-center">Coming soon...</div>
 			<div class="list-group">
-			  <a href="/lcl/weeks/week1" class="list-group-item front-page-list-item">Week 1 - Introduction
+			  <a href="/lcl/weeks/week1" class="list-group-item front-page-list-item d-flex disabled">
+			  	Week 1 - Introduction <span class="badge badge-light badge-pill ml-auto p-2">October 28th</span>
 			  	<!--img class="front-page-current-indicator" src="/lcl/images/peg_blue.svg" tx-content="exclude"/-->
 			  </a>
-			  <a href="/lcl/weeks/week2" class="list-group-item front-page-list-item">Week 2 - Projects</a>
-			  <a href="/lcl/weeks/week3" class="list-group-item front-page-list-item">
-				  Week 3 - Passion
+			  <a href="/lcl/weeks/week2" class="list-group-item front-page-list-item d-flex disabled">
+			  	Week 2 - Projects <span class="badge badge-light badge-pill ml-auto p-2">November 4th</span>
+			  </a>
+			  <a href="/lcl/weeks/week3" class="list-group-item front-page-list-item d-flex disabled">
+				  Week 3 - Passion <span class="badge badge-light badge-pill ml-auto p-2">November 11th</span>
 				</a>
-			  <a href="/lcl/weeks/week4" class="list-group-item front-page-list-item">
-			  	Week 4 - Peers
+				<a class="list-group-item front-page-list-item d-flex disabled" style="color: #868e96; background-color: #fafafa">
+				  Break <span class="badge badge-light badge-pill ml-auto p-2">November 18th</span>
+				</a>
+			  <a href="/lcl/weeks/week4" class="list-group-item front-page-list-item d-flex disabled">
+			  	Week 4 - Peers <span class="badge badge-light badge-pill ml-auto p-2">November 25th</span>
 			  </a>
-			  <a href="/lcl/weeks/week5" class="list-group-item front-page-list-item">
-			  	Week 5 - Play
+			  <a href="/lcl/weeks/week5" class="list-group-item front-page-list-item d-flex disabled">
+			  	Week 5 - Play <span class="badge badge-light badge-pill ml-auto p-2">December 2nd</span>
 			  </a>
-			  <a href="/lcl/weeks/week6" class="list-group-item front-page-list-item">
-				Week 6 - Creative Society
+			  <a href="/lcl/weeks/week6" class="list-group-item front-page-list-item d-flex disabled">
+				  Week 6 - Creative Society <span class="badge badge-light badge-pill ml-auto p-2">December 9th</span>
 			</a>
 			</div>
 		</div>
+	
 	</div>
+	
 	<div class="row justify-content-end">
 		<div class="col-md-4">
 			<img id="footer-peg-1" src="/lcl/images/peg_yellow.svg" />
@@ -123,14 +145,13 @@
 			<img id="footer-peg-4" src="/lcl/images/peg_green.svg" />
 		</div>
 	</div>
+	<!--
+	
 	<div class="row justify-content-center grey-row conversation-row">
 		<div class="col-md-10">
 			<div class="row justify-content-center conversation-title">
 				<h2>Join the Conversation</h2>
       </div>
-      <!--<div id="discourse-posts">-->
-          <!-- Generated by discourse-posts.js -->
-      <!--</div>-->
       <div class="row justify-content-center">
         <div class="col-md-4">
             <a href="http://lcl-discuss.media.mit.edu" class="btn btn-primary btn-lg btn-block">Discussion Forum</a>
@@ -138,6 +159,25 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="row justify-content-center">
+		<div class="col-md-10">
+			<div class="row justify-content-center mt-4">
+				<h2>Live Events</h2>
+      </div>
+      <div class="row justify-content-center">
+      	<h5>Events shown in time zone: <span id="timezone-header"/></h5>
+      </div>
+      <div class="row justify-content-center" id="google-calendar">
+            <script type="text/javascript">
+            	var iframe_html = '<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=' + encodeURIComponent(getTimeZone()) + '&amp;src=OTNtdWFuNTVwbTQzamtvYXM3YnZvYWNwMDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%239E69AF&amp;mode=WEEK&amp;dates=20191028%2F20191208" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>'
+							document.getElementById('google-calendar').innerHTML = iframe_html;
+							document.getElementById('timezone-header').innerHTML = getTimeZone();
+            </script>
+			</div>
+		</div>
+	</div>
+
 	<div id="map" class="row justify-content-center">
 		<h2 class="my-5 col-md-10 text-center">Global Community</h2>
 		<p class="col-md-10 text-center">To add yourself to the map, click the + sign at the top right</p>
@@ -145,9 +185,8 @@
 			<iframe frameborder=0 style="width:100%; min-height:600px"" src="//www.zeemaps.com/pub?group=2723786&search=1&list=1&shuttered=1&add=1&x=-7.085654&y=25.905357&z=15"> </iframe>
 		</div>
 	</div>
+	-->
 </div>
-
-
     </div>
 
     
