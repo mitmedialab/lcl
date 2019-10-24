@@ -64,11 +64,13 @@ reflect:
 
 
 meet:
-    unhangout-link: https://unhangout.media.mit.edu/event/lcl/
     prompt: |
-      Would you like to meet the LCL team and the rest of the community?
+      
+      Would you like to meet and chat with the LCL team and the rest of the community?<br/>
+      Join our <a href="https://lcl-discuss.media.mit.edu/t/lcl-chats/2194">LCL Chat Video Call</a>, on Monday 10.00-11.00 AM or 4.00-5.00 PM (Boston time)
 
-      Join our video calls, every Monday 9.00-10.00 AM and 4.00-5.00 PM (Boston time)
+      Would you like to learn how to create with Scratch with guidance and peer support?<br/>
+      Join our <a href="https://lcl-discuss.media.mit.edu/t/wescratch-online-workshops/2195">WeScratch Online Workshop</a>, on Wednesday 10.00-11.30 AM or Saturday 1.00-2.30 PM (Boston time)
 
       We'd love to see you there!
 

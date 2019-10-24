@@ -1,4 +1,6 @@
 <div id="meet-container" class="text-center">
 	<p>{{me.prompt | markdownify}}</p>
+	{% if me.unhangout-link %}
 	<p class="text-center mt-3"><a href="{{me.unhangout-link}}" class="forum-btn btn btn-primary btn-lg">Join our Unhangout</a></p>
+	{% endif %}
 </div>
