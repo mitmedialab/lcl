@@ -30,7 +30,7 @@ watch-read:
           - language: Español (Spanish)
             link:  ../../resources/readings/chapter6-excerpt.es.pdf?pdf=ch6-es
           - language: Türkçe (Turkish)
-            link: ../../resources/readings/chapter5-excerpt.tr.pdf?pdf=ch6-tr
+            link: ../../resources/readings/chapter6-excerpt.tr.pdf?pdf=ch6-tr
 
 make-share:
   forum-link: https://lcl-discuss.media.mit.edu/t/wk-6-activity-give-ps-a-chance/1767

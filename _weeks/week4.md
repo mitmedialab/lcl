@@ -30,7 +30,7 @@ watch-read:
           - language: Español (Spanish)
             link:  ../../resources/readings/chapter4-excerpt.es.pdf?pdf=ch4-es
           - language: Türkçe (Turkish)
-            link: ../../resources/readings/chapter3-excerpt.tr.pdf?pdf=ch4-tr
+            link: ../../resources/readings/chapter4-excerpt.tr.pdf?pdf=ch4-tr
 
 make-share:
   forum-link: http://lcl-discuss.media.mit.edu/t/wk-4-activity-remix-something/1628

@@ -22,13 +22,15 @@ watch-read:
 
         lang_links:
           - language: Italiano (Italian)
-            link:  ../../resources/readings/chapter3-excerpt.it.pdf
+            link:  ../../resources/readings/chapter3-excerpt.it.pdf?pdf=ch3-it
           - language: Português (Portuguese)
-            link:  ../../resources/readings/chapter3-excerpt.pt.pdf
+            link:  ../../resources/readings/chapter3-excerpt.pt.pdf?pdf=ch3-pt
           - language: 日本語 (Japanese)
-            link:  ../../resources/readings/chapter3-excerpt.ja.pdf
+            link:  ../../resources/readings/chapter3-excerpt.ja.pdf?pdf=ch3-ja
           - language: Español (Spanish)
-            link: ../../resources/readings/chapter3-excerpt.es.pdf
+            link: ../../resources/readings/chapter3-excerpt.es.pdf?pdf=ch3-es
+          - language: Türkçe (Turkish)
+            link: ../../resources/readings/chapter3-excerpt.tr.pdf?pdf=ch3-tr
 
 make-share:
   forum-link: http://lcl-discuss.media.mit.edu/t/wk-3-activity-make-a-scratch-project/1557
