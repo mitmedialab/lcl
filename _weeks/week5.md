@@ -22,13 +22,15 @@ watch-read:
 
         lang_links:
           - language: Italiano (Italian)
-            link:  ../../resources/readings/chapter5-excerpt.it.pdf
+            link:  ../../resources/readings/chapter5-excerpt.it.pdf?pdf=ch5-it
           - language: Português (Portuguese)
-            link:  ../../resources/readings/chapter5-excerpt.pt.pdf
+            link:  ../../resources/readings/chapter5-excerpt.pt.pdf?pdf=ch5-pt
           - language: 日本語 (Japanese)
-            link:  ../../resources/readings/chapter5-excerpt.ja.pdf
+            link:  ../../resources/readings/chapter5-excerpt.ja.pdf?pdf=ch5-ja
           - language: Español (Spanish)
-            link:  ../../resources/readings/chapter5-excerpt.es.pdf
+            link:  ../../resources/readings/chapter5-excerpt.es.pdf?pdf=ch5-es
+          - language: Türkçe (Turkish)
+            link: ../../resources/readings/chapter5-excerpt.tr.pdf?pdf=ch5-tr
 
 make-share:
   forum-link: https://lcl-discuss.media.mit.edu/t/wk-5-activity-take-time-for-tinkering/1696

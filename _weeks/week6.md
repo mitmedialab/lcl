@@ -22,13 +22,15 @@ watch-read:
 
         lang_links:
           - language: Italiano (Italian)
-            link:  ../../resources/readings/chapter6-excerpt.it.pdf
+            link:  ../../resources/readings/chapter6-excerpt.it.pdf?pdf=ch6-it
           - language: Português (Portuguese)
-            link:  ../../resources/readings/chapter6-excerpt.pt.pdf
+            link:  ../../resources/readings/chapter6-excerpt.pt.pdf?pdf=ch6-pt
           - language: 日本語 (Japanese)
-            link:  ../../resources/readings/chapter6-excerpt.ja.pdf
+            link:  ../../resources/readings/chapter6-excerpt.ja.pdf?pdf=ch6-ja
           - language: Español (Spanish)
-            link:  ../../resources/readings/chapter6-excerpt.es.pdf
+            link:  ../../resources/readings/chapter6-excerpt.es.pdf?pdf=ch6-es
+          - language: Türkçe (Turkish)
+            link: ../../resources/readings/chapter5-excerpt.tr.pdf?pdf=ch6-tr
 
 make-share:
   forum-link: https://lcl-discuss.media.mit.edu/t/wk-6-activity-give-ps-a-chance/1767

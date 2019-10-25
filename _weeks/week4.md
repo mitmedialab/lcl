@@ -22,13 +22,15 @@ watch-read:
 
         lang_links:
           - language: Italiano (Italian)
-            link:  ../../resources/readings/chapter4-excerpt.it.pdf
+            link:  ../../resources/readings/chapter4-excerpt.it.pdf?pdf=ch4-it
           - language: Português (Portuguese)
-            link:  ../../resources/readings/chapter4-excerpt.pt.pdf
+            link:  ../../resources/readings/chapter4-excerpt.pt.pdf?pdf=ch4-pt
           - language: 日本語 (Japanese)
-            link:  ../../resources/readings/chapter4-excerpt.ja.pdf
+            link:  ../../resources/readings/chapter4-excerpt.ja.pdf?pdf=ch4-ja
           - language: Español (Spanish)
-            link:  ../../resources/readings/chapter4-excerpt.es.pdf
+            link:  ../../resources/readings/chapter4-excerpt.es.pdf?pdf=ch4-es
+          - language: Türkçe (Turkish)
+            link: ../../resources/readings/chapter3-excerpt.tr.pdf?pdf=ch4-tr
 
 make-share:
   forum-link: http://lcl-discuss.media.mit.edu/t/wk-4-activity-remix-something/1628

@@ -29,6 +29,8 @@ watch-read:
             link:  ../../resources/readings/chapter1-excerpt.ja.pdf?pdf=ch1-ja
           - language: Español (Spanish)
             link:  ../../resources/readings/chapter1-excerpt.es.pdf?pdf=ch1-es
+          - language: Türkçe (Turkish)
+            link:  ../../resources/readings/chapter1-excerpt.tr.pdf?pdf=ch1-tr
 
   think-prompt: false
 
