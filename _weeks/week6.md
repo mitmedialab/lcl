@@ -116,8 +116,14 @@ even-more-additional:
     readings:
       - link: http://familycreativelearning.org/
         name: Family Creative Learning guide
+        lang_links:
+          - language: Português (Portuguese)
+            link: ../../resources/readings/fcl-guide.pt.pdf
       - link: http://scratched.gse.harvard.edu/guide/
         name: Creative Computing Curriculm Guide
+        lang_links:
+          - language: Português (Portuguese)
+            link: ../../resources/readings/creative-computing-guide.pt.pdf
       - link: https://scratch.mit.edu/educators
         name: Scratch Educator Resources 
 
