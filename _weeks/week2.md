@@ -31,6 +31,8 @@ watch-read:
             link:  ../../resources/readings/chapter2-excerpt.es.pdf?pdf=ch2-es
           - language: Türkçe (Turkish)
             link:  ../../resources/readings/chapter2-excerpt.tr.pdf?pdf=ch2-tr
+          - language: العربية (Arabic)
+            link:  ../../resources/readings/chapter2-excerpt.ar.pdf?pdf=ch2-ar
 
 make-share:
   forum-link: http://lcl-discuss.media.mit.edu/t/wk-2-activity-make-something/1359
