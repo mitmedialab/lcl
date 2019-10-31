@@ -79,14 +79,22 @@ reflect:
 
 meet:
     prompt: |
-      
-      Would you like to meet and chat with the LCL team and the rest of the community?<br/>
-      Join our <a href="https://lcl-discuss.media.mit.edu/t/lcl-chats/2194">LCL Chat Video Call</a>, on Monday 10.00-11.00 AM or 4.00-5.00 PM (Boston time)
+       
+       Would you like to meet and chat with the LCL team and the rest of the community?<br/>
 
-      Would you like to learn how to create with Scratch with guidance and peer support?<br/>
-      Join our <a href="https://lcl-discuss.media.mit.edu/t/wescratch-online-workshops/2195">WeScratch Online Workshop</a>, on Wednesday 10.00-11.30 AM or Saturday 1.00-2.30 PM (Boston time)
+       <a href="https://lcl-discuss.media.mit.edu/t/lcl-chat-week-2-1/2243">LCL Chat Round 1</a> - Monday 10:00-11:00 AM (Boston time) <br/>
+       <a href="https://lcl-discuss.media.mit.edu/t/lcl-chat-week-2-2/2245">LCL Chat Round 2</a> - Monday 04:00-05:00 PM (Boston time) <br/>
 
-      We'd love to see you there!
+
+       Would you like to learn how to create with Scratch with guidance and peer support?<br/>
+
+       <a href="https://lcl-discuss.media.mit.edu/t/wescratch-workshop-week-2-1/2241">WeScratch Round 1</a> - Wednesday 10:00-11:30 AM (Boston time) <br/>
+       <a href="https://lcl-discuss.media.mit.edu/t/wescratch-workshop-week-2-2/2242">WeScratch Round 2</a> - Saturday 01:00-02:30 PM (Boston time) <br/>
+
+       
+       For more events check out the <a href="https://lcl-discuss.media.mit.edu/c/live-events-2019/l/calendar">calendar</a>! <br/>
+
+
 
 additional:
     videos:
