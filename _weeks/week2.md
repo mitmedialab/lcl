@@ -35,7 +35,7 @@ watch-read:
             link:  ../../resources/readings/chapter2-excerpt.ar.pdf?pdf=ch2-ar
 
 make-share:
-  forum-link: http://lcl-discuss.media.mit.edu/t/wk-2-activity-make-something/1359
+  forum-link: https://lcl-discuss.media.mit.edu/t/week-2-activity-make-something/2680
   forum-button-text: Start the Activity
 
   activity-title: Make Something!
@@ -64,8 +64,8 @@ make-share:
     show-subtitle-hint: true
 
 reflect:
-    forum-link: http://lcl-discuss.media.mit.edu/t/wk-2-reflection-thinking-about-projects/1363
-    forum-button-text: Join the Conversation
+    forum-link: https://lcl-discuss.media.mit.edu/t/week-2-reflection-thinking-about-projects/2681
+    forum-button-text: Share your Reflections
     title:
     discussion-prompt: |
 

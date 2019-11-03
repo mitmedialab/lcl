@@ -166,7 +166,7 @@
 				<h2>Live Events</h2>
       </div>
       <div class="row justify-content-center">
-      	<h5>Showing timezone: <span id="timezone-header"/></h5>
+      	<h5><span> Showing timezone:</span> <span id="timezone-header"/></h5>
       </div>
       <div class="form-group row justify-content-center">
       	<!--label for="timezone-select" class="col-sm-3 col-form-label text-right" >Change timezone: </label-->
@@ -588,7 +588,7 @@
       </div>
       <div class="row justify-content-center" id="google-calendar">
             <script type="text/javascript">
-            	var iframe_html = '<iframe id="calendar-iframe" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=' + encodeURIComponent(getCurrentTimeZone()) + '&amp;src=OTNtdWFuNTVwbTQzamtvYXM3YnZvYWNwMDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%239E69AF&amp;mode=WEEK&amp;dates=20191028%2F20191208" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>'
+            	var iframe_html = '<iframe id="calendar-iframe" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=' + encodeURIComponent(getCurrentTimeZone()) + '&amp;src=OTNtdWFuNTVwbTQzamtvYXM3YnZvYWNwMDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%239E69AF&amp;mode=WEEK&amp;dates=20191104%2F20191221" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>'
 							document.getElementById('google-calendar').innerHTML = iframe_html;
 							document.getElementById('timezone-header').innerHTML = getCurrentTimeZone();
             </script>
