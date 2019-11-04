@@ -3,9 +3,9 @@
   <p>{{r.discussion-prompt | markdownify}}</p>
   <p class="text-center mt-4" tx-content="translate_urls block">
   	{% if r.forum-button-text %}
-  		<a href="{{r.forum-link}}" class="forum-btn btn btn-primary btn-lg my-3">{{r.forum-button-text}}</a>
+  		<a href="{{r.forum-link}}" class="forum-btn btn btn-primary btn-lg my-3"><span>{{r.forum-button-text}}</span></a>
   	{% else %}
-  		<a href="{{r.forum-link}}" class="forum-btn btn btn-primary btn-lg my-3">Reflect with us</a>
+  		<a href="{{r.forum-link}}" class="forum-btn btn btn-primary btn-lg my-3"><span>Share in the Forum</span></a>
   	{% endif%}
   </p>
 </div>

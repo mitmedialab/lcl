@@ -36,7 +36,6 @@ watch-read:
 
 make-share:
   forum-link: https://lcl-discuss.media.mit.edu/t/week-2-activity-make-something/2680
-  forum-button-text: Start the Activity
 
   activity-title: Make Something!
   activity-overview: |
@@ -65,7 +64,6 @@ make-share:
 
 reflect:
     forum-link: https://lcl-discuss.media.mit.edu/t/week-2-reflection-thinking-about-projects/2681
-    forum-button-text: Share your Reflections
     title:
     discussion-prompt: |
 
