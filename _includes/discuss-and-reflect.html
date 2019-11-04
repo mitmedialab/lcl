@@ -1,11 +1,11 @@
 <div id="discuss-container">
   <h4>{{r.title}}</h4>
   <p>{{r.discussion-prompt | markdownify}}</p>
-  <p class="text-center mt-4" tx-content="translate_urls block">
+  <p class="text-center mt-4" block">
   	{% if r.forum-button-text %}
-  		<a href="{{r.forum-link}}" class="forum-btn btn btn-primary btn-lg my-3"><span>{{r.forum-button-text}}</span></a>
+  		<a href="{{r.forum-link}}" class="forum-btn btn btn-primary btn-lg my-3">{{r.forum-button-text}}</a>
   	{% else %}
-  		<a href="{{r.forum-link}}" class="forum-btn btn btn-primary btn-lg my-3"><span>Share in the Forum</span></a>
+  		<a href="{{r.forum-link}}" class="forum-btn btn btn-primary btn-lg my-3">Share in the Forum</a>
   	{% endif%}
   </p>
 </div>

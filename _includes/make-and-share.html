@@ -8,8 +8,8 @@
   -->
 	{{m.activity-desc | markdownify }}
 	{% if m.forum-button-text %}
-	<p class="text-center my-4" tx-content="translate_urls block"><a href="{{m.forum-link}}" class="mt-4 forum-btn btn btn-primary btn-lg"><span>{{m.forum-button-text}}</span></a></p>
+	<p class="text-center my-4" block"><a href="{{m.forum-link}}" class="mt-4 forum-btn btn btn-primary btn-lg"><span>{{m.forum-button-text}}</span></a></p>
 	{% else %}
-	<p class="text-center my-4" tx-content="translate_urls block"><a href="{{m.forum-link}}" class="mt-4 forum-btn btn btn-primary btn-lg"><span>Start the Activity</span></a></p>
+	<p class="text-center my-4" "block"><a href="{{m.forum-link}}" class="mt-4 forum-btn btn btn-primary btn-lg"><span>Start the Activity</span></a></p>
 	{% endif %}
 </div>
