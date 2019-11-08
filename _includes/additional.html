@@ -26,7 +26,7 @@
     
     {% if read.lang_links %}
       <p class="mt-0">
-        <i class="fa fa-globe mr-2" aria-hidden="true"></i>Also available in these languages:
+        <i class="fa fa-globe mr-2" aria-hidden="true"></i>
         {% for l in read.lang_links %}
           <a href="{{l.link}}" onclick="trackOutboundLink('{{l.link}}'); return false;" tx-content="exclude">
             <span tx-content="include">{{l.language}}</span>
