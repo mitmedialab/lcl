@@ -70,12 +70,19 @@ meet:
     prompt: |
       
       Would you like to meet and chat with the LCL team and the rest of the community?<br/>
-      Join our <a href="https://lcl-discuss.media.mit.edu/t/lcl-chats/2194">LCL Chat Video Call</a>, on Monday 10.00-11.00 AM or 4.00-5.00 PM (Boston time)
 
-      Would you like to learn how to create with Scratch with guidance and peer support?<br/>
-      Join our <a href="https://lcl-discuss.media.mit.edu/t/wescratch-online-workshops/2195">WeScratch Online Workshop</a>, on Wednesday 10.00-11.30 AM or Saturday 1.00-2.30 PM (Boston time)
+       LCL Chat Round 1 - Monday 10:00-11:00 AM (Boston time) <br/>
+       LCL Chat Round 2 - Monday 04:00-05:00 PM (Boston time) <br/>
+       <a href="https://unhangout.media.mit.edu/event/lcl-chat/">https://unhangout.media.mit.edu/event/lcl-chat/</a>
 
-      We'd love to see you there!
+
+       Would you like to learn how to create with Scratch with guidance and peer support?<br/>
+
+       WeScratch Round 1 - Wednesday 10:00-11:30 AM (Boston time) <br/>
+       WeScratch Round 2 - Saturday 01:00-02:30 PM (Boston time) <br/>
+       <a href="https://unhangout.media.mit.edu/event/wescratch/">https://unhangout.media.mit.edu/event/wescratch/</a>
+       
+       For more events check out the <a href="https://lcl-discuss.media.mit.edu/c/live-events-2019/l/calendar">calendar</a>! <br/>
 
 additional:
     videos:
