@@ -81,7 +81,7 @@ meet:
        WeScratch Round 2 - Saturday 01:00-02:30 PM (Boston time) <br/>
        <a href="https://unhangout.media.mit.edu/event/wescratch/">https://unhangout.media.mit.edu/event/wescratch/</a>
        
-       For more events check out the <a href="https://lcl-discuss.media.mit.edu/c/live-events-2019/l/calendar">calendar</a>! <br/>
+       For more events check out the <a href="https://learn.media.mit.edu/lcl/#calendar">calendar</a>! <br/>
 
 additional:
     videos:
