@@ -31,6 +31,8 @@ watch-read:
             link: ../../resources/readings/chapter3-excerpt.es.pdf?pdf=ch3-es
           - language: Türkçe (Turkish)
             link: ../../resources/readings/chapter3-excerpt.tr.pdf?pdf=ch3-tr
+          - language: العربية (Arabic)
+            link: ../../resources/readings/chapter3-excerpt.ar.pdf?pdf=ch3-ar
 
 make-share:
   forum-link: http://lcl-discuss.media.mit.edu/t/wk-3-activity-make-a-scratch-project/1557
@@ -95,12 +97,17 @@ additional:
         lang_links:
           - language: Português (Portuguese)
             link:  ../../resources/readings/clubhouse-origins.pt.pdf
+          - language: العربية (Arabic)
+            link: ../../resources/readings/clubhouse-origins.ar.pdf
       - link: https://www.dropbox.com/s/iax4ah23p924tzi/Motivation-for-Making.pdf
         name: Motivation for Making
         desc: Natalie Rusk (2017), in Makeology.
       - link: http://papert.org/articles/HardFun.html
         name: Hard Fun
         desc: Seymour Papert, 2002, Article for the Bangor Daily News (Bangor, Maine)
+        lang_links:
+          - language: العربية (Arabic)
+            link: ../../resources/readings/hard-fun.ar.pdf
 
 download:
     prompt: |
