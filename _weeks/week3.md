@@ -43,8 +43,6 @@ make-share:
     This week we invite you to explore Scratch by making a project about something or someone you care about. For example, it can be an animation about one of your favorite hobbies, books, or places, a video game featuring your pet, or a greeting card for someone you love!
 
     When you feel ready, share your project and your reflections: What motivated you in creating your project? Can you describe a moment of joy or frustration? What helped you persist in face of challenges?
-
-    If you are new to Scratch, you'll find resources to get started. If you get stuck, ask a question in the forum or in our Slack channel.
  
 
   video:
