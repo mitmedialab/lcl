@@ -57,7 +57,7 @@ make-share:
 
 reflect:
     forum-link: https://lcl-discuss.media.mit.edu/t/wk-6-reflection-i-used-to-think-now-i-think/1768
-    forum-button-text: Join the Conversation
+    forum-button-text:
     title:
     discussion-prompt: |
       **"I used to think ... but now I think ..."**

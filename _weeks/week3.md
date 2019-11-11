@@ -56,7 +56,7 @@ make-share:
 
 reflect:
     forum-link: https://lcl-discuss.media.mit.edu/t/week-3-reflection-designing-for-wide-walls/2750
-    forum-button-text: Join the Conversation
+    forum-button-text:
     title:
     discussion-prompt: |
 

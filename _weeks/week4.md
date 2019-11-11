@@ -56,7 +56,7 @@ make-share:
 
 reflect:
     forum-link: http://lcl-discuss.media.mit.edu/t/wk-4-reflection-reflect-in-small-groups/1629
-    forum-button-text: Join the Conversation
+    forum-button-text:
     title:
     discussion-prompt: |
       This week we’d like for you to reflect in small groups, connecting to other members of the LCL community.

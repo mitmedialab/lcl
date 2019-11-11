@@ -57,7 +57,7 @@ make-share:
 
 reflect:
     forum-link: https://lcl-discuss.media.mit.edu/t/wk-5-reflection-playpens-and-playgrounds/1697
-    forum-button-text: Join the Conversation
+    forum-button-text:
     title:
     discussion-prompt: |
       
