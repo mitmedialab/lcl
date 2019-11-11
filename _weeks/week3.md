@@ -35,7 +35,7 @@ watch-read:
             link: ../../resources/readings/chapter3-excerpt.ar.pdf?pdf=ch3-ar
 
 make-share:
-  forum-link: https://lcl-discuss.media.mit.edu/t/week-3-activity-make-something-with-scratch/2744?
+  forum-link: https://lcl-discuss.media.mit.edu/t/week-3-activity-make-something-with-scratch/2744
   forum-button-text: Start the Activity
 
   activity-desc: |
