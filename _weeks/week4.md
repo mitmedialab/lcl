@@ -61,7 +61,7 @@ reflect:
     discussion-prompt: |
       This week we’d like for you to reflect in small groups, connecting to other members of the LCL community.
 
-      Reach out to one or more people in the LCL community and discuss together, online or offline: What does peer-learning look like in your practice? What are the challenges and opportunities? What can you learn from each other’s experience?
+      Reach out to one or more people in the LCL community and discuss together, online or offline.
       Share something about your interaction and your reflections in the forum!
 
 
