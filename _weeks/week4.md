@@ -31,6 +31,8 @@ watch-read:
             link:  ../../resources/readings/chapter4-excerpt.es.pdf?pdf=ch4-es
           - language: Türkçe (Turkish)
             link: ../../resources/readings/chapter4-excerpt.tr.pdf?pdf=ch4-tr
+          - language: العربية (Arabic)
+            link: ../../resources/readings/chapter4-excerpt.ar.pdf?pdf=ch4-ar
 
 make-share:
   forum-link: http://lcl-discuss.media.mit.edu/t/wk-4-activity-remix-something/1628
