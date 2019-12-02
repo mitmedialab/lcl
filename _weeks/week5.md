@@ -31,6 +31,8 @@ watch-read:
             link:  ../../resources/readings/chapter5-excerpt.es.pdf?pdf=ch5-es
           - language: Türkçe (Turkish)
             link: ../../resources/readings/chapter5-excerpt.tr.pdf?pdf=ch5-tr
+          - language: العربية (Arabic)
+            link: ../../resources/readings/chapter5-excerpt.ar.pdf?pdf=ch5-ar
 
 make-share:
   forum-link: https://lcl-discuss.media.mit.edu/t/wk-5-activity-take-time-for-tinkering/1696
@@ -103,6 +105,8 @@ additional:
         lang_links:
             - language: Português (Portuguese)
               link:  ../../resources/readings/it-looks-like-fun.pt.pdf
+            - language: العربية (Arabic)
+              link:  ../../resources/readings/it-looks-like-fun.ar.pdf
       - link: ../../resources/readings/designing-for-tinkerability.pdf
         lang_links:
             - language: Português (Portuguese)
