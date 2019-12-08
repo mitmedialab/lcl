@@ -31,9 +31,11 @@ watch-read:
             link:  ../../resources/readings/chapter6-excerpt.es.pdf?pdf=ch6-es
           - language: Türkçe (Turkish)
             link: ../../resources/readings/chapter6-excerpt.tr.pdf?pdf=ch6-tr
+          - language: العربية (Arabic)
+            link: ../../resources/readings/chapter6-excerpt.ar.pdf?pdf=ch6-ar
 
 make-share:
-  forum-link: https://lcl-discuss.media.mit.edu/t/wk-6-activity-give-ps-a-chance/1767
+  forum-link: https://lcl-discuss.media.mit.edu/t/week-6-activity-give-ps-a-chance/2866
   forum-button-text: Start the Activity
 
   activity-desc: |
@@ -56,7 +58,7 @@ make-share:
       In this video, Jaleesa and Sean explain more and give examples. 
 
 reflect:
-    forum-link: https://lcl-discuss.media.mit.edu/t/wk-6-reflection-i-used-to-think-now-i-think/1768
+    forum-link: https://lcl-discuss.media.mit.edu/t/week-6-reflection-i-used-to-think-now-i-think/2871
     forum-button-text:
     title:
     discussion-prompt: |
@@ -102,6 +104,8 @@ additional:
             link:  ../../resources/readings/what-we-mean-by-learning.it.pdf
           - language: Português (Portuguese)
             link:  ../../resources/readings/what-we-mean-by-learning.pt.pdf
+          - language: العربية (Arabic)
+            link:  ../../resources/readings/what-we-mean-by-learning.ar.pdf
       - link: ../../resources/readings/experience-and-education.pdf
         name: The Nature of Freedom
         desc: from John Dewey, Experience and Education (1938)
