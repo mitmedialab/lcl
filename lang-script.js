@@ -1,4 +1,4 @@
-var supported_lang = ['en','it','ja', 'es', 'pt', 'he', 'tr', 'ar'];
+var supported_lang = ['en','it','ja', 'es', 'pt', 'he', 'tr', 'ar', 'fr'];
 
 $(document).ready(function() {
   var language = navigator.languages && navigator.languages[0] || // Chrome / Firefox
