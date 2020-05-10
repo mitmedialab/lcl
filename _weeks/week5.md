@@ -35,7 +35,7 @@ watch-read:
             link: ../../resources/readings/chapter5-excerpt.ar.pdf?pdf=ch5-ar
 
 make-share:
-  forum-link: https://lcl-discuss.media.mit.edu/t/week-5-activity-take-time-for-tinkering/2836
+  forum-link: https://lcl-discuss.media.mit.edu/t/week-5-activity-take-time-for-tinkering/3161
   forum-button-text: Start the Activity
 
   activity-desc: |
@@ -58,7 +58,7 @@ make-share:
       In this video, Lily and Sean will explain what that means and share some examples.
 
 reflect:
-    forum-link: https://lcl-discuss.media.mit.edu/t/week-5-reflection-playpens-and-playgrounds/2841
+    forum-link: https://lcl-discuss.media.mit.edu/t/week-5-reflection-playpens-and-playgrounds/3160
     forum-button-text:
     title:
     discussion-prompt: |
