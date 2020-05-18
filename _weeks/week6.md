@@ -35,7 +35,7 @@ watch-read:
             link: ../../resources/readings/chapter6-excerpt.ar.pdf?pdf=ch6-ar
 
 make-share:
-  forum-link: https://lcl-discuss.media.mit.edu/t/week-6-activity-give-ps-a-chance/2866
+  forum-link: https://lcl-discuss.media.mit.edu/t/week-6-activity-give-ps-a-chance/3176
   forum-button-text: Start the Activity
 
   activity-desc: |
@@ -58,7 +58,7 @@ make-share:
       In this video, Jaleesa and Sean explain more and give examples. 
 
 reflect:
-    forum-link: https://lcl-discuss.media.mit.edu/t/week-6-reflection-i-used-to-think-now-i-think/2871
+    forum-link: https://lcl-discuss.media.mit.edu/t/week-6-reflection-i-used-to-think-now-i-think/3177
     forum-button-text:
     title:
     discussion-prompt: |
