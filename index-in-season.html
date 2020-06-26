@@ -1,80 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+hide-navbar: true
+---
 
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <title>Learning Creative Learning</title>
-  <meta name="author" content="MIT Media Lab">
-  <meta name="description" content="We&#39;re a community of educators, designers, and tinkerers exploring how to support creative learning through projects, passion, peers, and play.">
-
-  <!-- open graph stuff --> 
-  <meta property="og:url" content="http://localhost:4000/lcl/">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Learning Creative Learning">
-  <meta property="og:description" content="We&#39;re a community of educators, designers, and tinkerers exploring how to support creative learning through projects, passion, peers, and play.">
-  <meta property="og:image" content="/lcl/images/lcl-image.png">
-  <meta property="og:image:type" content="image/png">
-  <meta property="og:image:width" content="962">
-  <meta property="og:image:height" content="563">
-
-  <link rel="icon" href="/lcl/images/favicon.ico">
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-  <!-- Font --> 
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-  <!-- Custom styles -->
-  <link rel="stylesheet" href="/lcl/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/lcl/">
-  <link rel="alternate" type="application/rss+xml" title="Learning Creative Learning" href="/lcl/feed.xml">
-  <script type="text/javascript">window.liveSettings={api_key:"ddd65cab1c8f4bf0924ad1a18534da75"}</script>
-  <script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
-  <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-
-  <!-- Global Site Tag (gtag.js) - Google Analytics - DO NOT CHANGE-->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106500697-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)};
-  gtag('js', new Date());
-
-  gtag('config', 'UA-106500697-1');
-
-	/**
-	* Function that tracks a click on an outbound link in Analytics.
-	* This function takes a valid URL string as an argument, and uses that URL string
-	* as the event label. Setting the transport method to 'beacon' lets the hit be sent
-	* using 'navigator.sendBeacon' in browser that support it.
-	* Code taken from: https://support.google.com/analytics/answer/7478520?hl=en and adjusted
-	*/
-	var trackOutboundLink = function(url, category="outbound") {
-	  gtag('event', 'open-doc', {
-	    'event_category': category,
-	    'event_label': url,
-	    'transport_type': 'beacon',
-	    'event_callback': function(){document.location = url;}
-	  });
-	}
-</script>
-
-</head>
-
-
-  <body>
-
-    
-      
-    
-
-    <div class="container-fluid">
-      <script type="text/javascript" src="/lcl/assets/pegs.js"></script>
-<script type="text/javascript" src="/lcl/assets/utils.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/pegs.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/utils.js"></script>
 
 <div id="peg-grid">
 	<div id="peg-grid-overflow">
@@ -87,68 +17,65 @@
 <div class="container">
 	<div class="row justify-content-center">
 		
+		<div class="col-md-4 text-center">
+			<div class="front-page-callout">First time here?</div>
+			<a href="{{ site.baseurl }}{% link get-started.md %}" class="btn btn-lg btn-block btn-primary">Get Started</a>
+			<img id="first-time-peg-1" src="{{ site.baseurl }}/images/peg_yellow.svg" />
+			<img id="first-time-peg-2" src="{{ site.baseurl }}/images/peg_green.svg" />
+		</div>
+		
 		<!--
 
 		<div class="col-md-4 text-center">
-			<div class="front-page-callout">First time here?</div>
-			<a href="/lcl/get-started/" class="btn btn-lg btn-block btn-primary">Get Started</a>
-			<img id="first-time-peg-1" src="/lcl/images/peg_yellow.svg" />
-			<img id="first-time-peg-2" src="/lcl/images/peg_green.svg" />
+
+			<div class="front-page-callout">A new round of the course starts on April 13th 2020, and it's free!</div>
+			<a href="http://eepurl.com/gXNRLX" class="btn btn-lg btn-block btn-primary mb-5">Sign up</a>
+
+			<div class="mt-4 mb-2">Connect with educators from around the world and learn how to help children develop as creative thinkers, exploring design principles of the Lifelong Kindergarten Group at MIT
+			</div>
+			<a href="{{ site.baseurl }}{% link learn-more.html %}" class="btn btn-lg btn-block btn-outline-primary">Learn More</a>
+
 		</div>
 
 		-->
-
-		<div class="col-md-4 text-center">
-
-			<div class="front-page-callout">Welcome!</div>
-
-			<h5>A new round of the course will start in October</h5>
-
-			<a href="http://eepurl.com/gXNRLX" class="btn btn-lg btn-block btn-primary mb-5">Sign up to receive updates</a>
-
-			<h5>Can't wait? Start exploring! </br>Materials and forums are available anytime</h5>
-
-			<div class="mt-4 mb-2">Questions? Check out the <a href="/lcl/learn-more/">FAQs</a> or <a href="mailto:lcl-team@media.mit.edu">contact us</a></div>
-
-		</div>
 
 
 		
 		<div class="col-md-1"></div>
 		<div class="col-md-4">
 			<!--div class="front-page-callout text-center">Coming soon...</div-->
-			<div class="front-page-callout text-center">Explore Creative Learning</div>
+			<div class="front-page-callout text-center">Explore Creative Learning!</div>
 			<div class="list-group">
-			  <a href="/lcl/weeks/week1" class="list-group-item front-page-list-item d-flex">
+			  <a href="{{ site.baseurl }}/weeks/week1" class="list-group-item front-page-list-item d-flex">
 			  	Week 1 - Introduction <!--span class="badge badge-light badge-pill ml-auto p-2">April 13th</span-->
 			  </a>
-			  <a href="/lcl/weeks/week2" class="list-group-item front-page-list-item d-flex">
+			  <a href="{{ site.baseurl }}/weeks/week2" class="list-group-item front-page-list-item d-flex">
 			  	Week 2 - Projects <!--span class="badge badge-light badge-pill ml-auto p-2">April 20th</span-->
 			  </a>
-			  <a href="/lcl/weeks/week3" class="list-group-item front-page-list-item d-flex">
+			  <a href="{{ site.baseurl }}/weeks/week3" class="list-group-item front-page-list-item d-flex">
 				  Week 3 - Passion <!--span class="badge badge-light badge-pill ml-auto p-2">April 27th</span-->
 				</a>
-			  <a href="/lcl/weeks/week4" class="list-group-item front-page-list-item d-flex">
+			  <a href="{{ site.baseurl }}/weeks/week4" class="list-group-item front-page-list-item d-flex">
 			  	Week 4 - Peers <!--span class="badge badge-light badge-pill ml-auto p-2">May 4th</span-->
 			  </a> 
-			  <a href="/lcl/weeks/week5" class="list-group-item front-page-list-item d-flex">
+			  <a href="{{ site.baseurl }}/weeks/week5" class="list-group-item front-page-list-item d-flex">
 			  	Week 5 - Play <!--span class="badge badge-light badge-pill ml-auto p-2">May 11th</span-->
 			  </a>
-			  <a href="/lcl/weeks/week6" class="list-group-item front-page-list-item d-flex">
+			  <a href="{{ site.baseurl }}/weeks/week6" class="list-group-item front-page-list-item d-flex">
 				  Week 6 - Creative Society <!--span class="badge badge-light badge-pill ml-auto p-2">May 18th</span-->
 			</a>
 			</div>
-			<!--p class="text-center"><small>Previous materials are still available <a href="/lcl/index-old">here</a></small></p-->
+			<!--p class="text-center"><small>Previous materials are still available <a href="{{ site.baseurl }}/index-old">here</a></small></p-->
 		</div>
 	
 	</div>
 	
 	<div class="row justify-content-end">
 		<div class="col-md-4">
-			<img id="footer-peg-1" src="/lcl/images/peg_yellow.svg" />
-			<img id="footer-peg-2" src="/lcl/images/peg_blue.svg" />
-			<img id="footer-peg-3" src="/lcl/images/peg_red.svg" />
-			<img id="footer-peg-4" src="/lcl/images/peg_green.svg" />
+			<img id="footer-peg-1" src="{{ site.baseurl }}/images/peg_yellow.svg" />
+			<img id="footer-peg-2" src="{{ site.baseurl }}/images/peg_blue.svg" />
+			<img id="footer-peg-3" src="{{ site.baseurl }}/images/peg_red.svg" />
+			<img id="footer-peg-4" src="{{ site.baseurl }}/images/peg_green.svg" />
 		</div>
 	</div>
 	
@@ -174,7 +101,7 @@
 		</div>
 	</div>
 
-<!--
+
 	<div id="calendar" class="row justify-content-center mb-4">
 		<div class="col-md-10">
 			<div class="row justify-content-center mt-4">
@@ -606,24 +533,7 @@
 							document.getElementById('timezone-header').innerHTML = getCurrentTimeZone();
             </script>
 			</div>
-
--->
 		</div>
 	</div>
 
 </div>
-    </div>
-
-    
-      <!-- empty footer -->
-    
-
-<!-- Bootstrap core JavaScript
-  ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="/lcl/lang-script.js"></script>
-  </body>
-
-</html>
