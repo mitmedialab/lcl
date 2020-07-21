@@ -106,7 +106,7 @@ additional:
       - link: https://www.dropbox.com/s/iax4ah23p924tzi/Motivation-for-Making.pdf
         name: Motivation for Making
         desc: Natalie Rusk (2017), in Makeology.
-      - link: http://papert.org/articles/HardFun.html
+      - link: http://dailypapert.com/hard-fun/
         name: Hard Fun
         desc: Seymour Papert, 2002, Article for the Bangor Daily News (Bangor, Maine)
         lang_links:
