@@ -87,7 +87,7 @@ meet:
 
        Would you like to learn how to create with Scratch with guidance and peer support?<br/>
 
-       WeScratch Workshop - Wednesday 2:00-3:30 PM (Boston time) <br/>
+       WeScratch Workshop - Wednesday [times will be confirmed soon] <br/>
        <a href="https://unhangout.media.mit.edu/event/wescratch/">https://unhangout.media.mit.edu/event/wescratch/</a>
        
        For more events check out the <a href="https://learn.media.mit.edu/lcl/#calendar">calendar</a>! <br/>
