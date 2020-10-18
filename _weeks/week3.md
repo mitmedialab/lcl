@@ -35,7 +35,7 @@ watch-read:
             link: ../../resources/readings/chapter3-excerpt.ar.pdf?pdf=ch3-ar
 
 make-share:
-  forum-link: https://lcl-discuss.media.mit.edu/t/activity-3-make-something-with-scratch/3056
+  forum-link: 
   forum-button-text: Start the Activity
 
   activity-desc: |
@@ -55,7 +55,7 @@ make-share:
     show-subtitle-hint: true
 
 reflect:
-    forum-link: https://lcl-discuss.media.mit.edu/t/reflection-3-designing-for-wide-walls/3057
+    forum-link: 
     forum-button-text:
     title:
     discussion-prompt: |

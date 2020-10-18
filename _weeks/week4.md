@@ -35,7 +35,7 @@ watch-read:
             link: ../../resources/readings/chapter4-excerpt.ar.pdf?pdf=ch4-ar
 
 make-share:
-  forum-link: https://lcl-discuss.media.mit.edu/t/activity-4-remix-something/3100
+  forum-link: 
   forum-button-text: Start the Activity
 
   activity-desc: |
@@ -57,7 +57,7 @@ make-share:
       In this video, Jaleesa and Yumiko share some examples and explain a little bit more.
 
 reflect:
-    forum-link: https://lcl-discuss.media.mit.edu/t/activity-4-meet-someone/3101
+    forum-link: 
     forum-button-text:
     title:
     discussion-prompt: |
