@@ -53,7 +53,7 @@ make-share:
     Here are the steps for this activity
 
     1. Read Seymour Papert’s essay on [Gears of My Childhood]( ../../resources/activity/week1/gears.pdf?pdf=gears.en) 
-    <br/><i class="fa fa-globe mr-2" aria-hidden="true"></i> also available in [Italiano (Italian)]( ../../resources/activity/week1/gears.it.pdf?pdf=gears.it), [Português (Portuguese)]( ../../resources/activity/week1/gears.pt.pdf?pdf=gears.pt), [Español (Spanish)]( ../../resources/activity/week1/gears.es.pdf?pdf=gears.es), [日本語 (Japanese)]( ../../resources/activity/week1/gears.ja.pdf?pdf=gears.ja), [Türkçe (Turkish)]( ../../resources/activity/week1/gears.tr.pdf?pdf=gears.tr), [العربية (Arabic)]( ../../resources/activity/week1/gears.ar.pdf?pdf=gears.ar)
+    <br/><i class="fa fa-globe mr-2" aria-hidden="true"></i>[Italiano (Italian)]( ../../resources/activity/week1/gears.it.pdf?pdf=gears.it), [Português (Portuguese)]( ../../resources/activity/week1/gears.pt.pdf?pdf=gears.pt), [Español (Spanish)]( ../../resources/activity/week1/gears.es.pdf?pdf=gears.es), [日本語 (Japanese)]( ../../resources/activity/week1/gears.ja.pdf?pdf=gears.ja), [Türkçe (Turkish)]( ../../resources/activity/week1/gears.tr.pdf?pdf=gears.tr), [العربية (Arabic)]( ../../resources/activity/week1/gears.ar.pdf?pdf=gears.ar)
     
     2. Think about an object from your childhood that interested and influenced you. What was special about it? How did it affect the way you think and learn?
     
