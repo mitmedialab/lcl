@@ -33,6 +33,8 @@ watch-read:
             link:  ../../resources/readings/chapter2-excerpt.tr.pdf?pdf=ch2-tr
           - language: العربية (Arabic)
             link:  ../../resources/readings/chapter2-excerpt.ar.pdf?pdf=ch2-ar
+          - language: ภาษาไทย (Thai)
+            link:  ../../resources/readings/chapter2-excerpt.th.pdf?pdf=ch2-th
 
 make-share:
   forum-link: https://lcl-discuss.media.mit.edu/t/week-2-activity-make-something/3333

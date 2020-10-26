@@ -33,6 +33,8 @@ watch-read:
             link:  ../../resources/readings/chapter1-excerpt.tr.pdf?pdf=ch1-tr
           - language: العربية (Arabic)
             link:  ../../resources/readings/chapter1-excerpt.ar.pdf?pdf=ch1-ar
+          - language: ภาษาไทย (Thai)
+            link:  ../../resources/readings/chapter1-excerpt.th.pdf?pdf=ch1-th
 
   think-prompt: false
 
