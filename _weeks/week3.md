@@ -105,13 +105,18 @@ additional:
             link: ../../resources/readings/clubhouse-origins.ar.pdf
       - link: https://www.dropbox.com/s/iax4ah23p924tzi/Motivation-for-Making.pdf
         name: Motivation for Making
-        desc: Natalie Rusk (2017), in Makeology.
+        desc: Natalie Rusk (2017), in Makeology
+        lang_links:
+          - language: Português (Portuguese)
+            link: ../../resources/readings/motivation-for-making.pt.pdf
       - link: http://dailypapert.com/hard-fun/
         name: Hard Fun
         desc: Seymour Papert, 2002, Article for the Bangor Daily News (Bangor, Maine)
         lang_links:
           - language: العربية (Arabic)
             link: ../../resources/readings/hard-fun.ar.pdf
+          - language: Português (Portuguese)
+            link: ../../resources/readings/hard-fun.pt.pdf
 
 download:
     prompt: |
