@@ -27,16 +27,16 @@
 			var rand = randomFromSeed() % 4;
 			switch (rand) {
 				case 0:
-					gridContainer.append('<img class="peg" src="/lcl/images/peg_green.svg" />');
+					gridContainer.append('<img class="peg" src="{{ site.baseurl }}/images/peg_green.svg" />');
 					break;
 				case 1:
-					gridContainer.append('<img class="peg" src="/lcl/images/peg_blue.svg" />');
+					gridContainer.append('<img class="peg" src="{{ site.baseurl }}/images/peg_blue.svg" />');
 					break;
 				case 2:
-					gridContainer.append('<img class="peg" src="/lcl/images/peg_red.svg" />');
+					gridContainer.append('<img class="peg" src="{{ site.baseurl }}/images/peg_red.svg" />');
 					break;
 				case 3:
-					gridContainer.append('<img class="peg" src="/lcl/images/peg_yellow.svg" />');
+					gridContainer.append('<img class="peg" src="{{ site.baseurl }}/images/peg_yellow.svg" />');
 					break;
 			}
 		}
