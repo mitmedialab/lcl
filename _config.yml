@@ -20,8 +20,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   We're a community of educators, designers, and 
   tinkerers exploring how to support creative learning 
   through projects, passion, peers, and play.
-baseurl: "/lcl" # the subpath of your site, e.g. /blog
-url: "http://learn.media.mit.edu" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://lcl.media.mit.edu" # the base hostname & protocol for your site, e.g. http://example.com
 
 current-module: '/weeks/week1'
 
