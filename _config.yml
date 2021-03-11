@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   tinkerers exploring how to support creative learning 
   through projects, passion, peers, and play.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lcl.media.mit.edu" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://lcl.media.mit.edu" # the base hostname & protocol for your site, e.g. http://example.com
 
 current-module: '/weeks/week1'
 
