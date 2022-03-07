@@ -5,6 +5,7 @@ hide-navbar: true
 
 <script type="text/javascript" src="{{ site.baseurl }}/assets/pegs.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/assets/utils.js"></script>
+<!--<script type="text/javascript" src="{{ site.baseurl }}/assets/discourse-posts.js"></script>-->
 
 <div id="peg-grid">
 	<div id="peg-grid-overflow">
@@ -15,70 +16,59 @@ hide-navbar: true
 </div>
 
 <div class="container">
+	
 	<div class="row justify-content-center">
 		
-		<!--
-
 		<div class="col-md-4 text-center">
-			<div class="front-page-callout">First time here?</div>
-			<a href="{{ site.baseurl }}{% link get-started.md %}" class="btn btn-lg btn-block btn-primary">Get Started</a>
+
+			<div class="front-page-callout">A new round of the course starts on April 18th, and it's free!</div>	
+
+			<div class="embed-responsive embed-responsive-16by9 border-0" id="invite-video">
+		  	<iframe class="youtube-iframe" src="https://www.youtube.com/embed/-lTPLFEwVOU?rel=0" allowfullscreen></iframe>
+			</div>
+			
+			<a href="https://eepurl.com/hWxDHj" class="btn btn-lg btn-block btn-primary mt-3 mb-1">Sign up</a>
+
+
+			<!--
 			<img id="first-time-peg-1" src="{{ site.baseurl }}/images/peg_yellow.svg" />
 			<img id="first-time-peg-2" src="{{ site.baseurl }}/images/peg_green.svg" />
-		</div>
+			-->
 
-		-->
-
-		<div class="col-md-4 text-center">
-
-			<div class="front-page-callout">Welcome</div>
-
-			<h5>A new round of the course will start in April 2022</h5>
-			<!--h5>The course usually starts in October with a new cohort of participants and live events</h5>
-			<br/>
-			<h5>When is the next round? We don't know yet!</h5-->
-			<h5><strong>Sign up to receive updates</strong></h5>
-			
-
-			<!--<a href="http://eepurl.com/g8F7qj" class="btn btn-lg btn-block btn-primary mb-5">Sign up to receive updates</a>-->
-			<form class="form-inline justify-content-center validate" action="https://mit.us16.list-manage.com/subscribe/post?u=d4055f9dadb47752210df2aa0&amp;id=15fbe95a77" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate onsubmit="this.submit(); this.reset(); return false;">
-			  <input type="email" class="form-control mr-2 col-7" placeholder="Enter email" value="" name="EMAIL" required>
-			  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d4055f9dadb47752210df2aa0_15fbe95a77" tabindex="-1" value=""></div>
-			  <button type="submit" class="btn btn-primary" name="subscribe">Sign Up</button>
-			 </form>
-
-			<h5 class="mt-4">Can't wait? Start exploring! </br>Materials and forums are available anytime</h5>
-
-			<div class="mt-4 mb-2">Questions? Check out the <a href="{{ site.baseurl }}{% link learn-more.html %}">FAQs</a> or <a href="mailto:lcl-team@media.mit.edu">contact us</a></div>
+			<!--
+			<div class="mt-4 mb-2">Connect with educators from around the world and learn how to help children develop as creative thinkers, exploring design principles of the Lifelong Kindergarten Group at MIT
+			</div>
+			-->
+			<a href="{{ site.baseurl }}{% link learn-more.html %}" class="btn">Learn More</a>
 
 		</div>
-
-
 		
 		<div class="col-md-1"></div>
-		<div class="col-md-3">
-			<!--div class="front-page-callout text-center">Coming soon...</div-->
-			<div class="front-page-callout text-center">Explore Creative Learning</div>
+		
+		<div class="col-md-4">
+			<div class="front-page-callout text-center mt-2">Coming soon...</div>
 			<div class="list-group">
-			  <a href="{{ site.baseurl }}/weeks/week1" class="list-group-item front-page-list-item d-flex">
-			  	1 - Introduction
+			  <a href="{{ site.baseurl }}/weeks/week1" class="list-group-item front-page-list-item d-flex disabled">
+			  	Week 1 - Introduction <span class="badge badge-light badge-pill ml-auto p-2">April 18th</span>
+			  	<!--img class="front-page-current-indicator" src="{{ site.baseurl }}/images/peg_blue.svg" tx-content="exclude"/-->
 			  </a>
-			  <a href="{{ site.baseurl }}/weeks/week2" class="list-group-item front-page-list-item d-flex">
-			  	2 - Projects
+			  <a href="{{ site.baseurl }}/weeks/week2" class="list-group-item front-page-list-item d-flex disabled">
+			  	Week 2 - Projects <span class="badge badge-light badge-pill ml-auto p-2">April 25th</span>
 			  </a>
-			  <a href="{{ site.baseurl }}/weeks/week3" class="list-group-item front-page-list-item d-flex">
-				  3 - Passion
+			  <a href="{{ site.baseurl }}/weeks/week3" class="list-group-item front-page-list-item d-flex disabled">
+				  Week 3 - Passion <span class="badge badge-light badge-pill ml-auto p-2">May 2nd</span>
 				</a>
-			  <a href="{{ site.baseurl }}/weeks/week4" class="list-group-item front-page-list-item d-flex">
-			  	4 - Peers
-			  </a> 
-			  <a href="{{ site.baseurl }}/weeks/week5" class="list-group-item front-page-list-item d-flex">
-			  	5 - Play
+			  <a href="{{ site.baseurl }}/weeks/week4" class="list-group-item front-page-list-item d-flex disabled">
+			  	Week 4 - Peers <span class="badge badge-light badge-pill ml-auto p-2">May 9th</span>
 			  </a>
-			  <a href="{{ site.baseurl }}/weeks/week6" class="list-group-item front-page-list-item d-flex">
-				  6 - Creative Society
+			  <a href="{{ site.baseurl }}/weeks/week5" class="list-group-item front-page-list-item d-flex disabled">
+			  	Week 5 - Play <span class="badge badge-light badge-pill ml-auto p-2">May 16th</span>
+			  </a>
+			  <a href="{{ site.baseurl }}/weeks/week6" class="list-group-item front-page-list-item d-flex disabled">
+				  Week 6 - Creative Society <span class="badge badge-light badge-pill ml-auto p-2">May 23th</span>
 			</a>
 			</div>
-			<!--p class="text-center"><small>Previous materials are still available <a href="{{ site.baseurl }}/index-old">here</a></small></p-->
+			<p class="text-center"><small>Previous materials are still available <a href="{{ site.baseurl }}/index-old">here</a></small></p>
 		</div>
 	
 	</div>
@@ -91,6 +81,8 @@ hide-navbar: true
 			<img id="footer-peg-4" src="{{ site.baseurl }}/images/peg_green.svg" />
 		</div>
 	</div>
+	
+	<!--
 	
 	<div class="row justify-content-center grey-row conversation-row">
 		<div class="col-md-10">
@@ -105,6 +97,7 @@ hide-navbar: true
 		</div>
 	</div>
 
+
 	<div id="map" class="row justify-content-center">
 		<h2 class="my-5 col-md-10 text-center">Global Community</h2>
 		<p class="col-md-10 text-center">To add yourself to the map, click the + sign at the top right</p>
@@ -114,7 +107,7 @@ hide-navbar: true
 		</div>
 	</div>
 
-<!--
+
 	<div id="calendar" class="row justify-content-center mb-4">
 		<div class="col-md-10">
 			<div class="row justify-content-center mt-4">
@@ -539,16 +532,17 @@ hide-navbar: true
 					
 				</select>
       </div>
+      
       <div class="row justify-content-center" id="google-calendar">
             <script type="text/javascript">
-            	var iframe_html = '<iframe id="calendar-iframe" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=' + encodeURIComponent(getCurrentTimeZone()) + '&amp;src=OTNtdWFuNTVwbTQzamtvYXM3YnZvYWNwMDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%239E69AF&amp;mode=WEEK&amp;dates=20200413%2F20200525" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>'
+            	var iframe_html = '<iframe id="calendar-iframe" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=' + encodeURIComponent(getCurrentTimeZone()) + '&amp;src=OTNtdWFuNTVwbTQzamtvYXM3YnZvYWNwMDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%239E69AF&amp;mode=WEEK&amp;dates=20201019%2F20201129" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>'
 							document.getElementById('google-calendar').innerHTML = iframe_html;
 							document.getElementById('timezone-header').innerHTML = getCurrentTimeZone();
             </script>
 			</div>
-
--->
 		</div>
 	</div>
+
+	-->
 
 </div>
