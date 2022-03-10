@@ -29,7 +29,6 @@ $(document).ready(function(){
 
 	$('#timezone-select').change(function(){
 		//alert(this.value);
-		console.log(this.value);
 		$('#timezone-header').text(this.value);
 		$('#calendar-iframe').attr('src', 'https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=' + 
 			encodeURIComponent(this.value) + '&src=' + calendar_src + '&color=%239E69AF&mode='+ view_mode +'&showPrint=0&showCalendars=0&dates=' + start_date +'%2F' + end_date);
