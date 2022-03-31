@@ -95,9 +95,6 @@ additional:
         additional-video: true
 
     readings:
-      - link: http://web.media.mit.edu/~mres/download/Art-of-Tinkering.pdf
-        name: The Art of Tinkering (excerpts)
-        desc: Karen Wilkinson & Mike Petrich (2014)
       - link: https://www.exploratorium.edu/sites/default/files/pdfs/PetrichWilkinsonBevan-2013-ItLooksLikeFun.pdf
         name: It Looks Like Fun, But Are They Learning?
         desc: Mike Petrich, Karen Wilkinson, & Bronwyn Bevan (2013), in Design, Make, Play

@@ -97,13 +97,6 @@ meet:
 
 
 additional:
-    videos:
-      - link: https://www.youtube.com/embed/MHJdmm-cIU0?rel=0&cc_load_policy=1
-        title: Conversation with Andrew Sliwinski
-        desc: Mitch and Andrew discuss strategies for engaging children in creative learning through projects — and compare experiences with physical and digital materials
-        download-link: https://media.mit.edu/~tarmelop/lcl/week2-conversation-andrew.zip
-        show-subtitle-hint: true
-        additional-video: true
 
     readings:
       - link:  https://www.ted.com/talks/mitch_resnick_let_s_teach_kids_to_code

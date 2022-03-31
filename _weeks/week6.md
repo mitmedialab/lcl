@@ -111,9 +111,6 @@ additional:
       - link: ../../resources/readings/how-children-fail.pdf
         name: Fear and failure
         desc: from John Holt, How Children Fail (1964)  
-      - link: https://dspace.mit.edu/bitstream/handle/1721.1/79157/847525655-MIT.pdf?sequence=2
-        name: Best of Both Worlds - Issues of Structure and Agency in Computational Creation, in and out of School
-        desc: Karen Brennan, Ph.D. thesis (dissertation defense [video](https://www.media.mit.edu/videos/kbrennan-2012-10-4/))
       - link: https://www.ted.com/talks/sir_ken_robinson_bring_on_the_revolution
         name: Bring On the Learning Revolution!
         desc: Sir Ken Robinson (2010), TED Talk (video)
@@ -130,7 +127,7 @@ even-more-additional:
           - language: Português (Portuguese)
             link: ../../resources/readings/fcl-guide.pt.pdf
       - link: http://scratched.gse.harvard.edu/guide/
-        name: Creative Computing Curriculm Guide
+        name: Creative Computing Curriculum Guide
         lang_links:
           - language: Português (Portuguese)
             link: ../../resources/readings/creative-computing-guide.pt.pdf

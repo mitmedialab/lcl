@@ -91,10 +91,6 @@ additional:
         additional-video: true
 
     readings:
-      - link: http://www.youtube.com/watch?v=u6XAPnuFjJc
-        name: 'Drive: The Surprising Truth About What Motivates Us'
-        desc: Daniel Pink (2010)
-        type: video
       - link: http://web.media.mit.edu/~mres/papers/Clubhouse/clubhouse-origins.pdf
         name: Origins and Guiding Principles of the Computer Clubhouse
         desc: 'Natalie Rusk, Mitchel Resnick, & Stina Cooke (2009), in The Computer Clubhouse: Constructionism and Creativity in Youth Communities'

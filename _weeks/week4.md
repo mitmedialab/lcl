@@ -85,13 +85,6 @@ meet:
        For more events check out the <a href="https://learn.media.mit.edu/lcl/#calendar">calendar</a>! <br/>
 
 additional:
-    videos:
-      - link: https://www.youtube.com/embed/oVn0oeVtEfM?rel=0&cc_load_policy=1
-        title: Conversation with Philipp Schmidt
-        desc: Mitch and Philipp discuss peer learning communities, and share examples and strategies to support people learning from each other.
-        download-link: https://media.mit.edu/~tarmelop/lcl/week3-conversation-philipp.zip
-        show-subtitle-hint: true
-        additional-video: true
 
     readings:
       - link: ../../resources/readings/mindstorms-ch8-images.pdf
