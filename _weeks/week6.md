@@ -91,7 +91,7 @@ wescratch:
 
        Wednesday 1:00-2:30 PM (Boston time) <br/>
 
-       <b>Scratch Activity: Interview Anything</b> <br/>
+       <b>Activity: Interview Anything</b> <br/>
        Try interviewing something, like a piece of play-doh, a penny, a plant, a pet, or even a person! <br/>
 
        You will receive the zoom link in the weekly email.

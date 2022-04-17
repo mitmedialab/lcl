@@ -86,7 +86,7 @@ wescratch:
 
        Wednesday 1:00-2:30 PM (Boston time) <br/>
 
-       <b>Scratch Activity: Share the Love</b> <br/>
+       <b>Activity: Share the Love</b> <br/>
        Make a project for someone you care about. <br/>
 
        You will receive the zoom link in the weekly email.

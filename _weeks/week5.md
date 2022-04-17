@@ -89,7 +89,7 @@ wescratch:
 
        Wednesday 1:00-2:30 PM (Boston time) <br/>
 
-       <b>Scratch Activity: Sprite Art</b> <br/>
+       <b>Activity: Sprite Art</b> <br/>
        Create colorful drawings or mesmerizing animations using sprites. <br/>
 
        You will receive the zoom link in the weekly email.

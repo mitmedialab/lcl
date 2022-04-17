@@ -89,7 +89,7 @@ wescratch:
 
        Wednesday 1:00-2:30 PM (Boston time) <br/>
 
-       <b>Scratch Activity: Create a Story</b> <br/>
+       <b>Activity: Create a Story</b> <br/>
        Choose characters, add conversation, and bring your story to life. <br/>
 
        You will receive the zoom link in the weekly email.
