@@ -66,20 +66,30 @@ reflect:
 
 meet:
     prompt: |
-      
-      Would you like to meet and chat with the LCL team and the rest of the community?<br/>
 
-       LCL Chat Round 1 - Monday 10:00-11:00 AM (Boston time) <br/>
-       LCL Chat Round 2 - Monday 04:00-05:00 PM (Boston time) <br/>
-       <a href="https://unhangout.media.mit.edu/event/lcl-chat/">https://unhangout.media.mit.edu/event/lcl-chat/</a>
+       Video calls with the LCL team and the rest of the community<br/>
 
+       Session 1 - Friday 10:00-11:00 AM (Boston time) <br/>
+       Session 2 - Friday 04:00-05:00 PM (Boston time) <br/>
 
-       Would you like to learn how to create with Scratch with guidance and peer support?<br/>
-
-       WeScratch Workshop - Wednesday 1:00-2:30 PM (Boston time) <br/>
-       <a href="https://unhangout.media.mit.edu/event/wescratch/">https://unhangout.media.mit.edu/event/wescratch/</a>
+       <b>Discussion topics</b> <br/>
+       When was the last time you’ve been working on something you cared about? <br/>
+       How can you help others work on things that they care / are passionate about? <br/>
        
-       For more events check out the <a href="https://learn.media.mit.edu/lcl/#calendar">calendar</a>! <br/>
+       You will receive the zoom link in the weekly email.
+
+
+wescratch:
+    prompt: |
+       
+       Learn how to create with Scratch in a collaborative and playful environment<br/>
+
+       Wednesday 1:00-2:30 PM (Boston time) <br/>
+
+       <b>Scratch Activity: Share the Love</b> <br/>
+       Make a project for someone you care about. <br/>
+
+       You will receive the zoom link in the weekly email.
 
 additional:
     videos:

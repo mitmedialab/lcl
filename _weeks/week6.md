@@ -71,20 +71,31 @@ reflect:
 
 meet:
     prompt: |
-      
-       Would you like to meet and chat with the LCL team and the rest of the community?<br/>
 
-       LCL Chat Round 1 - Monday 10:00-11:00 AM (Boston time) <br/>
-       LCL Chat Round 2 - Monday 04:00-05:00 PM (Boston time) <br/>
-       <a href="https://unhangout.media.mit.edu/event/lcl-chat/">https://unhangout.media.mit.edu/event/lcl-chat/</a>
+       Video calls with the LCL team and the rest of the community<br/>
+
+       Session 1 - Friday 10:00-11:00 AM (Boston time) <br/>
+       Session 2 - Friday 04:00-05:00 PM (Boston time) <br/>
+
+       <b>Discussion topics</b> <br/>
+       How can we help people develop as creative thinkers? <br/>
+       How might you use (or have you used) the four P’s in your practice? <br/>
+
+       You will receive the zoom link in the weekly email.
 
 
-       Would you like to learn how to create with Scratch with guidance and peer support?<br/>
-
-       WeScratch Workshop - Wednesday 1:00-2:30 PM (Boston time) <br/>
-       <a href="https://unhangout.media.mit.edu/event/wescratch/">https://unhangout.media.mit.edu/event/wescratch/</a>
+wescratch:
+    prompt: |
        
-       For more events check out the <a href="https://learn.media.mit.edu/lcl/#calendar">calendar</a>! <br/>
+       Learn how to create with Scratch in a collaborative and playful environment<br/>
+
+       Wednesday 1:00-2:30 PM (Boston time) <br/>
+
+       <b>Scratch Activity: Interview Anything</b> <br/>
+       Try interviewing something, like a piece of play-doh, a penny, a plant, a pet, or even a person! <br/>
+
+       You will receive the zoom link in the weekly email.
+
 
 additional:
     desc: |

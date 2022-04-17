@@ -79,21 +79,30 @@ reflect:
 
 meet:
     prompt: |
+
+       Video calls with the LCL team and the rest of the community<br/>
+
+       Session 1 - Friday 10:00-11:00 AM (Boston time) <br/>
+       Session 2 - Friday 04:00-05:00 PM (Boston time) <br/>
+
+       <b>Discussion topics</b> <br/>
+       What is a project that you’ve been working on recently? <br/> 
+       How do you support others learning through projects? <br/> 
        
-       Would you like to meet and chat with the LCL team and the rest of the community?<br/>
-
-       LCL Chat Round 1 - Monday 10:00-11:00 AM (Boston time) <br/>
-       LCL Chat Round 2 - Monday 04:00-05:00 PM (Boston time) <br/>
-       <a href="https://unhangout.media.mit.edu/event/lcl-chat/">https://unhangout.media.mit.edu/event/lcl-chat/</a>
+       You will receive the zoom link in the weekly email.
 
 
-       Would you like to learn how to create with Scratch with guidance and peer support?<br/>
-
-       WeScratch Workshop - Wednesday 1:00-2:30 PM (Boston time) <br/>
-       <a href="https://unhangout.media.mit.edu/event/wescratch/">https://unhangout.media.mit.edu/event/wescratch/</a>
+wescratch:
+    prompt: |
        
-       For more events check out the <a href="https://learn.media.mit.edu/lcl/#calendar">calendar</a>! <br/>
+       Learn how to create with Scratch in a collaborative and playful environment<br/>
 
+       Wednesday 1:00-2:30 PM (Boston time) <br/>
+
+       <b> Activity: Animate a Name </b> <br/>
+       Animate the letters of your name, initials, or favorite word. <br/>
+
+       You will receive the zoom link in the weekly email.
 
 
 additional:

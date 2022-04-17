@@ -43,7 +43,7 @@ watch-read:
   add-readings:
 
 make-share:
-  forum-link: https://lcl-discuss.media.mit.edu/t/week-1-activity-childhood-objects/3315
+  forum-link: https://lcl-discuss.media.mit.edu/t/activity-1-childhood-objects/3775
   forum-button-text: Share Your Object
 
   activity-title: Childhood Object
@@ -74,7 +74,7 @@ make-share:
     show-subtitle-hint: true
 
 reflect:
-    forum-link: https://lcl-discuss.media.mit.edu/t/week-1-reflection-pick-a-p/3316
+    forum-link: https://lcl-discuss.media.mit.edu/t/reflection-1-pick-a-p/3776
     forum-button-text: Join the Conversation
     title:
     discussion-prompt: |
@@ -90,25 +90,29 @@ reflect:
 
 meet:
     prompt: |
-      
-       Would you like to meet and chat with the LCL team and the rest of the community?<br/>
 
-       LCL Chat Round 1 - Monday 10:00-11:00 AM (Boston time) <br/>
-       LCL Chat Round 2 - Monday 04:00-05:00 PM (Boston time) <br/>
-       <a href="https://unhangout.media.mit.edu/event/lcl-chat/">https://unhangout.media.mit.edu/event/lcl-chat/</a>
+       Video calls with the LCL team and the rest of the community<br/>
 
+       Session 1 - Friday 10:00-11:00 AM (Boston time) <br/>
+       Session 2 - Friday 04:00-05:00 PM (Boston time) <br/>
 
-       Would you like to learn how to create with Scratch with guidance and peer support?<br/>
-
-       WeScratch Workshop - Wednesday 1:00-2:30 PM (Boston time) <br/>
-       <a href="https://unhangout.media.mit.edu/event/wescratch/">https://unhangout.media.mit.edu/event/wescratch/</a>
+       <b>Discussion topics</b> <br/>
+       What brings you to LCL? What do you think about the creative learning approach? <br/>
+       What resonates with you? What questions do you have? <br/>
        
-       For more events check out the <a href="https://learn.media.mit.edu/lcl/#calendar">calendar</a>! <br/>
+       You will receive the zoom link in the weekly email.
+
+wescratch:
+    prompt: |
+
+      No WeScratch this week. We'll start next week!
+
 
 download:
     prompt: |
       You can get this week's videos, subtitles, and readings in a single zip file for offline use.
     zipfile-link: https://media.mit.edu/~tarmelop/lcl/week1-all.zip
+
 ---
 
 
