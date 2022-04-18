@@ -107,11 +107,15 @@ hide-navbar: true
 		</div>
 	</div>
 
+-->
 
 	<div id="calendar" class="row justify-content-center mb-4">
 		<div class="col-md-10">
 			<div class="row justify-content-center mt-4">
 				<h2>Live Events</h2>
+      </div>
+      <div class="row justify-content-center mb-3">
+      	<h5>(all events are optional!) </h5>
       </div>
       <div class="row justify-content-center">
       	<h5><span> Showing timezone:</span> <span id="timezone-header"/></h5>
@@ -534,15 +538,22 @@ hide-navbar: true
       </div>
       
       <div class="row justify-content-center" id="google-calendar">
-            <script type="text/javascript">
-            	var iframe_html = '<iframe id="calendar-iframe" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=' + encodeURIComponent(getCurrentTimeZone()) + '&amp;src=OTNtdWFuNTVwbTQzamtvYXM3YnZvYWNwMDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%239E69AF&amp;mode=WEEK&amp;dates=20201019%2F20201129" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>'
-							document.getElementById('google-calendar').innerHTML = iframe_html;
-							document.getElementById('timezone-header').innerHTML = getCurrentTimeZone();
-            </script>
+            
 			</div>
+
+			<div class="row justify-content-center mt-3 mb-5">
+      	<h5><a id="calendar-link">Add all events to your Google Calendar</a></h5>
+      </div>
+
+      <script type="text/javascript">
+          /* calendar params are defined in utils.js */
+        	document.getElementById('google-calendar').innerHTML = iframe_html;
+					document.getElementById('timezone-header').innerHTML = getCurrentTimeZone();
+					document.getElementById('calendar-link').href = 'https://calendar.google.com/calendar/u/0?cid=' + calendar_src;
+      </script>
+
 		</div>
 	</div>
 
-	-->
 
 </div>
