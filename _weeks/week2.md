@@ -64,8 +64,8 @@ make-share:
     desc: |
     show-subtitle-hint: true
 
-reflect: https://lcl-discuss.media.mit.edu/t/reflection-2-learning-through-projects/3821
-    forum-link: 
+reflect: 
+    forum-link: https://lcl-discuss.media.mit.edu/t/reflection-2-learning-through-projects/3821
     title:
     discussion-prompt: |
 
