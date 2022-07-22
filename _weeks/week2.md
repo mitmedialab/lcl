@@ -35,6 +35,8 @@ watch-read:
             link:  ../../resources/readings/chapter2-excerpt.ar.pdf?pdf=ch2-ar
           - language: ภาษาไทย (Thai)
             link:  ../../resources/readings/chapter2-excerpt.th.pdf?pdf=ch2-th
+          - language: 中文 (Chinese)
+            link:  ../../resources/readings/chapter2-excerpt.cn.pdf?pdf=ch2-cn
 
 make-share:
   forum-link: https://lcl-discuss.media.mit.edu/t/activity-2-make-something/3820

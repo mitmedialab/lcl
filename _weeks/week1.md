@@ -35,6 +35,8 @@ watch-read:
             link:  ../../resources/readings/chapter1-excerpt.ar.pdf?pdf=ch1-ar
           - language: ภาษาไทย (Thai)
             link:  ../../resources/readings/chapter1-excerpt.th.pdf?pdf=ch1-th
+          - language: 中文 (Chinese)
+            link:  ../../resources/readings/chapter1-excerpt.cn.pdf?pdf=ch1-cn
 
   think-prompt: false
 
