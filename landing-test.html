@@ -1070,4 +1070,13 @@ function setLang(lang) {
   const s = strings[lang];
   if (!s) return;
   document.querySelectorAll('[data-i18n]').forEach(el => {
-    const key = el.getAttribute('dat
+    const key = el.getAttribute('data-i18n');
+    if (s[key] !== undefined) el.innerHTML = s[key];
+  });
+  document.documentElement.lang = lang;
+  document.getElementById('lang-select').value = lang;
+  document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+}
+</script>
+</body>
+</html>
