@@ -106,12 +106,12 @@
     .p-card h3 { font-family: 'Nunito', sans-serif; font-weight: 900; font-size: 1.05rem; margin-bottom: 0.35rem; }
     .p-card p { font-size: 0.9rem; line-height: 1.55; }
 
-    .p-card.projects { background: #fffce0; }
-    .p-card.projects h3 { color: #8a7800; }
+    .p-card.projects { background: #e8f4ff; }
+    .p-card.projects h3 { color: #005cb8; }
     .p-card.passion  { background: #fff0f0; }
     .p-card.passion h3  { color: #c0001a; }
-    .p-card.peers    { background: #e8f4ff; }
-    .p-card.peers h3    { color: #005cb8; }
+    .p-card.peers    { background: #fffce0; }
+    .p-card.peers h3    { color: #8a7800; }
     .p-card.play     { background: #e6fff2; }
     .p-card.play h3     { color: #007a2f; }
 
@@ -142,9 +142,6 @@
     }
     .rhythm-card p { font-size: 0.85rem; color: var(--muted); line-height: 1.5; }
     .rhythm-note {
-      font-size: 0.92rem;
-      color: var(--muted);
-      font-style: italic;
       margin-top: 0.5rem;
     }
     @media (max-width: 600px) {
@@ -193,6 +190,7 @@
     .cta-contact a { color: rgba(255,255,255,0.6); text-decoration: underline; }
 
     footer { background: #111; padding: 1.5rem 2rem; text-align: center; color: rgba(255,255,255,0.3); font-size: 0.8rem; }
+    img.emoji { height: 1.1em; width: 1.1em; vertical-align: -0.15em; display: inline-block; }
 
     /* ── LANG SWITCHER ── */
     #lang-switcher {
@@ -297,7 +295,7 @@
   <p class="tagline" data-i18n="hero_tagline">A free online course and community from MIT — for educators, makers, parents, and curious learners everywhere.</p>
   <div class="badge-row">
     <span class="badge free" data-i18n="badge_free">✓ Completely free</span>
-    <span class="badge date" data-i18n="badge_date">🗓 Starts April 13</span>
+    <span class="badge date" data-i18n="badge_date">🗓 Doors Open April 13</span>
     <span class="badge lang" data-i18n="badge_lang">🌍 Multilingual community</span>
     <span class="badge pace" data-i18n="badge_pace">⏱ 6 weeks, self-paced</span>
   </div>
@@ -325,7 +323,7 @@
   <p data-i18n="ps_intro">LCL is built around four principles that guide how we learn and how we design for learning:</p>
   <div class="ps-grid">
     <div class="p-card projects">
-      <div class="p-peg"><svg width="32" height="32"><use href="#peg-y"/></svg></div>
+      <div class="p-peg"><svg width="32" height="32"><use href="#peg-b"/></svg></div>
       <h3 data-i18n="ps_projects_title">Projects</h3>
       <p data-i18n="ps_projects_desc">We learn best when we're actively engaged in making things — not just reading or watching.</p>
     </div>
@@ -335,14 +333,14 @@
       <p data-i18n="ps_passion_desc">When we work on something we care about, we go deeper, try harder, and learn more.</p>
     </div>
     <div class="p-card peers">
-      <div class="p-peg"><svg width="32" height="32"><use href="#peg-b"/></svg></div>
+      <div class="p-peg"><svg width="32" height="32"><use href="#peg-y"/></svg></div>
       <h3 data-i18n="ps_peers_title">Peers</h3>
       <p data-i18n="ps_peers_desc">Learning flourishes as a social activity — working together, sharing ideas, building on each other's work.</p>
     </div>
     <div class="p-card play">
       <div class="p-peg"><svg width="32" height="32"><use href="#peg-g"/></svg></div>
       <h3 data-i18n="ps_play_title">Play</h3>
-      <p data-i18n="ps_play_desc">Creativity thrives when there's room to play — to try things out, make mistakes, and discover something unexpected along the way.</p>
+      <p data-i18n="ps_play_desc">Creativity thrives where there's room to try things out, make mistakes, and discover something unexpected along the way.</p>
     </div>
   </div>
 </div>
@@ -378,14 +376,17 @@
       </div>
     </div>
     <p class="rhythm-note" data-i18n="how_note">You can choose your adventure in LCL. All activities are optional and self-paced, and each week is self-contained, so you can jump in at any point, skip what doesn't resonate, and engage in whatever way feels right for you.</p>
+    <p class="rhythm-note" style="margin-top:0.75rem;" data-i18n="how_note2">Typically, participants spend around 3–4 hours a week — but it can be as little as 10 minutes, just watching the video and sharing a thought in the community. It's entirely up to you.</p>
   </div>
 </div>
+
+<hr class="divider" />
 
 <!-- LIVE EVENTS -->
 <div class="activities" style="background: white; border-top: none;">
   <div class="activities-inner">
     <p class="section-label" data-i18n="live_label">Live sessions</p>
-    <h2 data-i18n="live_title">Optional live events on Zoom</h2>
+    <h2 data-i18n="live_title">Live events on Zoom</h2>
     <p data-i18n="live_intro">We also host a few live sessions each week — a chance to meet other participants, discuss the week's ideas, or create something together. These are always optional, and everything gets shared in the forum afterwards so you won't miss out if you can't join.</p>
     <div class="event-list">
       <div class="event-item">
@@ -413,58 +414,17 @@
   </div>
 </div>
 
-<!-- FOR WHO -->
-<div class="section">
-  <p class="section-label" data-i18n="who_label">Who's it for?</p>
-  <h2 data-i18n="who_title">Anyone who cares about learning and creativity</h2>
-  <p data-i18n="who_intro">LCL has welcomed all kinds of people. If any of these sound like you, you're in the right place:</p>
-  <div class="who-tags">
-    <span class="who-tag" data-i18n="who_teachers">👩‍🏫 Teachers &amp; educators</span>
-    <span class="who-tag" data-i18n="who_parents">👨‍👧 Parents</span>
-    <span class="who-tag" data-i18n="who_admins">🏫 School administrators</span>
-    <span class="who-tag" data-i18n="who_designers">🎨 Designers &amp; makers</span>
-    <span class="who-tag" data-i18n="who_devs">🧑‍💻 Developers</span>
-    <span class="who-tag" data-i18n="who_facilitators">🌱 After-school facilitators</span>
-    <span class="who-tag" data-i18n="who_researchers">🔬 Researchers</span>
-    <span class="who-tag" data-i18n="who_curious">🤔 Curious people</span>
-  </div>
-  <p style="margin-top:1.5rem; font-style:italic; color:var(--muted);" data-i18n="who_note">No prior experience needed. No grades, no assignments, no pressure.<br>If you need documentation of your participation for professional purposes, just reach out and we'll be happy to help.</p>
-</div>
-
 <hr class="divider" />
 
-<!-- LANGUAGES -->
-<div class="section">
-  <div class="lang-box">
-    <p class="section-label" style="color:#005cb8;" data-i18n="lang_label">🌍 Languages</p>
-    <h2 data-i18n="lang_title">A truly multilingual community</h2>
-    <p data-i18n="lang_p1">LCL is designed so that language is as little of a barrier as possible.</p>
-    <p style="margin-top:1rem;" data-i18n="lang_p2">Videos have subtitles in multiple languages, readings are translated by community volunteers, and the forum supports automatic translation, so you can read and write in your own language, and still be part of the global conversation.</p>
-    <p style="margin-top:1rem;" data-i18n="lang_p3">Live sessions are hosted in English, but we create breakout rooms in multiple languages with the help of facilitators from the community, so you can discuss ideas with others who share your language.</p>
-    <p style="margin-top:1rem;" data-i18n="lang_p4">There are also local community groups where you can connect with people who share your language and context.</p>
-    <div class="lang-bubbles">
-      <span class="lang-bubble">🇺🇸 English</span>
-      <span class="lang-bubble">🇪🇸 Spanish</span>
-      <span class="lang-bubble">🇧🇷 Portuguese</span>
-      <span class="lang-bubble">🇮🇹 Italian</span>
-      <span class="lang-bubble">🇸🇦 Arabic</span>
-      <span class="lang-bubble">🇫🇷 French</span>
-      <span class="lang-bubble">🇨🇳 Chinese</span>
-      <span class="lang-bubble">🇯🇵 Japanese</span>
-      <span class="lang-bubble" data-i18n="lang_more">+ more</span>
-    </div>
-  </div>
-</div>
-
 <!-- TIMELINE -->
-<div class="section" style="padding-top:0;">
+<div class="section">
   <p class="section-label" data-i18n="tl_label">Week by week</p>
   <h2 data-i18n="tl_title">Timeline</h2>
   <div class="timeline">
     <div class="tl-item">
       <div class="tl-left"><svg width="30" height="30"><use href="#peg-y"/></svg><div class="tl-line"></div></div>
       <div class="tl-content">
-        <div class="tl-date"><span class="tl-pill" data-i18n="tl_w0_date">Apr 13</span> <span data-i18n="tl_w0_title">Welcome!</span></div>
+        <div class="tl-date"><span class="tl-pill" data-i18n="tl_w0_date">Apr 13</span> <span data-i18n="tl_w0_title">Doors Open!</span></div>
         <div class="tl-desc" data-i18n="tl_w0_desc">Join the forum, introduce yourself, add yourself to the community map, and get familiar with the platform.</div>
       </div>
     </div>
@@ -513,6 +473,51 @@
   </div>
 </div>
 
+<hr class="divider" />
+
+<!-- FOR WHO -->
+<div class="section">
+  <p class="section-label" data-i18n="who_label">Who's it for?</p>
+  <h2 data-i18n="who_title">Anyone who cares about learning and creativity</h2>
+  <p data-i18n="who_intro">LCL is designed for adults — educators, parents, researchers, and anyone working with or thinking about learning. If any of these sound like you, you're in the right place:</p>
+  <div class="who-tags">
+    <span class="who-tag" data-i18n="who_teachers">👩‍🏫 Teachers &amp; educators</span>
+    <span class="who-tag" data-i18n="who_parents">👨‍👧 Parents</span>
+    <span class="who-tag" data-i18n="who_admins">🏫 School administrators</span>
+    <span class="who-tag" data-i18n="who_designers">🎨 Designers &amp; makers</span>
+    <span class="who-tag" data-i18n="who_devs">🧑‍💻 Developers</span>
+    <span class="who-tag" data-i18n="who_facilitators">🌱 After-school facilitators</span>
+    <span class="who-tag" data-i18n="who_researchers">🔬 Researchers</span>
+    <span class="who-tag" data-i18n="who_curious">🤔 Curious people</span>
+  </div>
+  <p style="margin-top:1.5rem;" data-i18n="who_note1">No prior experience needed. No grades, no assignments, no pressure.</p>
+  <p style="margin-top:0.5rem;" data-i18n="who_note2">If you need documentation of your participation for professional purposes, send us an email and we'll be happy to help.</p>
+</div>
+
+<!-- LANGUAGES -->
+<div class="section">
+  <div class="lang-box">
+    <p class="section-label" style="color:#005cb8;" data-i18n="lang_label">🌍 Languages</p>
+    <h2 data-i18n="lang_title">A truly multilingual community</h2>
+    <p data-i18n="lang_p1">LCL is designed so that language is as little of a barrier as possible.</p>
+    <p style="margin-top:1rem;" data-i18n="lang_p2">Videos have subtitles in multiple languages, readings are translated by community volunteers, and the forum supports automatic translation, so you can read and write in your own language, and still be part of the global conversation.</p>
+    <p style="margin-top:1rem;" data-i18n="lang_p3">Live sessions are hosted in English, but we create breakout rooms in multiple languages with the help of facilitators from the community, so you can discuss ideas with others who share your language.</p>
+    <p style="margin-top:1rem;" data-i18n="lang_p4">There are also local community groups where you can connect with people who share your language and context.</p>
+    <div class="lang-bubbles">
+      <span class="lang-bubble">🇺🇸 English</span>
+      <span class="lang-bubble">🇪🇸 Spanish</span>
+      <span class="lang-bubble">🇧🇷 Portuguese</span>
+      <span class="lang-bubble">🇮🇹 Italian</span>
+      <span class="lang-bubble">🇸🇦 Arabic</span>
+      <span class="lang-bubble">🇫🇷 French</span>
+      <span class="lang-bubble">🇨🇳 Chinese</span>
+      <span class="lang-bubble">🇯🇵 Japanese</span>
+      <span class="lang-bubble">🇹🇷 Turkish</span>
+      <span class="lang-bubble" data-i18n="lang_more">+ more</span>
+    </div>
+  </div>
+</div>
+
 <!-- CTA -->
 <section class="cta-section">
   <div style="display:flex; justify-content:center; gap:12px; margin-bottom:2rem;">
@@ -524,7 +529,7 @@
   <h2 data-i18n="cta_title">Ready to join?</h2>
   <p data-i18n="cta_desc">Sign up to receive updates and get the link to join the community as soon as it opens.</p>
   <a href="https://mit.us16.list-manage.com/subscribe?u=d4055f9dadb47752210df2aa0&id=7dd5a717c8" class="cta-btn-white" data-i18n="cta_btn">Sign up for updates</a>
-  <p class="cta-contact" data-i18n="cta_contact">Any questions? Contact us! <br/><a href="/cdn-cgi/l/email-protection#3559565918464045455a4741755850515c541b585c411b505140"><span class="__cf_email__" data-cfemail="462a252a6b35333636293432062b23222f27682b2f3268232233">[email&#160;protected]</span></a></p>
+  <p class="cta-contact" data-i18n="cta_contact">Any questions? Contact us! <br/><a href="/cdn-cgi/l/email-protection#7f131c13520c0a0f0f100d0b3f121a1b161e5112160b511a1b0a"><span class="__cf_email__" data-cfemail="670b040b4a14121717081513270a02030e06490a0e1349020312">[email&#160;protected]</span></a></p>
 </section>
 
 <footer data-i18n="footer">Learning Creative Learning · Lifelong Kindergarten Group · MIT Media Lab</footer>
@@ -535,7 +540,7 @@ const strings = {
     hero_line1: "A new round of",
     hero_tagline: "A free online course and community from MIT — for educators, makers, parents, and curious learners everywhere.",
     badge_free: "✓ Completely free",
-    badge_date: "🗓 Starts April 13",
+    badge_date: "🗓 Doors Open April 13",
     badge_lang: "🌍 Multilingual community",
     badge_pace: "⏱ 6 weeks, self-paced",
     hero_cta: "Sign up for updates",
@@ -557,7 +562,7 @@ const strings = {
     ps_peers_title: "Peers",
     ps_peers_desc: "Learning flourishes as a social activity — working together, sharing ideas, building on each other's work.",
     ps_play_title: "Play",
-    ps_play_desc: "Creativity thrives when there's room to play — to try things out, make mistakes, and discover something unexpected along the way.",
+    ps_play_desc: "Creativity thrives where there's room to try things out, make mistakes, and discover something unexpected along the way.",
 
     how_label: "How it works",
     how_title: "What will you actually do?",
@@ -571,9 +576,10 @@ const strings = {
     how_share_title: "Share & discuss",
     how_share_desc: "Post what you made in the forum, see what others created, and leave a comment.",
     how_note: "You can choose your adventure in LCL. All activities are optional and self-paced, and each week is self-contained, so you can jump in at any point, skip what doesn't resonate, and engage in whatever way feels right for you.",
+    how_note2: "Typically, participants spend around 3–4 hours a week — but it can be as little as 10 minutes, just watching the video and sharing a thought in the community. It's entirely up to you.",
 
     live_label: "Live sessions",
-    live_title: "Optional live events on Zoom",
+    live_title: "Live events on Zoom",
     live_intro: "We also host a few live sessions each week — a chance to meet other participants, discuss the week's ideas, or create something together. These are always optional, and everything gets shared in the forum afterwards so you won't miss out if you can't join.",
     live_octostudio_title: "📱 Octostudio Workshops (Wednesdays)",
     live_octostudio_desc: "Create interactive projects on your phone with the Octostudio app — new this round!",
@@ -584,7 +590,7 @@ const strings = {
 
     who_label: "Who's it for?",
     who_title: "Anyone who cares about learning and creativity",
-    who_intro: "LCL has welcomed all kinds of people. If any of these sound like you, you're in the right place:",
+    who_intro: "LCL is designed for adults — educators, parents, researchers, and anyone working with or thinking about learning. If any of these sound like you, you're in the right place:",
     who_teachers: "👩‍🏫 Teachers & educators",
     who_parents: "👨‍👧 Parents",
     who_admins: "🏫 School administrators",
@@ -593,7 +599,8 @@ const strings = {
     who_facilitators: "🌱 After-school facilitators",
     who_researchers: "🔬 Researchers",
     who_curious: "🤔 Curious people",
-    who_note: "No prior experience needed. No grades, no assignments, no pressure.<br>If you need documentation of your participation for professional purposes, just reach out and we'll be happy to help.",
+    who_note1: "No prior experience needed. No grades, no assignments, no pressure.",
+    who_note2: "If you need documentation of your participation for professional purposes, send us an email and we'll be happy to help.",
 
     lang_label: "🌍 Languages",
     lang_title: "A truly multilingual community",
@@ -605,7 +612,7 @@ const strings = {
 
     tl_label: "Week by week",
     tl_title: "Timeline",
-    tl_w0_date: "Apr 13", tl_w0_title: "Welcome!", tl_w0_desc: "Join the forum, introduce yourself, add yourself to the community map, and get familiar with the platform.",
+    tl_w0_date: "Apr 13", tl_w0_title: "Doors Open!", tl_w0_desc: "Join the forum, introduce yourself, add yourself to the community map, and get familiar with the platform.",
     tl_w1_date: "Apr 20", tl_w1_title: "Introduction to Creative Learning", tl_w1_desc: "What is creative learning, and why does it matter?",
     tl_w2_date: "Apr 27", tl_w2_title: "Projects", tl_w2_desc: "How can we create opportunities for meaningful making?",
     tl_w3_date: "May 4",  tl_w3_title: "Passion",   tl_w3_desc: "How do we help people connect learning to what they truly care about?",
@@ -624,7 +631,7 @@ const strings = {
     hero_line1: "Una nuova edizione di",
     hero_tagline: "Un corso online gratuito e una comunità internazionale del MIT — per educatori, maker, genitori e chiunque ami imparare.",
     badge_free: "✓ Completamente gratuito",
-    badge_date: "🗓 Inizia il 13 aprile",
+    badge_date: "🗓 Si apre il 13 aprile",
     badge_lang: "🌍 Comunità multilingue",
     badge_pace: "⏱ 6 settimane, ritmo libero",
     hero_cta: "Iscriviti per ricevere aggiornamenti",
@@ -646,7 +653,7 @@ const strings = {
     ps_peers_title: "Pari",
     ps_peers_desc: "L'apprendimento fiorisce come attività sociale — lavorando insieme, condividendo idee, costruendo sul lavoro degli altri.",
     ps_play_title: "Gioco",
-    ps_play_desc: "La creatività prospera quando c'è spazio per giocare — provare, sbagliare e scoprire qualcosa di inaspettato lungo il cammino.",
+    ps_play_desc: "La creatività prospera dove c'è spazio per provare, sbagliare e scoprire qualcosa di inaspettato lungo il cammino.",
 
     how_label: "Come funziona",
     how_title: "Cosa farai concretamente?",
@@ -660,9 +667,10 @@ const strings = {
     how_share_title: "Condividi e discuti",
     how_share_desc: "Pubblica quello che hai creato nel forum, scopri cosa hanno fatto gli altri e lascia un commento.",
     how_note: "In LCL puoi scegliere la tua avventura. Tutte le attività sono opzionali e a ritmo libero, e ogni settimana è indipendente, quindi puoi unirti in qualsiasi momento, saltare quello che non ti convince, e partecipare nel modo che fa più senso per te.",
+    how_note2: "Di solito i partecipanti dedicano circa 3–4 ore a settimana — ma può bastare anche solo 10 minuti, guardando il video e condividendo un pensiero nella comunità. Sei tu a decidere.",
 
     live_label: "Sessioni live",
-    live_title: "Eventi live opzionali su Zoom",
+    live_title: "Eventi live su Zoom",
     live_intro: "Organizziamo anche alcune sessioni live ogni settimana — un'occasione per incontrare altri partecipanti, discutere le idee della settimana o creare qualcosa insieme. Sono sempre opzionali, e tutto viene condiviso nel forum in seguito, quindi non perderai nulla se non riesci a partecipare.",
     live_octostudio_title: "📱 Workshop Octostudio (mercoledì)",
     live_octostudio_desc: "Crea progetti interattivi sul tuo telefono con l'app Octostudio — una novità di questa edizione!",
@@ -673,7 +681,7 @@ const strings = {
 
     who_label: "Per chi è?",
     who_title: "Per chiunque abbia a cuore l'apprendimento e la creatività",
-    who_intro: "LCL ha accolto persone di ogni tipo. Se ti riconosci in qualcuna di queste descrizioni, sei nel posto giusto:",
+    who_intro: "LCL è pensato per adulti — educatori, genitori, ricercatori e chiunque lavori con l'apprendimento o ci rifletta. Se ti riconosci in qualcuna di queste descrizioni, sei nel posto giusto:",
     who_teachers: "👩‍🏫 Insegnanti ed educatori",
     who_parents: "👨‍👧 Genitori",
     who_admins: "🏫 Dirigenti scolastici",
@@ -682,7 +690,8 @@ const strings = {
     who_facilitators: "🌱 Facilitatori di attività extrascolastiche",
     who_researchers: "🔬 Ricercatori",
     who_curious: "🤔 Persone curiose",
-    who_note: "Nessuna esperienza previa richiesta. Nessun voto, nessun compito, nessuna pressione.<br>Se hai bisogno di documentazione della tua partecipazione per scopi professionali, scrivici e saremo felici di aiutarti.",
+    who_note1: "Nessuna esperienza previa richiesta. Nessun voto, nessun compito, nessuna pressione.",
+    who_note2: "Se hai bisogno di documentazione della tua partecipazione per scopi professionali, scrivici e saremo felici di aiutarti.",
 
     lang_label: "🌍 Lingue",
     lang_title: "Una comunità davvero multilingue",
@@ -694,7 +703,7 @@ const strings = {
 
     tl_label: "Settimana per settimana",
     tl_title: "Il programma",
-    tl_w0_date: "13 apr", tl_w0_title: "Benvenuti!", tl_w0_desc: "Unisciti al forum, presentati, aggiungiti alla mappa della comunità e familiarizza con la piattaforma.",
+    tl_w0_date: "13 apr", tl_w0_title: "Si apre!", tl_w0_desc: "Unisciti al forum, presentati, aggiungiti alla mappa della comunità e familiarizza con la piattaforma.",
     tl_w1_date: "20 apr", tl_w1_title: "Introduzione al Creative Learning", tl_w1_desc: "Cos'è il creative learning e perché è importante?",
     tl_w2_date: "27 apr", tl_w2_title: "Progetti", tl_w2_desc: "Come possiamo creare opportunità per fare cose significative?",
     tl_w3_date: "4 mag",  tl_w3_title: "Passione",  tl_w3_desc: "Come aiutiamo le persone a connettere l'apprendimento a ciò che amano davvero?",
@@ -713,7 +722,7 @@ const strings = {
     hero_line1: "Una nueva edición de",
     hero_tagline: "Un curso en línea gratuito y una comunidad del MIT — para educadores, makers, familias y cualquier persona curiosa.",
     badge_free: "✓ Completamente gratuito",
-    badge_date: "🗓 Comienza el 13 de abril",
+    badge_date: "🗓 Abrimos el 13 de abril",
     badge_lang: "🌍 Comunidad multilingüe",
     badge_pace: "⏱ 6 semanas, a tu ritmo",
     hero_cta: "Regístrate para recibir novedades",
@@ -735,7 +744,7 @@ const strings = {
     ps_peers_title: "Pares",
     ps_peers_desc: "El aprendizaje florece como actividad social — trabajando juntos, compartiendo ideas, construyendo sobre el trabajo de los demás.",
     ps_play_title: "Juego",
-    ps_play_desc: "La creatividad prospera cuando hay espacio para jugar — probar, equivocarse y descubrir algo inesperado en el camino.",
+    ps_play_desc: "La creatividad prospera donde hay espacio para probar, equivocarse y descubrir algo inesperado en el camino.",
 
     how_label: "Cómo funciona",
     how_title: "¿Qué harás concretamente?",
@@ -749,9 +758,10 @@ const strings = {
     how_share_title: "Comparte y discute",
     how_share_desc: "Publica lo que creaste en el foro, descubre lo que hicieron los demás y deja un comentario.",
     how_note: "En LCL puedes elegir tu propia aventura. Todas las actividades son opcionales y a tu ritmo, y cada semana es independiente, así que puedes unirte en cualquier momento, saltarte lo que no te resuene, y participar como mejor te parezca.",
+    how_note2: "Habitualmente, los participantes dedican unas 3–4 horas por semana — pero puede ser tan poco como 10 minutos, solo viendo el video y compartiendo un pensamiento en la comunidad. Tú decides.",
 
     live_label: "Sesiones en vivo",
-    live_title: "Eventos en vivo opcionales por Zoom",
+    live_title: "Eventos en vivo por Zoom",
     live_intro: "También organizamos algunas sesiones en vivo cada semana — una oportunidad para conocer a otros participantes, discutir las ideas de la semana o crear algo juntos. Son siempre opcionales, y todo se comparte en el foro después para que no te pierdas nada.",
     live_octostudio_title: "📱 Talleres Octostudio (miércoles)",
     live_octostudio_desc: "Crea proyectos interactivos en tu teléfono con la app Octostudio — ¡novedad de esta edición!",
@@ -762,7 +772,7 @@ const strings = {
 
     who_label: "¿Para quién es?",
     who_title: "Para cualquier persona que se preocupe por el aprendizaje y la creatividad",
-    who_intro: "LCL ha dado la bienvenida a todo tipo de personas. Si te identificas con alguna de estas descripciones, estás en el lugar correcto:",
+    who_intro: "LCL está pensado para adultos — educadores, familias, investigadores y cualquier persona que trabaje con el aprendizaje o reflexione sobre él. Si te identificas con alguna de estas descripciones, estás en el lugar correcto:",
     who_teachers: "👩‍🏫 Docentes y educadores",
     who_parents: "👨‍👧 Familias",
     who_admins: "🏫 Directivos escolares",
@@ -771,7 +781,8 @@ const strings = {
     who_facilitators: "🌱 Facilitadores extraescolares",
     who_researchers: "🔬 Investigadores",
     who_curious: "🤔 Personas curiosas",
-    who_note: "No se necesita experiencia previa. Sin calificaciones, sin tareas, sin presión.<br>Si necesitas documentación de tu participación para fines profesionales, escríbenos y con gusto te ayudamos.",
+    who_note1: "No se necesita experiencia previa. Sin calificaciones, sin tareas, sin presión.",
+    who_note2: "Si necesitas documentación de tu participación para fines profesionales, escríbenos y con gusto te ayudamos.",
 
     lang_label: "🌍 Idiomas",
     lang_title: "Una comunidad verdaderamente multilingüe",
@@ -783,7 +794,7 @@ const strings = {
 
     tl_label: "Semana a semana",
     tl_title: "El programa",
-    tl_w0_date: "13 abr", tl_w0_title: "¡Bienvenida!", tl_w0_desc: "Únete al foro, preséntate, agrégate al mapa de la comunidad y familiarízate con la plataforma.",
+    tl_w0_date: "13 abr", tl_w0_title: "¡Abrimos!", tl_w0_desc: "Únete al foro, preséntate, agrégate al mapa de la comunidad y familiarízate con la plataforma.",
     tl_w1_date: "20 abr", tl_w1_title: "Introducción al Aprendizaje Creativo", tl_w1_desc: "¿Qué es el aprendizaje creativo y por qué importa?",
     tl_w2_date: "27 abr", tl_w2_title: "Proyectos", tl_w2_desc: "¿Cómo podemos crear oportunidades para hacer cosas significativas?",
     tl_w3_date: "4 may",  tl_w3_title: "Pasión",    tl_w3_desc: "¿Cómo ayudamos a las personas a conectar el aprendizaje con lo que realmente les importa?",
@@ -802,7 +813,7 @@ const strings = {
     hero_line1: "Uma nova edição de",
     hero_tagline: "Um curso online gratuito e uma comunidade do MIT — para educadores, makers, famílias e curiosos de todo o mundo.",
     badge_free: "✓ Completamente gratuito",
-    badge_date: "🗓 Começa em 13 de abril",
+    badge_date: "🗓 Abrimos em 13 de abril",
     badge_lang: "🌍 Comunidade multilíngue",
     badge_pace: "⏱ 6 semanas, no seu ritmo",
     hero_cta: "Cadastre-se para receber novidades",
@@ -824,7 +835,7 @@ const strings = {
     ps_peers_title: "Pares",
     ps_peers_desc: "O aprendizado floresce como atividade social — trabalhando juntos, compartilhando ideias, construindo sobre o trabalho uns dos outros.",
     ps_play_title: "Brincadeira",
-    ps_play_desc: "A criatividade prospera quando há espaço para brincar — experimentar, errar e descobrir algo inesperado pelo caminho.",
+    ps_play_desc: "A criatividade prospera onde há espaço para experimentar, errar e descobrir algo inesperado pelo caminho.",
 
     how_label: "Como funciona",
     how_title: "O que você vai fazer na prática?",
@@ -838,9 +849,10 @@ const strings = {
     how_share_title: "Compartilhe e discuta",
     how_share_desc: "Publique o que você criou no fórum, veja o que os outros fizeram e deixe um comentário.",
     how_note: "No LCL, você escolhe a sua própria aventura. Todas as atividades são opcionais e no seu ritmo, e cada semana é independente — então você pode entrar a qualquer momento, pular o que não fizer sentido e participar do jeito que funcionar melhor para você.",
+    how_note2: "Em geral, os participantes dedicam cerca de 3–4 horas por semana — mas pode ser apenas 10 minutos, só assistindo ao vídeo e compartilhando um pensamento na comunidade. É você quem decide.",
 
     live_label: "Sessões ao vivo",
-    live_title: "Eventos ao vivo opcionais no Zoom",
+    live_title: "Eventos ao vivo no Zoom",
     live_intro: "Também organizamos algumas sessões ao vivo por semana — uma chance de conhecer outros participantes, discutir as ideias da semana ou criar algo juntos. São sempre opcionais, e tudo é compartilhado no fórum depois, para que você não perca nada.",
     live_octostudio_title: "📱 Workshops Octostudio (quartas-feiras)",
     live_octostudio_desc: "Crie projetos interativos no seu celular com o app Octostudio — novidade desta edição!",
@@ -851,7 +863,7 @@ const strings = {
 
     who_label: "Para quem é?",
     who_title: "Para qualquer pessoa que se preocupe com aprendizagem e criatividade",
-    who_intro: "O LCL já recebeu todo tipo de pessoa. Se você se identificar com alguma dessas descrições, está no lugar certo:",
+    who_intro: "O LCL é voltado para adultos — educadores, famílias, pesquisadores e qualquer pessoa que trabalhe com aprendizagem ou pense sobre ela. Se você se identificar com alguma dessas descrições, está no lugar certo:",
     who_teachers: "👩‍🏫 Professores e educadores",
     who_parents: "👨‍👧 Famílias",
     who_admins: "🏫 Gestores escolares",
@@ -860,7 +872,8 @@ const strings = {
     who_facilitators: "🌱 Facilitadores de atividades extracurriculares",
     who_researchers: "🔬 Pesquisadores",
     who_curious: "🤔 Pessoas curiosas",
-    who_note: "Nenhuma experiência prévia necessária. Sem notas, sem tarefas, sem pressão.<br>Se precisar de documentação da sua participação para fins profissionais, entre em contato e teremos prazer em ajudar.",
+    who_note1: "Nenhuma experiência prévia necessária. Sem notas, sem tarefas, sem pressão.",
+    who_note2: "Se precisar de documentação da sua participação para fins profissionais, entre em contato e teremos prazer em ajudar.",
 
     lang_label: "🌍 Idiomas",
     lang_title: "Uma comunidade verdadeiramente multilíngue",
@@ -872,7 +885,7 @@ const strings = {
 
     tl_label: "Semana a semana",
     tl_title: "O programa",
-    tl_w0_date: "13 abr", tl_w0_title: "Boas-vindas!", tl_w0_desc: "Entre no fórum, se apresente, adicione-se ao mapa da comunidade e familiarize-se com a plataforma.",
+    tl_w0_date: "13 abr", tl_w0_title: "Abrimos as portas!", tl_w0_desc: "Entre no fórum, se apresente, adicione-se ao mapa da comunidade e familiarize-se com a plataforma.",
     tl_w1_date: "20 abr", tl_w1_title: "Introdução ao Aprendizado Criativo", tl_w1_desc: "O que é o aprendizado criativo e por que ele importa?",
     tl_w2_date: "27 abr", tl_w2_title: "Projetos", tl_w2_desc: "Como podemos criar oportunidades para fazer coisas significativas?",
     tl_w3_date: "4 mai",  tl_w3_title: "Paixão",   tl_w3_desc: "Como ajudamos as pessoas a conectar o aprendizado com o que realmente importa para elas?",
@@ -891,7 +904,7 @@ const strings = {
     hero_line1: "جولة جديدة من",
     hero_tagline: "دورة مجانية عبر الإنترنت ومجتمع من معهد MIT — للمعلمين والصانعين والأهالي وكل من يحب التعلم.",
     badge_free: "✓ مجاني تمامًا",
-    badge_date: "🗓 تبدأ في 13 أبريل",
+    badge_date: "🗓 الافتتاح في 13 أبريل",
     badge_lang: "🌍 مجتمع متعدد اللغات",
     badge_pace: "⏱ 6 أسابيع، بوتيرتك الخاصة",
     hero_cta: "سجّل للحصول على التحديثات",
@@ -913,7 +926,7 @@ const strings = {
     ps_peers_title: "الأقران",
     ps_peers_desc: "يزدهر التعلم كنشاط اجتماعي — بالعمل معًا، ومشاركة الأفكار، والبناء على أعمال بعضنا البعض.",
     ps_play_title: "اللعب",
-    ps_play_desc: "تتفتح الإبداعية حين يكون هناك مجال للعب — تجربة الأشياء، والخطأ، واكتشاف المفاجآت على الطريق.",
+    ps_play_desc: "تتفتح الإبداعية حيث يكون هناك مجال لتجربة الأشياء، والخطأ، واكتشاف المفاجآت على الطريق.",
 
     how_label: "آلية العمل",
     how_title: "ماذا ستفعل تحديدًا؟",
@@ -927,9 +940,10 @@ const strings = {
     how_share_title: "شارك وناقش",
     how_share_desc: "انشر ما صنعته في المنتدى، واستكشف ما أنشأه الآخرون، واترك تعليقًا.",
     how_note: "في LCL يمكنك اختيار مسارك بنفسك. جميع الأنشطة اختيارية وبالوتيرة التي تناسبك، وكل أسبوع مستقل بذاته — يمكنك الانضمام في أي وقت، وتخطي ما لا يناسبك، والمشاركة بالطريقة التي تراها مناسبة.",
+    how_note2: "عادةً ما يخصص المشاركون نحو 3–4 ساعات أسبوعيًا — لكن يمكن أن يكون الأمر بسيطًا كـ 10 دقائق فقط، لمشاهدة الفيديو ومشاركة فكرة في المجتمع. الأمر بيدك.",
 
     live_label: "الجلسات المباشرة",
-    live_title: "فعاليات مباشرة اختيارية عبر Zoom",
+    live_title: "فعاليات مباشرة عبر Zoom",
     live_intro: "نستضيف أيضًا بعض الجلسات المباشرة كل أسبوع — فرصة للقاء المشاركين الآخرين، ومناقشة أفكار الأسبوع، أو الإبداع معًا. هي دائمًا اختيارية، ويُشارَك كل شيء في المنتدى بعد ذلك حتى لا تفوتك أي محتوى.",
     live_octostudio_title: "📱 ورش عمل Octostudio (الأربعاء)",
     live_octostudio_desc: "أنشئ مشاريع تفاعلية على هاتفك باستخدام تطبيق Octostudio — جديد في هذه الدورة!",
@@ -940,7 +954,7 @@ const strings = {
 
     who_label: "لمن هو؟",
     who_title: "لكل من يهتم بالتعلم والإبداع",
-    who_intro: "استقبل LCL أشخاصًا من جميع الخلفيات. إن رأيت نفسك في أي من هذه الأوصاف، فأنت في المكان الصحيح:",
+    who_intro: "LCL مصمَّم للبالغين — المعلمين والأهل والباحثين وكل من يعمل في مجال التعلم أو يفكر فيه. إن رأيت نفسك في أي من هذه الأوصاف، فأنت في المكان الصحيح:",
     who_teachers: "👩‍🏫 المعلمون والمربّون",
     who_parents: "👨‍👧 الأهل",
     who_admins: "🏫 مدراء المدارس",
@@ -949,7 +963,8 @@ const strings = {
     who_facilitators: "🌱 ميسّرو الأنشطة اللاصفية",
     who_researchers: "🔬 الباحثون",
     who_curious: "🤔 الفضوليون",
-    who_note: "لا خبرة سابقة مطلوبة. لا درجات، لا واجبات، لا ضغوط.<br>إن كنت بحاجة إلى توثيق مشاركتك لأغراض مهنية، تواصل معنا وسيسعدنا المساعدة.",
+    who_note1: "لا خبرة سابقة مطلوبة. لا درجات، لا واجبات، لا ضغوط.",
+    who_note2: "إن كنت بحاجة إلى توثيق مشاركتك لأغراض مهنية، تواصل معنا وسيسعدنا المساعدة.",
 
     lang_label: "🌍 اللغات",
     lang_title: "مجتمع متعدد اللغات حقًا",
@@ -961,7 +976,7 @@ const strings = {
 
     tl_label: "أسبوعًا بأسبوع",
     tl_title: "البرنامج",
-    tl_w0_date: "13 أبر", tl_w0_title: "أهلًا وسهلًا!", tl_w0_desc: "انضم إلى المنتدى، وقدّم نفسك، وأضف نفسك إلى خريطة المجتمع، وتعرّف على المنصة.",
+    tl_w0_date: "13 أبر", tl_w0_title: "افتتاح الأبواب!", tl_w0_desc: "انضم إلى المنتدى، وقدّم نفسك، وأضف نفسك إلى خريطة المجتمع، وتعرّف على المنصة.",
     tl_w1_date: "20 أبر", tl_w1_title: "مقدمة في التعلم الإبداعي", tl_w1_desc: "ما هو التعلم الإبداعي، ولماذا يهم؟",
     tl_w2_date: "27 أبر", tl_w2_title: "المشاريع", tl_w2_desc: "كيف نخلق فرصًا لصنع أشياء ذات معنى؟",
     tl_w3_date: "4 مايو",  tl_w3_title: "الشغف",   tl_w3_desc: "كيف نساعد الناس على ربط التعلم بما يهمهم حقًا؟",
@@ -980,7 +995,7 @@ const strings = {
     hero_line1: "新しいラウンドが始まります",
     hero_tagline: "MITが提供する無料のオンラインコースとコミュニティ — 教育者、保護者、クリエイター、学びに関心を持つすべての人へ。",
     badge_free: "✓ 完全無料",
-    badge_date: "🗓 4月13日開始",
+    badge_date: "🗓 開幕：4月13日",
     badge_lang: "🌍 多言語コミュニティ",
     badge_pace: "⏱ 6週間、自分のペースで",
     hero_cta: "最新情報を受け取る",
@@ -1002,7 +1017,7 @@ const strings = {
     ps_peers_title: "ピア（仲間）",
     ps_peers_desc: "学びは社会的な活動として花開きます — 協力し合い、アイデアを共有し、お互いの作品を発展させることで。",
     ps_play_title: "プレイ",
-    ps_play_desc: "創造性は遊ぶ余地があるときに育まれます — 試してみて、失敗して、思わぬ発見をすることで。",
+    ps_play_desc: "創造性は、試してみて、失敗して、思わぬ発見をする余地があるところで育まれます。",
 
     how_label: "進め方",
     how_title: "具体的に何をするの？",
@@ -1016,9 +1031,10 @@ const strings = {
     how_share_title: "共有・ディスカッション",
     how_share_desc: "作ったものをフォーラムに投稿し、他の人の作品を見て、コメントを残しましょう。",
     how_note: "LCLでは自分だけの冒険を選べます。すべてのアクティビティは任意・自分のペースで進められ、毎週は独立しています。いつでも途中から参加でき、気が乗らない部分はスキップして、自分に合ったやり方で関わることができます。",
+    how_note2: "参加者は通常、週に3〜4時間程度を費やしますが、ビデオを見てコミュニティに一言投稿するだけなら10分もあれば十分です。すべてあなた次第です。",
 
     live_label: "ライブセッション",
-    live_title: "任意参加のZoomライブイベント",
+    live_title: "Zoomライブイベント",
     live_intro: "毎週、いくつかのライブセッションも開催しています — 他の参加者と顔を合わせて話したり、今週のアイデアを議論したり、一緒に何かを作ったりする機会です。常に任意参加で、参加できなかった場合もすべてフォーラムで共有されます。",
     live_octostudio_title: "📱 Octostudioワークショップ（水曜日）",
     live_octostudio_desc: "Octostudioアプリを使ってスマートフォンでインタラクティブなプロジェクトを作ろう — 今回の新企画！",
@@ -1029,7 +1045,7 @@ const strings = {
 
     who_label: "対象者",
     who_title: "学びと創造性に関心を持つすべての人へ",
-    who_intro: "LCLには様々な人が参加しています。以下のどれかに当てはまる方は、ぜひご参加ください：",
+    who_intro: "LCLは大人のための場です — 教育者、保護者、研究者、そして学びに関わる・考えるすべての人へ。以下のどれかに当てはまる方は、ぜひご参加ください：",
     who_teachers: "👩‍🏫 教師・教育者",
     who_parents: "👨‍👧 保護者",
     who_admins: "🏫 学校管理者",
@@ -1038,7 +1054,8 @@ const strings = {
     who_facilitators: "🌱 放課後活動ファシリテーター",
     who_researchers: "🔬 研究者",
     who_curious: "🤔 好奇心旺盛な人",
-    who_note: "事前の経験は不要です。成績も課題もプレッシャーもなし。<br>専門的な目的で参加証明が必要な場合は、お気軽にご連絡ください。喜んでお手伝いします。",
+    who_note1: "事前の経験は不要です。成績も課題もプレッシャーもなし。",
+    who_note2: "専門的な目的で参加証明が必要な場合は、お気軽にご連絡ください。喜んでお手伝いします。",
 
     lang_label: "🌍 言語",
     lang_title: "真の多言語コミュニティ",
@@ -1050,7 +1067,7 @@ const strings = {
 
     tl_label: "週ごとのプログラム",
     tl_title: "スケジュール",
-    tl_w0_date: "4/13", tl_w0_title: "ようこそ！", tl_w0_desc: "フォーラムに参加し、自己紹介をして、コミュニティマップに追加し、プラットフォームに慣れましょう。",
+    tl_w0_date: "4/13", tl_w0_title: "開幕！", tl_w0_desc: "フォーラムに参加し、自己紹介をして、コミュニティマップに追加し、プラットフォームに慣れましょう。",
     tl_w1_date: "4/20", tl_w1_title: "クリエイティブラーニング入門", tl_w1_desc: "クリエイティブラーニングとは何か、なぜ重要なのか？",
     tl_w2_date: "4/27", tl_w2_title: "プロジェクト", tl_w2_desc: "意味のある「作る」機会をどうつくるか？",
     tl_w3_date: "5/4",  tl_w3_title: "パッション",   tl_w3_desc: "学びと本当に大切なことをどうつなぐか？",
@@ -1076,7 +1093,7 @@ function setLang(lang) {
   document.documentElement.lang = lang;
   document.getElementById('lang-select').value = lang;
   document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+  if (typeof twemoji !== 'undefined') twemoji.parse(document.body);
 }
-</script>
-</body>
-</html>
+
+document.addEven
