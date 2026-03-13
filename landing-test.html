@@ -529,7 +529,7 @@
   <h2 data-i18n="cta_title">Ready to join?</h2>
   <p data-i18n="cta_desc">Sign up to receive updates and get the link to join the community as soon as it opens.</p>
   <a href="https://mit.us16.list-manage.com/subscribe?u=d4055f9dadb47752210df2aa0&id=7dd5a717c8" class="cta-btn-white" data-i18n="cta_btn">Sign up for updates</a>
-  <p class="cta-contact" data-i18n="cta_contact">Any questions? Contact us! <br/><a href="/cdn-cgi/l/email-protection#7f131c13520c0a0f0f100d0b3f121a1b161e5112160b511a1b0a"><span class="__cf_email__" data-cfemail="670b040b4a14121717081513270a02030e06490a0e1349020312">[email&#160;protected]</span></a></p>
+  <p class="cta-contact" data-i18n="cta_contact">Any questions? Contact us! <br/><a href="mailto:lcl-support@media.mit.edu">lcl-support@media.mit.edu</a></p>
 </section>
 
 <footer data-i18n="footer">Learning Creative Learning · Lifelong Kindergarten Group · MIT Media Lab</footer>
@@ -1096,4 +1096,10 @@ function setLang(lang) {
   if (typeof twemoji !== 'undefined') twemoji.parse(document.body);
 }
 
-document.addEven
+document.addEventListener('DOMContentLoaded', function() {
+  if (typeof twemoji !== 'undefined') twemoji.parse(document.body);
+});
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/dist/twemoji.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
