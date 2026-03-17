@@ -7,6 +7,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Learning Creative Learning — April 2026</title>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!--
+  ═══════════════════════════════════════════════════════════
+  ARABIC FONT — easy to customise
+  ═══════════════════════════════════════════════════════════
+  To use a different font for Arabic, do two things:
+
+  1. Add the font import below (replace or add a Google Fonts URL).
+     Example fonts that work well for Arabic:
+       Cairo:   https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap
+       Tajawal: https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap
+       Noto Kufi Arabic: https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;600;700;800&display=swap
+
+  2. Change the font-family value in the :lang(ar) rule below.
+  ═══════════════════════════════════════════════════════════
+  -->
+
+  <!-- ARABIC FONT IMPORT — replace with your chosen font -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
   <style>
     :root {
       --yellow: #F8E600;
@@ -195,6 +214,32 @@
 
     footer { background: #111; padding: 1.5rem 2rem; text-align: center; color: rgba(255,255,255,0.3); font-size: 0.8rem; }
     img.emoji { height: 1.1em; width: 1.1em; vertical-align: -0.15em; display: inline-block; }
+
+    /* ═══════════════════════════════════════════════════════════
+       ARABIC FONT OVERRIDE
+       Change 'Nunito Sans' and 'Nunito' below to your chosen font.
+       Make sure the font is imported above first.
+       ═══════════════════════════════════════════════════════════ */
+    :lang(ar) body,
+    :lang(ar) p,
+    :lang(ar) span,
+    :lang(ar) li,
+    :lang(ar) .section-label,
+    :lang(ar) .tagline,
+    :lang(ar) .rhythm-note,
+    :lang(ar) .who-tag,
+    :lang(ar) .lang-bubble,
+    :lang(ar) .badge {
+      font-family: 'Cairo', sans-serif; /* ← change this */
+    }
+    :lang(ar) h1,
+    :lang(ar) h2,
+    :lang(ar) h3,
+    :lang(ar) h4,
+    :lang(ar) .nav-logo,
+    :lang(ar) .cta-btn-white {
+      font-family: 'Nunito', sans-serif; /* ← change this */
+    }
 
     /* ── LANG SWITCHER ── */
     #lang-switcher {
