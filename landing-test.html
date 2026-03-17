@@ -196,19 +196,37 @@
     #lang-switcher {
       position: fixed; top: 1.2rem; right: 1.2rem; z-index: 1000;
     }
-    #lang-switcher select {
+    #lang-switcher select:focus { outline: none; border-color: var(--blue); }
+    .lang-drop {
+      position: relative; display: inline-block;
+    }
+    .lang-drop-btn {
       font-family: 'Nunito', sans-serif; font-weight: 700;
       font-size: 0.82rem; color: var(--dark);
       background: white; border: 2px solid #e8e8e8;
-      border-radius: 100px; padding: 0.35rem 0.9rem;
+      border-radius: 100px; padding: 0.35rem 2rem 0.35rem 0.9rem;
       box-shadow: 0 2px 12px rgba(0,0,0,0.1);
-      cursor: pointer; appearance: none;
+      cursor: pointer; display: flex; align-items: center; gap: 0.4rem;
       background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23888' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
-      background-repeat: no-repeat;
-      background-position: right 0.7rem center;
-      padding-right: 2rem;
+      background-repeat: no-repeat; background-position: right 0.7rem center;
+      user-select: none;
     }
-    #lang-switcher select:focus { outline: none; border-color: var(--blue); }
+    .lang-drop-btn img.emoji { width: 1.1em; height: 1.1em; }
+    .lang-drop-menu {
+      display: none; position: absolute; top: calc(100% + 6px); right: 0;
+      background: white; border: 2px solid #e8e8e8; border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.12); overflow: hidden; min-width: 140px;
+    }
+    .lang-drop.open .lang-drop-menu { display: block; }
+    .lang-drop-item {
+      padding: 0.5rem 1rem; font-family: 'Nunito', sans-serif; font-weight: 700;
+      font-size: 0.82rem; color: var(--dark); cursor: pointer;
+      display: flex; align-items: center; gap: 0.5rem;
+      transition: background 0.1s;
+    }
+    .lang-drop-item:hover { background: #f5f5f5; }
+    .lang-drop-item.active { color: var(--blue); }
+    .lang-drop-item img.emoji { width: 1.1em; height: 1.1em; }
 
     @media (max-width: 600px) {
       .ps-grid { grid-template-columns: 1fr 1fr; }
@@ -224,14 +242,19 @@
 
 <!-- LANGUAGE SWITCHER -->
 <div id="lang-switcher">
-  <select onchange="setLang(this.value)" id="lang-select">
-    <option value="en">🇬🇧 EN</option>
-    <option value="it">🇮🇹 IT</option>
-    <option value="es">🇪🇸 ES</option>
-    <option value="pt">🇧🇷 PT</option>
-    <option value="ar">🇸🇦 AR</option>
-    <option value="ja">🇯🇵 JA</option>
-  </select>
+  <div class="lang-drop" id="lang-drop">
+    <div class="lang-drop-btn" id="lang-drop-btn" onclick="toggleLangDrop()">
+      🇬🇧 <span id="lang-label">EN</span>
+    </div>
+    <div class="lang-drop-menu" id="lang-drop-menu">
+      <div class="lang-drop-item active" onclick="setLang('en')">🇬🇧 English</div>
+      <div class="lang-drop-item" onclick="setLang('it')">🇮🇹 Italiano</div>
+      <div class="lang-drop-item" onclick="setLang('es')">🇪🇸 Español</div>
+      <div class="lang-drop-item" onclick="setLang('pt')">🇧🇷 Português</div>
+      <div class="lang-drop-item" onclick="setLang('ar')">🇸🇦 العربية</div>
+      <div class="lang-drop-item" onclick="setLang('ja')">🇯🇵 日本語</div>
+    </div>
+  </div>
 </div>
 
 <!-- SVG SYMBOLS -->
@@ -529,7 +552,7 @@
   <h2 data-i18n="cta_title">Ready to join?</h2>
   <p data-i18n="cta_desc">Sign up to receive updates and get the link to join the community as soon as it opens.</p>
   <a href="https://mit.us16.list-manage.com/subscribe?u=d4055f9dadb47752210df2aa0&id=7dd5a717c8" class="cta-btn-white" data-i18n="cta_btn">Sign up for updates</a>
-  <p class="cta-contact" data-i18n="cta_contact">Any questions? Contact us! <br/><a href="mailto:lcl-support@media.mit.edu">lcl-support@media.mit.edu</a></p>
+  <p class="cta-contact" data-i18n="cta_contact">Any questions? Contact us! <br/><span id="cta-email"></span></p>
 </section>
 
 <footer data-i18n="footer">Learning Creative Learning · Lifelong Kindergarten Group · MIT Media Lab</footer>
@@ -623,7 +646,7 @@ const strings = {
     cta_title: "Ready to join?",
     cta_desc: "Sign up to receive updates and get the link to join the community as soon as it opens.",
     cta_btn: "Sign up for updates",
-    cta_contact: "Any questions? Contact us! <br/><a href='mailto:lcl-support@media.mit.edu'>lcl-support@media.mit.edu</a>",
+    cta_contact: "Any questions? Contact us! <br/><span id='cta-email'></span>",
     footer: "Learning Creative Learning · Lifelong Kindergarten Group · MIT Media Lab"
   },
 
@@ -714,7 +737,7 @@ const strings = {
     cta_title: "Pronto a unirti?",
     cta_desc: "Iscriviti per ricevere aggiornamenti e il link per entrare nella comunità non appena apre.",
     cta_btn: "Iscriviti per aggiornamenti",
-    cta_contact: "Hai domande? Scrivici! <br/><a href='mailto:lcl-support@media.mit.edu'>lcl-support@media.mit.edu</a>",
+    cta_contact: "Hai domande? Scrivici! <br/><span id='cta-email'></span>",
     footer: "Learning Creative Learning · Lifelong Kindergarten Group · MIT Media Lab"
   },
 
@@ -805,7 +828,7 @@ const strings = {
     cta_title: "¿Listo para unirte?",
     cta_desc: "Regístrate para recibir novedades y el enlace para unirte a la comunidad en cuanto abra.",
     cta_btn: "Regístrate para recibir novedades",
-    cta_contact: "¿Tienes preguntas? ¡Escríbenos! <br/><a href='mailto:lcl-support@media.mit.edu'>lcl-support@media.mit.edu</a>",
+    cta_contact: "¿Tienes preguntas? ¡Escríbenos! <br/><span id='cta-email'></span>",
     footer: "Learning Creative Learning · Lifelong Kindergarten Group · MIT Media Lab"
   },
 
@@ -896,7 +919,7 @@ const strings = {
     cta_title: "Pronto para entrar?",
     cta_desc: "Cadastre-se para receber novidades e o link para entrar na comunidade assim que abrir.",
     cta_btn: "Cadastre-se para receber novidades",
-    cta_contact: "Tem dúvidas? Fale com a gente! <br/><a href='mailto:lcl-support@media.mit.edu'>lcl-support@media.mit.edu</a>",
+    cta_contact: "Tem dúvidas? Fale com a gente! <br/><span id='cta-email'></span>",
     footer: "Learning Creative Learning · Lifelong Kindergarten Group · MIT Media Lab"
   },
 
@@ -987,7 +1010,7 @@ const strings = {
     cta_title: "هل أنت مستعد للانضمام؟",
     cta_desc: "سجّل لتتلقى التحديثات ورابط الانضمام إلى المجتمع فور فتح التسجيل.",
     cta_btn: "سجّل للحصول على التحديثات",
-    cta_contact: "هل لديك أسئلة؟ تواصل معنا! <br/><a href='mailto:lcl-support@media.mit.edu'>lcl-support@media.mit.edu</a>",
+    cta_contact: "هل لديك أسئلة؟ تواصل معنا! <br/><span id='cta-email'></span>",
     footer: "Learning Creative Learning · Lifelong Kindergarten Group · MIT Media Lab"
   },
 
@@ -1078,10 +1101,29 @@ const strings = {
     cta_title: "参加する準備はできましたか？",
     cta_desc: "登録して、コミュニティが開いたらすぐに参加リンクを受け取りましょう。",
     cta_btn: "最新情報を受け取る",
-    cta_contact: "ご質問は？お気軽にご連絡ください！ <br/><a href='mailto:lcl-support@media.mit.edu'>lcl-support@media.mit.edu</a>",
+    cta_contact: "ご質問は？お気軽にご連絡ください！ <br/><span id='cta-email'></span>",
     footer: "Learning Creative Learning · Lifelong Kindergarten Group · MIT Media Lab"
   }
 };
+
+const langMeta = {
+  en: { flag: '🇬🇧', label: 'EN' },
+  it: { flag: '🇮🇹', label: 'IT' },
+  es: { flag: '🇪🇸', label: 'ES' },
+  pt: { flag: '🇧🇷', label: 'PT' },
+  ar: { flag: '🇸🇦', label: 'AR' },
+  ja: { flag: '🇯🇵', label: 'JA' },
+};
+
+function toggleLangDrop() {
+  document.getElementById('lang-drop').classList.toggle('open');
+}
+
+document.addEventListener('click', function(e) {
+  if (!document.getElementById('lang-drop').contains(e.target)) {
+    document.getElementById('lang-drop').classList.remove('open');
+  }
+});
 
 function setLang(lang) {
   const s = strings[lang];
@@ -1091,15 +1133,31 @@ function setLang(lang) {
     if (s[key] !== undefined) el.innerHTML = s[key];
   });
   document.documentElement.lang = lang;
-  document.getElementById('lang-select').value = lang;
   document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+  // Update button display
+  const m = langMeta[lang];
+  document.getElementById('lang-drop-btn').innerHTML = m.flag + ' <span id="lang-label">' + m.label + '</span>';
+  // Update active item
+  document.querySelectorAll('.lang-drop-item').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.lang-drop-item').forEach(el => {
+    if (el.getAttribute('onclick') === "setLang('" + lang + "')") el.classList.add('active');
+  });
+  document.getElementById('lang-drop').classList.remove('open');
   if (typeof twemoji !== 'undefined') twemoji.parse(document.body);
 }
 
+
+// Build email link to avoid Cloudflare obfuscation
+(function() {
+  var u = 'lcl-support';
+  var d = 'media.mit.edu';
+  var link = '<a href="mailto:' + u + '@' + d + '" style="color:inherit">' + u + '@' + d + '</a>';
+  document.querySelectorAll('#cta-email').forEach(function(el) { el.innerHTML = link; });
+})();
 document.addEventListener('DOMContentLoaded', function() {
   if (typeof twemoji !== 'undefined') twemoji.parse(document.body);
 });
 </script>
-  <script src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/dist/twemoji.min.js" crossorigin="anonymous"></script>
 </body>
 </html>
