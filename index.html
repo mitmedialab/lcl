@@ -1461,6 +1461,11 @@ function setLang(lang) {
   injectEmail();
 }
 
+// Read lang param from url
+const params = new URLSearchParams(window.location.search);
+const lang = params.get('lang');
+if (lang) setLang(lang);
+
 
 // Build email link to avoid Cloudflare obfuscation
 function injectEmail() {
