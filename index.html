@@ -6,7 +6,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Learning Creative Learning — April 2026</title>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Playpen+Sans+Arabic&display=swap" rel="stylesheet">  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
 
   <!--
   ═══════════════════════════════════════════════════════════
@@ -230,7 +234,8 @@
     :lang(ar) .who-tag,
     :lang(ar) .lang-bubble,
     :lang(ar) .badge {
-      font-family: 'Cairo', sans-serif; /* ← change this */
+       font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-weight: 500;
     }
     :lang(ar) h1,
     :lang(ar) h2,
@@ -238,9 +243,14 @@
     :lang(ar) h4,
     :lang(ar) .nav-logo,
     :lang(ar) .cta-btn-white {
-      font-family: 'Nunito', sans-serif; /* ← change this */
-    }
-
+      font-family: "Playpen Sans Arabic", cursive, "Comic Sans MS", sans-serif;
+      font-weight: 800;
+  }
+.brand-title,
+.brand-title * {
+  font-family: 'Nunito', sans-serif !important;
+  font-weight: 900 !important;
+}
     /* ── LANG SWITCHER ── */
     #lang-switcher {
       position: fixed; top: 1.2rem; right: 1.2rem; z-index: 1000;
@@ -348,8 +358,7 @@
       <svg><use href="#peg-r"/></svg>
       <svg><use href="#peg-g"/></svg>
     </div>
-    <div class="nav-logo"><span class="accent-b">Learning</span> <span class="accent-r">Creative</span> <span class="accent-g">Learning</span></div>
-  </div>
+<div class="nav-logo brand-title"><span class="accent-b">Learning</span> <span class="accent-r">Creative</span> <span class="accent-g">Learning</span></div>  </div>
 </header>
 
 <!-- HERO -->
@@ -361,8 +370,7 @@
     <svg><use href="#peg-g"/></svg>
   </div>
   <h1>
-    <span class="accent-b">Learning</span> <span class="accent-r">Creative</span> <span class="accent-g">Learning</span><br>
-    <span class="date-pill" data-i18n="subtitle_date">April &amp; May 2026</span>
+<span class="brand-title"><span class="accent-b">Learning</span> <span class="accent-r">Creative</span> <span class="accent-g">Learning</span></span><br>    <span class="date-pill" data-i18n="subtitle_date">April &amp; May 2026</span>
   </h1>
   <p class="tagline" data-i18n="hero_tagline">A free online course and community from MIT.<br>For educators, makers, parents, and curious learners everywhere.</p>
   <div class="badge-row">
@@ -1014,6 +1022,7 @@ const strings = {
   },
 
   ar: {
+    
     subtitle_date: "أبريل ومايو 2026",
     hero_tagline: "دورة مجانية عبر الإنترنت ومجتمع من معهد MIT.<br>للمعلمين والصانعين والأهالي وكل من يحب التعلم.",
     badge_free: "✓ مجاني تمامًا",
