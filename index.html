@@ -25,7 +25,7 @@
 
     gtag('config', 'G-F2G053KRQR');
   </script>
-  
+
   <style>
     :root {
       --yellow: #F8E600;
@@ -376,7 +376,7 @@
     <span class="badge lang" data-i18n="badge_lang">🌍 Multilingual community</span>
     <span class="badge pace" data-i18n="badge_pace">⏱ 6 weeks, self-paced</span>
   </div>
-  <a href="https://mit.us16.list-manage.com/subscribe?u=d4055f9dadb47752210df2aa0&id=7dd5a717c8" class="cta-btn" data-i18n="hero_cta">Sign up for updates</a>
+  <a href="https://mit.us16.list-manage.com/subscribe?u=d4055f9dadb47752210df2aa0&id=7dd5a717c8" onclick="gtag('event', 'signup_click', { position: 'hero' })" class="cta-btn" data-i18n="hero_cta">Sign up for updates</a>
 </section>
 
 <!-- WHAT IS LCL -->
@@ -609,7 +609,7 @@
   </div>
   <h2 data-i18n="cta_title">Ready to join?</h2>
   <p data-i18n="cta_desc">Sign up to receive updates and get the link to join the community as soon as it opens.</p>
-  <a href="https://mit.us16.list-manage.com/subscribe?u=d4055f9dadb47752210df2aa0&id=7dd5a717c8" class="cta-btn-white" data-i18n="cta_btn">Sign up for updates</a>
+  <a href="https://mit.us16.list-manage.com/subscribe?u=d4055f9dadb47752210df2aa0&id=7dd5a717c8" onclick="gtag('event', 'signup_click', { position: 'footer' })" class="cta-btn-white" data-i18n="cta_btn">Sign up for updates</a>
   <p class="cta-contact" data-i18n="cta_contact">Any questions? Contact us! <br/><span id="cta-email"></span></p>
 </section>
 
@@ -1452,9 +1452,12 @@ document.addEventListener('click', function(e) {
   }
 });
 
-function setLang(lang) {
+function setLang(lang, source = 'dropdown') {
   const s = strings[lang];
   if (!s) return;
+  
+  gtag('event', 'language_select', { language: lang, source: source });
+
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');
     if (s[key] !== undefined) el.innerHTML = s[key];
@@ -1477,7 +1480,7 @@ function setLang(lang) {
 // Read lang param from url
 const params = new URLSearchParams(window.location.search);
 const lang = params.get('lang');
-if (lang) setLang(lang);
+if (lang) setLang(lang, 'url_param');
 
 
 // Build email link to avoid Cloudflare obfuscation
