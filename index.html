@@ -1486,7 +1486,7 @@ if (lang) setLang(lang);
 
 // Build email link to avoid Cloudflare obfuscation
 function injectEmail() {
-  var u = 'lcl-support';
+  var u = 'lcl-team';
   var d = 'media.mit.edu';
   var link = '<a href="mailto:' + u + '@' + d + '" style="color:inherit">' + u + '@' + d + '</a>';
   document.querySelectorAll('#cta-email').forEach(function(el) { el.innerHTML = link; });
